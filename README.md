@@ -1,2 +1,1215 @@
-# Report
-Report of the project 
+<div align="center">
+
+<h1>Informe del Trabajo Final</h1>
+<h2>Universidad Peruana de Ciencias Aplicadas</h2>
+<img src="./imagenes/Logo-UPC.png" alt="Logo UPC" width="200">
+<h4>Ingenieria de Software</h4>
+<h4>Desarrollo de Aplicaciones Open Source</h4>
+<h4>1ASI0729-2520-7394</h4>
+<h4>Docente: Hugo Allan Mori Paiva</h4>
+<h4>Startup: PlusTecnical</h4>
+<h4>Producto: WineSoft</h4>
+
+## Team memebers:
+|              Nombre              |   Código   |
+|:--------------------------------:|:----------:|
+| Oscar Diego Checa Burga    | U20231E492 |
+| Yazid Said Conde                 | U202312348 |
+| Christofer William Costa Morales    | U20231596 |
+| July Zelmira Paico Calderon       | U20211d760 |
+<h4>Ciclo 2025-02</h4>
+</div>
+
+<div>
+  
+## Registro de Versiones del Informe
+
+| Versión | Fecha       | Autor                                                                                                   | Descripción de modificación |
+|---------|------------|---------------------------------------------------------------------------------------------------------|-----------------------------|
+| **TB1** | 18/09/2025 | Oscar Diego Checa Burga <br><br> Yazid Said Conde <br><br>Christofer William Costa Morales<br><br>July Zelmira Paico Calderon<br><br> | Para esta primera entrega, realizamos los primeros 5 capítulos del informe y desarrollamos la primera versión del landing page del Producto. |
+</div>
+
+<div>
+<p>Para este informe se dividio de la siguiente forma para cada integrante del grupo:</p>
+  
+  ## 
+  
+  |  Integrantes   | Tarea asignada |
+  |:--------------:|:--------------:|
+  | Yazid Said Conde |    |
+
+  ## Tabla de Contenidos
+
+# Contenido
+
+## [Student Outcome](#ingeniería-de-software)
+## [Capítulo I: Introducción]()
+* ### [1.1. Startup Profile]()
+    * #### [1.1.1. Descripción de la Startup]()
+    * #### [1.1.2. Perfiles de integrantes del equipo]()
+* ### [1.2. Solution Profile]()
+    * #### [1.2.1. Antecendentes y Problemática]()
+    * #### [1.2.2. Lean UX Process]()
+        * ##### [1.2.2.1. Lean UX Problem Statements]()
+        * ##### [1.2.2.2. Lean UX Assumptions]()
+        * ##### [1.2.2.3. Lean UX Hypothesis Statements]()
+        * ##### [1.2.2.4. Lean UX Canvas]()
+* ### [1.3. Segmentos objetivo]()
+
+## [Capítulo II: Requirements Elicitation & Analysis]()
+* ### [2.1. Competidores]()
+    * #### [2.1.1. Análisis competitivo]()
+    * #### [2.1.2. Estrategias y tácticas frente a competidores]()
+* ### [2.2. Entrevistas]()
+    * #### [2.2.1. Diseño de entrevistas]()
+    * #### [2.2.2. Registro de entrevistas]()
+    * #### [2.2.3. Análisis de entrevistas]()
+* ### [2.3. Needfinding]()
+    * #### [2.3.1. User Personas]()
+    * #### [2.3.2. User Task Matrix]()
+    * #### [2.3.3. User Journey Mapping]()
+    * #### [2.3.4. Empathy Mapping]()
+    * ### [2.4. Big Picture Event Storming Language]()
+* ### [2.5. Ubiquitous Language]()
+
+## [Capítulo III: Requirements Specification]()
+* ### [3.1. User Stories]()
+* ### [3.2. Impact Mapping]()
+* ### [3.3. Product Backlog]()
+
+## [Capítulo IV: Product Design]()
+* ### [4.1. Style Guidelines]()
+    * #### [4.1.1. General Style Guidelines]()
+    * #### [4.1.2. Web Style Guidelines]()
+* ### [4.2. Information Architecture]()
+    * #### [4.2.1. Organization System]()
+    * #### [4.2.2. Labeling System]()
+    * #### [4.2.3. SEO Tags and Meta Tags]()
+    * #### [4.2.4. Searching System]()
+    * #### [4.2.5. Navigation System]()
+* ### [4.3. Landing Page UI Design]()
+    * #### [4.3.1. Landing Page Wireframe]()
+    * #### [4.3.2. Landing Page Mock-up]()
+* ### [4.4. Web Applications UX/UI Design]()
+    * #### [4.4.1. Web Applications Wireframe]()
+    * #### [4.4.2. Web Applications Wireflow Diagrams]()
+    * #### [4.4.3. Web Applications Mock-ups]()
+    * #### [4.4.4. Web Applications User Flow Diagrams]()
+* ### [4.5. Web Applications Prototyping]()
+* ### [4.6. Domain-Driven Software Architecture]()
+    * #### [4.6.1. Software Architecture Context Diagram]()
+    * #### [4.6.2. Software Architecture Container Diagram]()
+    * #### [4.6.3. Software Architecture Components Diagram]()
+* ### [4.7. Software Object-Oriented Design]()
+    * #### [4.7.1. Class Diagrams]()
+    * #### [4.7.2. Class Dictionary]()
+* ### [4.8. Database Design]()
+    * #### [4.8.1. Database Diagram]()
+
+## [Capítulo V: Product Implementation, Validation & Deployment]()
+* ### [5.1. Software Configuration Management]()
+    * #### [5.1.1. Software Development Environment Configuration]()
+    * #### [5.1.2. Source Code Management]()
+    * #### [5.1.3. Source Code Style Guide & Conventions]()
+    * #### [5.1.4. Software Deployment Configuration]()
+* ### [5.2. Landing Page, Services & Applications Implementation]()
+    * #### [5.2.1. Sprint 1]()
+        * ##### [5.2.1.1. Sprint Planning 1]()
+        * ##### [5.2.1.2. Aspect Leaders and Collaborators]()
+        * ##### [5.2.1.3. Sprint Backlog 1]()
+        * ##### [5.2.1.4. Development Evidence for Sprint Review]()
+        * ##### [5.2.1.5. Execution Evidence for Sprint Review]()
+        * ##### [5.2.1.6. Services Documentation Evidence for Sprint Review]()
+        * ##### [5.2.1.7. Software Deployment Evidence for Sprint Review]()
+        * ##### [5.2.1.8. Team Collaboration Insights during Sprint]()
+
+## [Conclusiones]()
+## [Bibliografía]()
+## [Anexos]()
+
+## Student Outcome
+El curso contribuye al cumplimiento del Student Outcome
+ABET – EAC - Student Outcome 3
+
+Criterio: Capacidad de comunicarse efectivamente con un
+rango de audiencias.
+
+# Capítulo I: Introducción
+## 1.1. Startup Profile
+### 1.1.1. Descripción de la Startup
+**WineSoft** es una startup tecnológica enfocada en el desarrollo de soluciones digitales para el sector de bebidas alcohólicas, en particular las **destilerías** y **licorerías** que enfrentan desafíos relacionados con la gestión de inventarios, trazabilidad de productos y cumplimiento regulatorio.
+El proyecto surge como respuesta a la necesidad de modernizar procesos en negocios que tradicionalmente han funcionado con herramientas manuales o sistemas aislados, lo cual genera ineficiencias en control de stock, riesgos de informalidad y limitaciones para cumplir con estándares regulatorios. WineSoft se plantea como una plataforma web adaptable, orientada a pequeños y medianos empresarios, con funcionalidades que abarcan desde la gestión de inventarios y ventas, hasta la integración con entidades reguladoras para garantizar la transparencia, la autenticidad de los productos y la correcta fiscalización del rubro.
+
+**Mision:**<br><br>
+    Impulsar la transformación digital de destilerías y licorerías mediante soluciones tecnológicas accesibles y confiables que optimicen la gestión de inventarios, garanticen la trazabilidad de productos y faciliten el cumplimiento regulatorio.
+
+**Visión:**<br><br>
+    Ser la plataforma líder en digitalización del sector de bebidas alcohólicas en Latinoamérica, promoviendo negocios más eficientes, transparentes y sostenibles.
+
+### 1.1.2. Perfiles de integrantes del equipo
+|    Nombre Completo del integrante   | Descripcion de Carrera | Fotografía | Conocimientos y Habilidades a apuntar|
+| ------------------------------------| ---------------------- | ---------- | ------------------------------------ |
+| Said Conde, Yazid   | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Yazid Said](./imagenes/foto%20yazid.jpg)  | Conocimientos en lenguajes de Programación como C++, Java, HTML, CSS, JavaScriptm, Python y C#.<br>Me considero que soy una persona muy trabajadora, responsable, puntual y respetuoso. |
+| Angelo Stephano Moscoso Bejar   | Ingeniería de Software<br> 5to Ciclo<br>2024-1<br>Universidad Peruana de Ciencias Aplicadas | ![Angelo Stephano](./imagenes/foto%20angelo.jpg) | - Tengo 21 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Me ha interasado mucho la creación de paginas web para diversos objetivos. Manejo algunos lenguajes de programación como javascript, C++, C+, Python, entre otros. Considero que tengo las habilidades de comunicación efectiva, organización, proactividad, resolución de problemas, entre otras. Espero aportar de manera satisfactoria en mi grupo para terminar de manera exitosa el proyecto. |
+| Gonzalo Alonso Carhuancote Dominguez               | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Gonzalo Alonso](./imagenes/foto%20Gonzalo.jpg) | - Tengo 20 años, estudio la carrera de ingeniería de software en la UPC. En mis tiempos libres estudio, juego videojuegos y me informo del mundo actual y moderno. Me apasiona la tecnología y manejo lenguajes como C++, Java, Typescript y Python. |
+| Joan Fernando Teves Samaniego | Ingenieria de Software <br>Universiad Peruana de Ciencias Aplicadas | ![Joan Fernando](./imagenes/foto%20joan.jpg) | Tengo 22 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Tengo interes por el mundo de la cibersegurirdad y el primer paso es enteder al derecho y al revez las aplicaciones web , se c++ , javascript , html , css , mongodb ,sql , sqlserver , posgresql,python, soy creativo , responsable , trabajo en equipo , me gusta resolver problemas   me adaptofacilmente y gestiono muy bien mi tiempo.Espero que en este proyecto pueda incrementar mis habilidades y conocimiento sobre las aplicaciones web y demas . |
+| Antonio Rodrigo Duran Díaz      | Ingeniería de Software<br>Universidad Peruana de Ciencias Aplicadas | ![Antonio Rodrigo](./imagenes/foto%20Antonio.jpg)  | - Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas y tengo 20 años. Estoy avanzando en mi formación académica y reforzando mis conocimientos en los diferentes temas relacionados con la creación de software. Durante mis estudios me ha gustado trabajar con gestores de bases de datos, en especial con SQL Server y MongoDB. En este proyecto espero seguir mejorando mis habilidades y conocimientos, además de lograr un buen desempeño en el trabajo grupal. |
+
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
+
+<div align="justify">
+Para entender la necesidad del proyecto, se aplicó la técnica de las 5W + 2H:
+<br><br>
+
+- **What (Qué):**
+  Falta de un sistema integrado que unifique la gestión interna de las empresas con los procesos de fiscalización externa.
+
+- **When (Cuándo):**
+  Actualmente, la digitalización de negocios es cada vez más prioritaria para mejorar competitividad y cumplir normativas.
+
+- **Where (Dónde):**
+  Principalmente en el mercado peruano, donde existen miles de negocios de licores, muchos de los cuales operan en condiciones informales o con sistemas obsoletos.
+
+- **Who (Quiénes):**
+  Dueños de destilerías y licorerías, así como entidades reguladoras del rubro de bebidas alcohólicas.
+
+- **Why (Por qué):**
+  La informalidad en la comercialización de bebidas alcohólicas impacta en la recaudación tributaria, la seguridad del consumidor y la reputación de los negocios.
+
+- **How (Cómo):**
+  A través de una plataforma que permita registrar lotes de producción, controlar inventario, gestionar ventas, y reportar información directamente a las entidades regulatorias.
+
+- **How Much (Cuánto):**
+  El costo de no implementar una solución adecuada se traduce en pérdidas económicas por desorden en inventario, sanciones por incumplimiento legal, y pérdida de clientes por falta de confianza.
+  <br><br>
+  Inversión estimada:<br>
+  - Suscripciones mensuales (básico y premium).
+  - Compra o leasing de sensores y equipos IoT.
+  - Servicios adicionales de soporte y consultoría.
+</div>
+
+### 1.2.2. Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statements
+El dominio de este proyecto se centra en la gestión y regulación del mercado de bebidas alcohólicas, donde los principales segmentos de clientes son los dueños de destilerías y licorerías, así como las entidades reguladoras encargadas de supervisar este sector. Actualmente, los negocios enfrentan procesos manuales y desorganizados en la gestión de inventarios y ventas, lo que incrementa el riesgo de sanciones por incumplimiento normativo y limita la transparencia de sus operaciones. Además, existe una notoria ausencia de canales digitales confiables que permitan reportar información de manera ágil y precisa a las instituciones fiscalizadoras. Esta situación genera una brecha, ya que no existen plataformas que integren simultáneamente la gestión empresarial y el cumplimiento regulatorio en un mismo sistema. Frente a ello, la visión de WineSoft es ofrecer un software integral que permita a los negocios crecer de manera formal y competitiva, alineados con las regulaciones, comenzando con un segmento inicial conformado por dueños de destilerías y licorerías medianas que operan en Lima y otras regiones comerciales clave del país.
+#### 1.2.2.2. Lean UX Assumptions
+
+**Business Assumptions:**
+- Consideramos que los dueños de destilerías y licorerías necesitan procesos más eficientes para gestionar sus inventarios, ventas y reportes regulatorios.
+- Estas necesidades pueden resolverse con una plataforma web integral que brinde herramientas de gestión empresarial y facilite la relación con entidades regulatorias.
+- Nuestros clientes iniciales serán principalmente dueños de destilerías y licorerías medianas que aún gestionan sus operaciones con métodos manuales o sistemas poco integrados.
+- El aspecto más importante que un empresario buscará en nuestra solución es la trazabilidad confiable del producto y la reducción de riesgos de sanciones regulatorias.
+- Como startup, generaremos ingresos mediante un modelo de suscripción, con planes escalonados que ofrezcan más funcionalidades según el tamaño del negocio.
+- El cliente podrá adquirir beneficios adicionales como reportes automatizados, integración con sistemas tributarios y paneles de análisis avanzados.
+- Gran parte de nuestros clientes se captará mediante recomendaciones dentro del sector y marketing digital dirigido a empresarios que buscan formalizarse.
+- La competencia en el mercado serán los sistemas contables genéricos y las aplicaciones de gestión no especializadas.
+- Nos diferenciaremos por un enfoque exclusivo en el rubro de bebidas alcohólicas, ofreciendo herramientas adaptadas a sus necesidades específicas.
+- Nuestro mayor riesgo es que los empresarios perciban la digitalización como costosa o innecesaria.
+- Para mitigar este riesgo, ofreceremos una interfaz sencilla, soporte continuo y un plan de adopción progresiva que genere confianza.
+
+**User Assumptions:**
+- Nuestros usuarios serán principalmente dueños y administradores de destilerías y licorerías que gestionan de forma manual sus operaciones.
+- Nuestro producto abordará la necesidad de controlar con mayor facilidad el inventario, las ventas y los reportes regulatorios.
+- Los usuarios valorarán especialmente la posibilidad de automatizar procesos repetitivos como registros de lotes, control de stock y generación de reportes.
+- Las características más importantes que los usuarios buscarán en nuestro producto serán la trazabilidad en tiempo real, la reducción de errores administrativos y la confiabilidad en la información compartida con entidades regulatorias.
+
+**Business Outcome Assumptions:**
+- Lograr una reducción en el número de sanciones regulatorias gracias al cumplimiento automático de normativas y reportes digitales.
+- Conseguir un incremento en la formalización de negocios, al ofrecer un sistema accesible y adaptado al mercado local.
+- Mejorar la confianza de los consumidores en los productos de destilerías y licorerías mediante certificados digitales de autenticidad emitidos desde la plataforma.
+- Aumentar la eficiencia operativa de los negocios al integrar funciones de inventario, ventas y fiscalización en un solo sistema.
+
+**User Outcome Assumptions:**
+- Los empresarios podrán gestionar inventarios, ventas y reportes regulatorios desde una plataforma centralizada, reduciendo significativamente el tiempo y esfuerzo de administración.
+- Los dueños de licorerías podrán minimizar pérdidas por descontrol en stock gracias a alertas automáticas de bajo inventario y vencimiento de productos.
+- Las entidades reguladoras podrán acceder a información actualizada en tiempo real, lo que permitirá una fiscalización más ágil y confiable.
+- Los usuarios experimentarán una mayor tranquilidad y seguridad al contar con procesos transparentes y trazables, lo que aumentará la adopción y retención de la plataforma.
+
+**Features:**
+- Implementar funciones para el registro y control de lotes de producción, con trazabilidad desde origen hasta punto de venta.
+- Incorporar herramientas de gestión de inventarios y ventas, con paneles de análisis y reportes automáticos.
+- Desarrollar un sistema de alertas en tiempo real para vencimientos de stock, riesgos regulatorios.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Hipótesis 1:** <br><br>
+**Creemos que**, si ofrecemos un sistema centralizado para la gestión de inventarios en destilerías y licorerías, esto logrará una reducción en los errores administrativos y en las pérdidas por descontrol de stock.<br>
+**Sabremos que esto es cierto cuando** observemos una disminución del 25% en reportes de pérdidas de inventario y un aumento del 20% en la precisión de los registros.
+
+**Hipótesis 2:** 
+**Creemos que**, si implementamos reportes regulatorios automáticos integrados en la plataforma, esto logrará una reducción en las sanciones impuestas a los negocios por incumplimiento normativo.<br>
+**Sabremos que esto es cierto cuando** veamos una reducción del 30% en multas y sanciones en negocios que usan WineSoft.
+
+**Hipótesis 3:**
+**Creemos que**, si brindamos a los usuarios un sistema de alertas en tiempo real para vencimiento de stock, irregularidades en lotes o notificaciones regulatorias, esto logrará un mayor control preventivo en las operaciones.<br>
+**Sabremos que esto es cierto cuando** los usuarios reporten un 40% menos de incidencias relacionadas con productos vencidos o fuera de norma.
+
+**Hipótesis 4:**
+Creemos que, si diseñamos una interfaz amigable y accesible para usuarios con poca experiencia tecnológica, esto logrará una mayor adopción del sistema y reducirá la resistencia al cambio.<br>
+Sabremos que esto es cierto cuando el 70% de los nuevos usuarios complete su proceso de registro y gestión inicial sin necesidad de soporte adicional.
+
+
+#### 1.2.2.4. Lean UX Canvas
+
+![Imagen de Lean-UX Canvas](./imagenes/LEANUXCANVASWINSOFT.png)
+Enlace al tablero de desarrollo: https://miro.com/app/board/uXjVJMXI8fo=/?share_link_id=240561883449
+
+## 1.3. Segmentos objetivo  
+
+### Segmento 1: Dueños de destilerías y licorerías  
+- **Descripcion:** Empresarios entre 30 y 55 años, principalmente en zonas urbanas con alta concentración de bares y discotecas.  
+- **Características:**  
+  - Buscan optimizar operaciones y reducir pérdidas por falta de control.  
+  - Pueden manejar varios puntos de venta o producción.  
+  - Preocupación por cumplir regulaciones y evitar sanciones.  
+- **Necesidades principales:**  
+  - Control eficiente de inventarios.  
+  - Gestión de ventas con reportes automáticos.  
+  - Transparencia en la trazabilidad de productos.  
+
+### Segmento 2: Entidades regulatorias  
+- **Descripcion:** Instituciones gubernamentales y municipales responsables de la fiscalización del sector.  
+- **Características:**  
+  - Necesitan acceso a información confiable en tiempo real.  
+  - Enfrentan dificultades para supervisar un mercado fragmentado y con informalidad.  
+- **Necesidades principales:**  
+  - Garantizar autenticidad y seguridad en los productos comercializados.  
+  - Reducir riesgos de evasión fiscal y comercio informal.  
+  - Contar con herramientas digitales para monitorear negocios.  
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores.
+<table border="1px">
+        <thead>
+            <th colspan="11">Competitive Analysis Landscepe</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" colspan="2">¿Por qué llevar a
+                    cabo este análisis?</td>
+            </tr>
+            <tr>
+                <td colspan="9">El objetivo de este análisis es comprender el funcionamiento, los enfoques y las características de los productos ofrecidos por competidores en el sector tecnológico aplicado a destilerías y bebidas alcohólicas. Esto permitirá planificar estrategias que resalten las fortalezas de WineSoft y aprovechen las debilidades de las soluciones actuales en el mercado.     </td> 
+            </tr>
+            <tr>
+                <tr>
+                    <td colspan="3">(En la cabecera colocar por cada competidor nombre y logo)</td>
+                    <td colspan="2"><img src="./imagenes/Logo.png" style="width: 60px; height: auto;"><br>WineSoft</td>
+                    <td colspan="2"><img src="./imagenes/competidor-1.png" style="width: 60px; height: auto;"><br>BottlePOS</td>
+                    <td colspan="2"><img src="./imagenes/competidor-2.png" style="width: 60px; height: auto;"><br>Korona POS</td>
+                    <td colspan="2"><img src="./imagenes/competidor-3.png" style="width: 60px; height: auto;"><br>WinePOS</td>
+                </tr>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="1">Perfil</td>
+                <td colspan="2">Overview</td>
+                <td colspan="2">Plataforma que digitaliza la operación de licorerías y destilerías mediante gestión de inventarios, monitoreo de condiciones de almacenamiento con IoT simulado, registro de cumplimiento regulatorio.</td>
+                <td colspan="2">POS verticalizado diseñado específicamente para licorerías, con funcionalidades como verificación de edad, control de lotes y workflows de caja adaptados al comercio de alcohol.</td>
+                <td colspan="2">POS flexible para retail con módulos para tiendas de bebidas, licorerías y supermercados, con énfasis en inventario avanzado, analíticas y escalabilidad.</td>
+                <td colspan="2">Soluciones de nicho orientadas a vinos y licores, con gestión de inventario por lote y funciones para tiendas boutique y distribuidores especializados.</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Ventaja competitiva <br></br> ¿Qué valor ofrece a los clientes?</td>
+                <td colspan="2">Solución en el mercado que ofrece una combinación de gestión operativa con IoT y cumplimiento normativo. Permite a las empresas generar evidencias digitales de limpieza, control ambiental y trazabilidad; y a los reguladores acceder directamente a la información para verificar estándares de seguridad y autenticidad.</td>
+                <td colspan="2">Su fortaleza radica en la simplicidad y en la adaptación al día a día de las licorerías, con funciones específicas para ventas de bebidas alcohólicas.</td>
+                <td colspan="2">Adaptable a cadenas y negocios medianos/grandes, con herramientas de multi-sucursal, promociones y fidelización de clientes.</td>
+                <td colspan="2">Se centra en detalles que importan a tiendas boutique: variantes por añada, fichas técnicas, gestión de catas y fidelización de clientes.</td>
+            </tr>
+            <tr>
+                <td rowspan="2" colspan="1">Perfil de Marketing</td>
+                <td colspan="2">Mercado Objetivo</td>
+                <td colspan="2">Licorerías, destilerías y distribuidores medianos en Perú y Latinoamérica que necesitan mejorar control operativo, demostrar cumplimiento ante reguladores y reducir riesgos de sanciones.</td>
+                <td colspan="2">Licorerías pequeñas y medianas que buscan control operativo sin preocuparse de regulaciones avanzadas.</td>
+                <td colspan="2">Retailers medianos y grandes, cadenas de licorerías y negocios con planes de expansión.</td>
+                <td colspan="2">Tiendas boutique de vinos, licorerías especializadas, importadores y distribuidores con inventarios por añadas.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Estrategia de Marketing</td>
+                <td colspan="2">Implementación piloto con municipalidades, campañas digitales orientadas a la formalización del sector, alianzas con gremios de productores y demostraciones en ferias tecnológicas y de bebidas.</td>
+                <td colspan="2">Marketing directo en ferias de retail, asociaciones de licorerías y demostraciones presenciales.</td>
+                <td colspan="2">Estrategia B2B mediante marketing digital, ferias de retail, partnerships con proveedores de hardware y pagos.</td>
+                <td colspan="2">Posicionamiento en blogs de vino, eventos de degustación y colaboraciones con sommeliers.</td>
+            </tr>
+            <tr>
+                <td rowspan="3" colspan="1">Perfil de Producto</td>
+                <td colspan="2">Producto & Servicio</td>
+                <td colspan="2">Es una aplicacion web que permite la gestión de inventario con trazabilidad por lote y tipo de producto, integrando un módulo de IoT simulado para la medición de temperatura, humedad y presión. Además, genera alertas y notificaciones automáticas ante posibles riesgos, y cuenta con un registro de limpieza con evidencias para garantizar el cumplimiento de normativas y buenas prácticas.</td>
+                <td colspan="2">POS con gestión de inventario, reportes fiscales básicos, verificación de edad y control de stock por lote.</td>
+                <td colspan="2">POS con inventario avanzado, analíticas, gestión multi-sucursal, promociones y e-commerce.</td>
+                <td colspan="2">POS con gestión por añada/lote, herramientas para catas y gestión de eventos.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Precio & Costos  </td>
+                <td colspan="2">Modelo SaaS por suscripción escalonada (planes Básico, Avanzado y Regulator), con tarifas ajustadas al tamaño de la empresa y número de almacenes</td>
+                <td colspan="2">Suscripción mensual con tarifas personalizadas orientadas a pequeñas y medianas empresas.</td>
+                <td colspan="2">Modelo SaaS con suscripción mensual según número de terminales y funcionalidades.</td>
+                <td colspan="2">Suscripciones mensuales o licencias con costos adicionales de soporte o implementación.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Canales de distribucion (web y/o Movil)</td>
+                <td colspan="2">Aplicación web</td>
+                <td colspan="2">Aplicación web y aplicación móvil</td>
+                <td colspan="2">Aplicación web y aplicación móvil</td>
+                <td colspan="2">Aplicación web</td>
+            </tr>
+            <tr>
+                <td rowspan="5">Analisis SWOT</td>
+                <td colspan="10">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus
+                    oportunidades y contribuir a lo que ustedes definen como su posible ventaja
+                    competitiva</td>
+            </tr>
+            <tr>
+                <td colspan="2">Fortalezas</td>
+                <td colspan="2">Diferenciación clara por IoT y cumplimiento regulatorio, interfaz pensada para usuarios no técnicos y conexión con reguladores.</td>
+                <td colspan="2">Funciones específicas del rubro; facilidad de uso.</td>
+                <td colspan="2">Escalabilidad, reportes avanzados, flexibilidad en integraciones.</td>
+                <td colspan="2">Funcionalidad muy específica para vinos y coleccionistas.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Debilidades</td>
+                <td colspan="2">Startup nueva con baja visibilidad, curva de aprendizaje para usuarios tradicionales, necesidad de validación inicial con entidades públicas</td>
+                <td colspan="2">No ofrece trazabilidad, IoT ni soporte regulatorio.</td>
+                <td colspan="2">Generalista; no ofrece compliance ni trazabilidad regulatoria.</td>
+                <td colspan="2">Escalabilidad y soporte limitados, enfoque demasiado nicho.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Oportunidades</td>
+                <td colspan="2">Creciente presión normativa en bebidas alcohólicas, digitalización en LATAM, programas de apoyo a la formalización empresarial.</td>
+                <td colspan="2">Crecimiento de la digitalización en negocios pequeños.</td>
+                <td colspan="2">Expansión en LATAM con retailers medianos y grandes.</td>
+                <td colspan="2">Expansión a distribuidores con servicios de autenticidad digital.</td>
+            </tr>
+            <tr>
+                <td colspan="2">Amenazas</td>
+                <td colspan="2">POS consolidados con fuerte presencia de mercado, resistencia cultural a la adopción digital, cambios regulatorios que requieran ajustes rápidos.</td>
+                <td colspan="2">Competencia de POS generalistas y bajo poder de diferenciación a largo plazo</td>
+                <td colspan="2">Competencia de soluciones verticalizadas más económicas.</td>
+                <td colspan="2">Soluciones locales más baratas o más amplias en alcance.</td>
+            </tr>
+        </tbody>
+    </table>
+
+### 2.1.2 Estrategias y tácticas frente a competidores.
+
+
+#### Estrategia de diferenciación
+WineSoft se diferencia al integrar en una sola plataforma la gestión de inventarios, control de procesos productivos y cumplimiento regulatorio, algo que los POS tradicionales (como Korona POS o Square) y los sistemas de monitoreo de fermentación (como BrewMonitor) no ofrecen de manera conjunta. El valor agregado radica en la trazabilidad digital, la validación con entidades regulatorias y la inclusión de funcionalidades IoT (simuladas en esta versión inicial) para garantizar calidad y seguridad.
+
+**Tácticas:**
+- Incluir funcionalidades clave como alertas de inventario en tiempo real, registro de limpieza con evidencia y reportes automáticos de cumplimiento normativo.  
+- Desarrollar un módulo de conexión directa con proveedores autorizados para asegurar abastecimiento confiable.  
+- Ofrecer un perfil específico para entidades reguladoras con acceso a datos de trazabilidad y validación.  
+- Diseñar una interfaz intuitiva para usuarios con poca experiencia tecnológica, asegurando una curva de aprendizaje mínima.  
+
+---
+
+#### Estrategia de liderazgo en costos
+WineSoft busca ofrecer una solución a un precio accesible en comparación con competidores que requieren grandes inversiones en hardware o licencias. El modelo de negocio se enfoca en suscripciones escalonadas, adaptadas al tamaño del negocio y al nivel de funcionalidades que deseen implementar.
+
+**Tácticas:**
+- Implementar un modelo freemium con registro gratuito y acceso limitado a funciones básicas de inventario.  
+- Ofrecer planes de suscripción accesibles con precios diferenciados para pequeñas licorerías y destilerías medianas.  
+- Evitar costos ocultos al no exigir licencias adicionales de hardware o integraciones externas costosas.  
+- Garantizar soporte técnico básico incluido en el plan estándar para reducir barreras de adopción.  
+
+---
+
+#### Estrategia de diferenciación enfocada
+WineSoft no busca competir con plataformas genéricas de gestión o POS de gran escala, sino que se especializa en el sector de bebidas alcohólicas. El enfoque está en resolver problemas específicos de trazabilidad, fiscalización y formalización, que no son prioridad para los competidores generalistas.
+
+**Tácticas:**
+- Ofrecer reportes regulatorios automáticos alineados con normativas como la Ley 28681 y la Ley 29632.  
+- Incluir alertas preventivas de riesgos regulatorios (productos vencidos, lotes sin trazabilidad).  
+- Adecuar la comunicación visual y verbal al sector de licores, transmitiendo formalidad y confianza en la legalidad de las operaciones.  
+
+---
+
+#### Estrategias competitivas adicionales
+**Tácticas:**
+- Incorporar un sistema de notificaciones automáticas para stock bajo, vencimiento de productos y recordatorios regulatorios.  
+- Implementar reseñas y validaciones de proveedores para fortalecer la confianza entre negocios y entidades fiscalizadoras.  
+- Desarrollar dashboards comparativos que muestren tendencias de ventas y consumos estacionales.  
+
+---
+
+#### Estrategia de construcción de marca
+WineSoft apuesta por una identidad sólida vinculada con la formalidad, la innovación tecnológica y la seguridad del consumidor. A diferencia de la competencia que se enfoca en eficiencia operativa, WineSoft comunica un compromiso con la legalidad, la salud pública y la sostenibilidad del sector.
+
+**Tácticas:**
+- Diseñar una identidad visual seria pero accesible, con colores asociados a confianza y transparencia.  
+- Usar redes sociales y campañas digitales para resaltar casos de éxito en formalización y trazabilidad.  
+- Posicionarse como un aliado tanto de empresarios como de entidades reguladoras, fomentando comunidad alrededor de la transparencia en el mercado de licores.  
+
+## 2.2. Entrevistas.
+ ## 2.2.1. Diseño de entrevistas
+Para el desarrollo de las entrevistas de nuestros segmentos objetivos, se pensaron en las siguientes preguntas:
+ ### Preguntas utilizadas para las entrevistas según el segmento objetivo:
+ 
+- **Dueño de licorerias**
+
+  - 1. ¿Qué tipo de bebidas representan la mayor parte de sus ventas?
+
+  - 2. ¿Cuáles son los productos que más rápido se agotan y cuáles suelen quedarse en stock?
+
+  - 3. ¿Ha detectado cambios recientes en las preferencias de sus clientes?
+
+  - 4. ¿Cómo decide qué nuevos productos incorporar a su catálogo?
+
+  - **Sobre la gestión del negocio**
+
+  - 5. ¿Qué dificultades encuentra al momento de controlar inventario o pedidos?
+
+  - 6. ¿Cuánto tiempo le toma normalmente reponer stock y coordinar con proveedores?
+
+  - 7. ¿Cómo maneja el registro de ventas: manual, hojas de cálculo o algún sistema digital?
+
+  - 8. ¿Qué tanto le impacta la informalidad o competencia desleal en precios y productos adulterados?
+
+  - **Preguntas sobre el beneficio de usar WineSoft**
+
+  - 9. ¿Le interesaría contar con un sistema que le permita tener control en tiempo real del stock y las ventas?
+
+  - 10. ¿Qué tan valioso sería para usted recibir reportes automáticos de los productos más vendidos y menos rotativos?
+
+  - 11. ¿Le ayudaría un sistema que lo conecte directamente con proveedores autorizados para simplificar la reposición?
+
+  - 12. ¿Cree que un software como WineSoft podría ahorrarle tiempo administrativo para dedicarse más a sus clientes?
+
+- **Entidad regulatoria**
+
+  - 1. ¿Cuáles son las principales normas que regulan el funcionamiento de licorerías en cuanto a horarios, licencias y venta responsable?
+
+  - 2. ¿Qué dificultades enfrentan al supervisar el cumplimiento de estas normas en pequeños negocios?
+
+  - 3. ¿Cómo se asegura actualmente la trazabilidad y autenticidad de las bebidas alcohólicas en el mercado?
+
+  - 4. ¿Cuáles son las sanciones más comunes que aplican a las licorerías que incumplen las normas?
+
+  - **Sobre retos del sector**
+
+  - 5. ¿Qué tan grande es el problema de la informalidad y el contrabando en este rubro?
+
+  - 6. ¿Existen datos sobre cuántas licorerías están formalizadas vs. cuántas operan sin licencia?
+
+  - 7. ¿Qué impacto tiene la venta de alcohol sin control en la seguridad ciudadana y la salud pública?
+
+  - **Sobre relación con dueños de licorerías**
+  - 8. ¿Qué facilidades ofrece la entidad para que los dueños se formalicen de manera rápida y sencilla?
+
+  - 9. ¿Se cuenta con programas de capacitación o campañas para orientar a los negocios sobre las regulaciones vigentes?
+
+  - 10. ¿Cómo manejan las quejas o reclamos de dueños de licorerías respecto a las fiscalizaciones?
+
+  - **Sobre futuro y digitalización con WineSoft**
+
+  - 11. ¿Consideran que la digitalización de la gestión de licorerías podría facilitar la fiscalización y el cumplimiento normativo?
+
+  - 12. ¿Un sistema como WineSoft, que centralice inventarios, ventas y relación con proveedores autorizados, podría servir de apoyo para reducir la informalidad?
+
+  - 13. ¿La entidad estaría dispuesta a integrarse o colaborar con plataformas tecnológicas para mejorar la trazabilidad y control del mercado de alcohol?
+
+  - 14. ¿Qué expectativas tiene la entidad sobre el uso de tecnología en los próximos 5 años para este sector?
+
+ ##  2.2.2. Registro de entrevistas
+A continuación, se presentará un resumen de cada entrevista. Además, por cada entrevista se colocará una captura de pantalla de evidencia y el intervalo de tiempo de duración que tienen en el video.
+
+**Segmento Objetivo: Dueño de licoreria y destilería**
+
+**Entrevista 1: Fernando Teves**
+
+![Dueño 1](../imagenes/entrevista-dueño-1.png)
+
+**Datos del entrevistado**
+* **Nombre:** Fernando Teves
+* **Edad:** --
+* **Estado civil:** --
+* **Ocupación:** --
+* **Distrito de Residencia:** --
+
+* **Duración de la entrevista:** [00:00:00 - 00:00:00]
+* **Video de las entrevistas:** [Needfinding - Interviews](link de video)
+
+**Resumen de la entrevista:**
+- El ingeniero Fernando Teves explicó que dentro de su fábrica el producto más demandado es el anisado, seguido de algunas variedades de licores artesanales. Mencionó que las bebidas que más rápido se agotan son los productos tradicionales de mayor aceptación, mientras que ciertos licores importados o de nicho suelen quedarse más tiempo en stock.
+
+- Señaló que ha percibido cambios en las preferencias de sus clientes: actualmente hay un mayor interés por bebidas artesanales y de producción local, mientras que algunos destilados convencionales han perdido fuerza. Al momento de incorporar nuevos productos, se guía tanto por las tendencias del mercado como por la retroalimentación directa de sus clientes.
+
+- En cuanto a la gestión, reconoció que uno de los principales retos es el control de inventario y pedidos, ya que muchas veces se hace de forma manual y le toma tiempo reponer stock y coordinar con proveedores. Comentó que todavía utiliza herramientas simples como hojas de cálculo, lo que limita la rapidez de las operaciones.
+
+- Finalmente, mostró interés en un sistema como WineSoft, destacando que sería muy valioso contar con un control en tiempo real de ventas e inventario, recibir reportes automáticos de productos más vendidos y, sobre todo, conectarse directamente con proveedores autorizados para agilizar la reposición. Considera que esto le permitiría ahorrar tiempo administrativo y dedicar más esfuerzo a los clientes y a mejorar la calidad de los productos.
+
+**Entrevista 2: Gabriel**
+
+![Dueño 2](../imagenes/entrevista-dueño-2.png)
+
+**Datos del entrevistado**
+* **Nombre:** Gabriel
+* **Edad:** --
+* **Estado civil:** --
+* **Ocupación:** --
+* **Distrito de Residencia:** --
+
+* **Duración de la entrevista:** [00:00:00 - 00:00:00]
+* **Video de las entrevistas:** [Needfinding - Interviews](link de video)
+
+**Resumen de la entrevista:**
+
+- En la entrevista, Gabriel, quien trabaja con su madre en un negocio de insumos para licorerías y destilerías, explicó que ofrecen principalmente alcohol puro, botellas, tapas y equipos de destilación, gestionando la trazabilidad con documentos oficiales y códigos QR. Señaló que la demanda varía según la temporada, enfrentan retos logísticos como transporte inseguro y condiciones de almacenamiento, y actualmente manejan inventarios con Excel. Destacó que los clientes valoran la pureza, el origen certificado y los precios, además de la puntualidad en las entregas, y mencionó la importancia de cumplir con normativas sanitarias. Reconoció el interés en adoptar herramientas digitales, mejorar la comunicación y diversificar pagos, y se mostró dispuesto a integrarse en plataformas que optimicen pedidos, trazabilidad y costos.
+
+**Segmento Objetivo: Entidad Reguladora**
+
+**Entrevista 1: Leslie Kasimiro**
+
+![Entidad Reguladora 1](../imagenes/entrevista-entidad-reguladora-1.png)
+
+**Datos del entrevistado**
+* **Nombre:** Leslie Kasimiro
+* **Edad:** --
+* **Estado civil:** --
+* **Ocupación:** --
+* **Distrito de Residencia:** --
+
+* **Duración de la entrevista:** [00:00:00 - 00:00:00]
+* **Video de las entrevistas:** [Needfinding - Interviews](link de video)
+
+**Resumen de la entrevista:**
+
+- Leslie Kasimiro explicó que el sector de licorerías está regulado principalmente por la Ley 28681 (sobre venta y consumo de alcohol), la Ley 29632 (control de bebidas adulteradas) y las ordenanzas municipales que establecen horarios y licencias. Añadió que una de las mayores dificultades es la alta informalidad, la escasez de fiscalizadores y la falta de un padrón único de negocios, ya que la información se encuentra dispersa entre municipalidades y SUNAT.
+
+- Sobre la trazabilidad, detalló que se apoya en los registros sanitarios (DIGESA) y en los registros de comercializadores (PRODUCE), además de los operativos multisectoriales. Las sanciones más comunes incluyen multas, clausuras, decomisos e incluso denuncias penales en casos graves de adulteración.
+
+- Señaló que la informalidad y el contrabando generan pérdidas tributarias y riesgos para la salud pública, reflejados en intoxicaciones y ventas a menores. Sin embargo, también destacó que existen avances como las ventanillas digitales y los registros en línea, que facilitan los trámites a los dueños de negocios. Asimismo, mencionó que se realizan campañas de capacitación y operativos preventivos.
+
+- Respecto al futuro, afirmó que la digitalización es clave para mejorar la fiscalización, ya que facilita cruces de datos y la trazabilidad. Consideró que un software como WineSoft puede ser muy útil, siempre que valide proveedores, registre ventas en tiempo real y garantice la protección de datos. A mediano plazo, proyecta que habrá más interoperabilidad entre entidades públicas, mejor trazabilidad digital y fiscalizaciones más focalizadas.
+## 2.2.3. Análisis de entrevistas  
+### Segmento 1: Dueños de licorerías y destilerías (N=3)  
+
+#### Características Objetivas (cuantificables)  
+
+**1. Tipos de bebidas más vendidas**  
+- Licores tradicionales (anisado, ron, whisky): **67%** (2 de 3 entrevistados).  
+- Licores artesanales / vinos locales: **67%** (2 de 3 entrevistados).  
+- Licores importados o de nicho: **67%** (2 de 3 entrevistados, aunque con menor rotación).  
+
+**2. Productos con mayor rotación**  
+- Bebidas artesanales y tradicionales: **100%** (3 de 3 entrevistados reportan alta rotación).  
+- Licores importados de alto costo: **67%** (2 de 3 entrevistados los identifican como baja rotación).  
+
+**3. Cambios recientes en preferencias de clientes**  
+- Mayor interés en bebidas artesanales / producción local: **67%** (2 de 3 entrevistados).  
+- Preferencia estable por licores tradicionales: **33%** (1 de 3 entrevistados).  
+
+**4. Criterios para incorporar nuevos productos**  
+- Retroalimentación de clientes: **67%** (2 de 3 entrevistados).  
+- Tendencias de mercado y temporadas: **67%** (2 de 3 entrevistados).  
+- Certificación y trazabilidad del producto: **33%** (1 de 3 entrevistados).  
+
+**5. Dificultades en la gestión de inventario y pedidos**  
+- Procesos manuales generan errores y pérdida de tiempo: **67%** (2 de 3 entrevistados).  
+- Dependencia de hojas de cálculo no integradas: **67%** (2 de 3 entrevistados).  
+- Problemas logísticos (transporte, almacenamiento inseguro): **33%** (1 de 3 entrevistados).  
+
+**6. Tiempo de reposición de stock**  
+- Entre 3 y 5 días en promedio: **67%** (2 de 3 entrevistados).  
+- Más de 5 días en temporadas de alta demanda: **33%** (1 de 3 entrevistados).  
+
+**7. Método de registro de ventas**  
+- Hojas de cálculo (Excel): **67%** (2 de 3 entrevistados).  
+- Registros manuales en papel: **33%** (1 de 3 entrevistados).  
+- Sistemas digitales integrados: **0%** (ningún entrevistado).  
+
+**8. Impacto de la informalidad**  
+- Alta competencia desleal por precios bajos y alcohol adulterado: **67%** (2 de 3 entrevistados).  
+- Reconocimiento del problema pero sin afectación directa: **33%** (1 de 3 entrevistados).  
+
+**9. Interés en digitalización (WineSoft)**  
+- Interés en control en tiempo real de inventario y ventas: **100%** (3 de 3 entrevistados).  
+- Valoración de reportes automáticos para identificar productos con mayor/menor rotación: **100%** (3 de 3 entrevistados).  
+- Conexión directa con proveedores autorizados: **100%** (3 de 3 entrevistados).  
+- Ahorro de tiempo administrativo para dedicarse al cliente: **100%** (3 de 3 entrevistados).  
+
+#### Síntesis del segmento  
+
+El segmento de dueños de licorerías y destilerías muestra un patrón común de gestión manual y semi-digital (Excel) con dificultades significativas en inventario y reposición. El 100% de los entrevistados manifestó interés en adoptar soluciones digitales, destacando la necesidad de control en tiempo real, reportes automáticos y conexión con proveedores confiables. Asimismo, se identificó que la informalidad y la competencia desleal son amenazas constantes que refuerzan la importancia de un sistema que promueva la trazabilidad y la formalización. WineSoft responde directamente a estas necesidades, posicionándose como una herramienta clave para mejorar la eficiencia y la sostenibilidad de estos negocios.  
+
+### Segmento 2: Entidad Reguladora (N=3)  
+
+#### Características Objetivas (cuantificables)  
+
+**1. Normas principales aplicadas**  
+- Ley 28681 (venta y consumo de alcohol): **67%** (2 de 3 entrevistados).  
+- Ley 29632 (control de bebidas adulteradas): **67%** (2 de 3 entrevistados).  
+- Ordenanzas municipales (horarios, licencias): **67%** (2 de 3 entrevistados).  
+- Reglamentos sanitarios / DIGESA: **33%** (1 de 3 entrevistados).  
+
+**2. Dificultades en la supervisión**  
+- Falta de fiscalizadores / personal: **67%** (2 de 3 entrevistados).  
+- Informalidad generalizada de pequeños negocios: **100%** (3 de 3 entrevistados).  
+- Dispersión geográfica y limitación de alcance: **33%** (1 de 3 entrevistados).  
+
+**3. Métodos actuales de trazabilidad**  
+- Registros sanitarios y comercializadores (DIGESA/PRODUCE): **67%** (2 de 3 entrevistados).  
+- Control documental/manual (facturas, guías): **67%** (2 de 3 entrevistados).  
+- Etiquetas y códigos QR: **33%** (1 de 3 entrevistados).  
+
+**4. Sanciones más comunes**  
+- Multas: **100%** (3 de 3 entrevistados).  
+- Clausuras / incautaciones: **67%** (2 de 3 entrevistados).  
+- Cancelación de permisos / denuncias penales: **33%** (1 de 3 entrevistados).  
+
+**5. Nivel de informalidad estimado**  
+- 40–50% de negocios informales: **67%** (2 de 3 entrevistados).  
+- 30% de alcohol proveniente de contrabando: **33%** (1 de 3 entrevistados).  
+
+**6. Programas de formalización y capacitación**  
+- Ventanillas digitales/licencias express: **67%** (2 de 3 entrevistados).  
+- Talleres o campañas de capacitación: **67%** (2 de 3 entrevistados).  
+- Atención limitada en provincias: **33%** (1 de 3 entrevistados).  
+
+**7. Digitalización y futuro**  
+- Digitalización clave para fiscalización: **100%** (3 de 3 entrevistados).  
+- Interoperabilidad con sistemas públicos: **67%** (2 de 3 entrevistados).  
+- Expectativas de usar blockchain/IoT: **33%** (1 de 3 entrevistados).  
+
+---
+### Síntesis del segmento  
+
+La entidad reguladora reconoce como principales retos la informalidad (40–50% del mercado) y la falta de fiscalización efectiva. Actualmente, dependen de registros sanitarios y controles manuales, lo cual limita la trazabilidad. El 100% de los entrevistados considera que la digitalización es clave para el futuro del sector y coincide en que un software como WineSoft puede ser un aliado estratégico para mejorar la trazabilidad, reducir la informalidad y fortalecer el cumplimiento normativo.  
+
+## 2.3. Needfinding.
+
+### 2.3.1. User Personas.
+Con el propósito de garantizar una comprensión profunda y precisa de los segmentos identificados como clave para nuestro proyecto, hemos llevado a cabo un proceso estructurado y cuidadoso de creación de User Personas. Este procedimiento nos permitió definir un perfil específico y representativo para cada segmento objetivo, lo que nos brinda una perspectiva más clara y detallada de nuestros usuarios. De esta manera, podemos diseñar y ofrecer soluciones que respondan de manera efectiva a sus necesidades, expectativas y contextos particulares.
+
+- **UserPersona 1**
+<br>
+  <img src="./imagenes/User Persona 1.png" alt="UserPersona_1">
+<br>
+
+- **UserPersona 2**
+    <br>
+    <img src="./imagenes/User Persona 2.png" alt="UserPersona_2">
+    <br>
+
+### 2.3.2. User Task Matrix.
+<div style='text-align: justify;'>
+
+
+El **User Task Matrix** permite identificar y priorizar las tareas que realizan los distintos segmentos de usuarios para alcanzar sus objetivos. En este caso, la matriz se centra en dos segmentos principales: **dueños de licorerías/destilerías** y **entidades regulatorias/inspectores**.  
+
+La matriz presenta 15 tareas relevantes para ambos segmentos, clasificadas según su frecuencia (qué tan seguido se realizan) y severidad (qué tan críticas son). Esto permite comprender mejor las necesidades y prioridades de cada grupo, además de identificar similitudes y diferencias en sus actividades.  
+
+---
+
+| **Task** | **Dueños de licorerías (Frecuencia - Severidad)** | **Entidades regulatorias (Frecuencia - Severidad)** |
+|----------|---------------------------------------------------|------------------------------------------------------|
+| Controlar inventario de productos | Alta - Alta | Media - Alta |
+| Recibir alertas de stock bajo o vencimiento | Alta - Alta | Alta - Alta |
+| Registrar ventas y movimientos | Alta - Alta | Media - Alta |
+| Garantizar trazabilidad de productos | Alta - Alta | Alta - Alta |
+| Cumplir con normativas municipales y sanitarias | Alta - Alta | Alta - Alta |
+| Generar reportes de ventas e inventario | Media - Alta | Alta - Alta |
+| Conectarse con proveedores autorizados | Alta - Alta | Media - Alta |
+| Detectar productos adulterados o irregulares | Media - Alta | Alta - Alta |
+| Validar documentación para inspecciones | Media - Alta | Alta - Alta |
+| Revisar historial de compras y rotación de productos | Media - Alta | Media - Alta |
+| Acceder a datos en tiempo real para auditorías | Media - Alta | Alta - Alta |
+| Evaluar riesgos de incumplimiento regulatorio | Media - Alta | Alta - Alta |
+| Implementar mejoras en gestión de stock | Media - Alta | Media - Alta |
+| Facilitar procesos de formalización/licencias | Media - Alta | Alta - Alta |
+| Comparar desempeño con estándares de mercado | Baja - Alta | Media - Alta |
+
+
+<div align="justify">
+El análisis del User Task Matrix evidencia que, para los dueños de licorerías y destilerías, las tareas más frecuentes y críticas giran en torno al control de inventario, la recepción de alertas sobre stock bajo o vencimiento, el registro de ventas con trazabilidad y la conexión con proveedores autorizados, lo que refleja la necesidad de eficiencia operativa y reducción de riesgos de desabastecimiento. En el caso de las entidades regulatorias, sus prioridades se concentran en asegurar el cumplimiento normativo, acceder a datos en tiempo real para auditorías, generar reportes confiables y detectar productos adulterados o sin la documentación adecuada, aspectos que responden a la necesidad de transparencia y control en el sector. Ambos segmentos coinciden en la importancia de contar con herramientas que garanticen la trazabilidad, emitan alertas preventivas y faciliten el cumplimiento de normativas, ya que estos elementos resultan esenciales para asegurar la calidad de los productos, proteger la salud pública y fomentar la formalización de los negocios de licores.
+</div>
+
+### 2.3.3. User Journey Mapping.
+
+#### User Journey Mapping - Segmento Dueño de licorería
+
+![journey mapping - Dueño](/imagenes/JourneyMapping-Dueño.png)
+
+#### User Journey Mapping - Segmento Entidad reguladora
+
+![journey mapping - Regulador](/imagenes/JourneyMapping-Regulador.png) 
+
+### 2.3.4. Empathy Mapping.
+
+**Segmento 1: Dueños de licrerías preocupados por la eficiencia y el cumplimiento normativo**
+<img src="./imagenes/Empathy map 1.png" alt="Empathy Map User Persona 1">
+
+**Segmento 2: Inspectores y entidades regulatorias responsables de garantizar la calidad y seguridad del producto**
+<img src="./imagenes/Empathy map 2.png" alt="Empathy Map User Persona 2">
+
+## 2.4. Big Picture EventStorming.
+
+![Big Picture Event Storming](/imagenes/BigPicture-EventStorming.png)
+
+## 2.5. Ubiquitous Language.
+<div align="justify">
+  <ul>
+    <li><b>Destilería:</b> Planta de producción dedicada a la elaboración de bebidas alcohólicas mediante procesos de fermentación y destilación.</li>
+    <li><b>Destilación:</b> Proceso de separación que concentra el alcohol aplicando calor y controlando la condensación.</li>
+    <li><b>Trazabilidad:</b> Capacidad de rastrear cada lote de producción desde el inicio hasta su distribución final.</li>
+    <li><b>Normativa Sanitaria:</b> Conjunto de normas y leyes que garantizan la inocuidad y calidad del producto alcohólico.</li>
+    <li><b>Control de Calidad:</b> Evaluación de parámetros críticos del producto, como pureza, grado alcohólico y seguridad.</li>
+    <li><b>Reporte Automático:</b> Documento digital generado por el sistema que registra datos de producción, control y mantenimiento.</li>
+    <li><b>Certificación:</b> Reconocimiento oficial que valida el cumplimiento de normas nacionales e internacionales.</li>
+    <li><b>Compliance:</b> Es el conjunto de procesos y buenas prácticas que una organización implementa para asegurarse de cumplir con las leyes, regulaciones y normas éticas aplicables.</li>
+    <li><b>Retail:</b> Se refiere a la venta de productos o servicios directamente al consumidor final en pequeñas cantidades. Este sector incluye tiendas físicas como supermercados y franquicias, así como la venta online.</li>
+    <li><b>Verticalizadas:</b> La verticalización es la estrategia que emplea una empresa con el fin de ser especialista en ventas y comercialización por sector o función de la industria.</li>
+
+  </ul>
+</div>
+
+# Capítulo III: Requirements Specification 
+
+## 3.1. User Stories. 
+<table>
+  <tr>
+    <td align="center"><b>User Story ID</b></td>
+    <td align="center"><b>Título</b></td>
+    <td align="center"><b>Descripción</b></td>
+    <td align="center"><b>Criterios de Aceptación</b></td>
+    <td align="center"><b>Relacionado con (Epic ID)</b></td>
+  </tr>
+  
+  <!-- Consumidor -->
+  <tr>
+    <td align="center">US01</td>
+    <td align="justify">Búsqueda de licores</td>
+    <td align="justify">Como consumidor, quiero buscar un licor en un catálogo digital, para comparar marcas y precios antes de comprar.</td>
+    <td align="justify">El sistema muestra resultados coincidentes con el nombre o categoría buscada.</td>
+    <td align="center">EP01</td>
+  </tr>
+  <tr>
+    <td align="center">US02</td>
+    <td align="justify">Información básica del producto</td>
+    <td align="justify">Como consumidor, quiero ver información básica de un licor (marca, origen, graduación alcohólica y precio), para tomar una mejor decisión de compra.</td>
+    <td align="justify">La app muestra marca, origen, precio y graduación alcohólica en la ficha del producto.</td>
+    <td align="center">EP01</td>
+  </tr>
+  <tr>
+    <td align="center">US03</td>
+    <td align="justify">Verificación del producto</td>
+    <td align="justify">Como consumidor, quiero ver si el producto está verificado, para sentirme seguro al comprar.</td>
+    <td align="justify">El sistema muestra un sello o etiqueta digital de verificación en los productos aprobados.</td>
+    <td align="center">EP02</td>
+  </tr>
+  <tr>
+    <td align="center">US04</td>
+    <td align="justify">Recomendaciones de productos</td>
+    <td align="justify">Como consumidor, quiero recibir recomendaciones básicas, para descubrir nuevos productos.</td>
+    <td align="justify">El sistema sugiere productos relacionados según mis búsquedas o compras anteriores.</td>
+    <td align="center">EP03</td>
+  </tr>
+  <tr>
+    <td align="center">US05</td>
+    <td align="justify">Guardar productos favoritos</td>
+    <td align="justify">Como consumidor, quiero guardar mis productos favoritos en la app, para encontrarlos rápidamente en futuras compras.</td>
+    <td align="justify">El sistema permite marcar y listar los productos favoritos del usuario.</td>
+    <td align="center">EP03</td>
+  </tr>
+  <tr>
+    <td align="center">US06</td>
+    <td align="justify">Alertas de retiro de lotes</td>
+    <td align="justify">Como consumidor, quiero recibir alertas si un lote de licor ha sido retirado del mercado, para evitar consumir un producto riesgoso.</td>
+    <td align="justify">El sistema notifica al usuario cuando un producto que compró o marcó como favorito está en un lote retirado.</td>
+    <td align="center">EP04</td>
+  </tr>
+  <tr>
+    <td align="center">US07</td>
+    <td align="justify">Reportar productos sospechosos</td>
+    <td align="justify">Como consumidor, quiero reportar un producto sospechoso desde la app, para alertar a otros y a las autoridades.</td>
+    <td align="justify">El sistema permite enviar un reporte con foto, descripción y ubicación.</td>
+    <td align="center">EP04</td>
+  </tr>
+  <tr>
+    <td align="center">US08</td>
+    <td align="justify">Compartir reseñas</td>
+    <td align="justify">Como consumidor, quiero compartir reseñas sobre un producto, para ayudar a otros usuarios a elegir mejor.</td>
+    <td align="justify">Los usuarios pueden dejar comentarios y calificaciones visibles para otros.</td>
+    <td align="center">EP03</td>
+  </tr>
+  
+  <!-- Tienda -->
+  <tr>
+    <td align="center">US09</td>
+    <td align="justify">Registro de inventario</td>
+    <td align="justify">Como tienda, quiero subir productos al catálogo, para que los usuarios los vean.</td>
+    <td align="justify">El sistema permite añadir producto con nombre, precio e imagen.</td>
+    <td align="center">EP05</td>
+  </tr>
+  <tr>
+    <td align="center">US10</td>
+    <td align="justify">Edición de inventario</td>
+    <td align="justify">Como tienda, quiero editar la información de un licor, para mantenerla actualizada.</td>
+    <td align="justify">El sistema permite editar precio, stock o descripción.</td>
+    <td align="center">EP05</td>
+  </tr>
+  <tr>
+    <td align="center">US11</td>
+    <td align="justify">Análisis de productos consultados</td>
+    <td align="justify">Como tienda, quiero ver qué productos se consultan más, para entender qué buscan los usuarios.</td>
+    <td align="justify">El sistema genera un listado con los productos más consultados en un período.</td>
+    <td align="center">EP05</td>
+  </tr>
+  
+  <!-- Entidad regulatoria -->
+  <tr>
+    <td align="center">US12</td>
+    <td align="justify">Recepción de reportes</td>
+    <td align="justify">Como entidad regulatoria, quiero recibir reportes de usuarios, para supervisar posibles problemas.</td>
+    <td align="justify">Los reportes se muestran en un panel de control con detalles enviados por usuarios.</td>
+    <td align="center">EP06</td>
+  </tr>
+  <tr>
+    <td align="center">US13</td>
+    <td align="justify">Consultas de productos verificados</td>
+    <td align="justify">Como entidad regulatoria, quiero consultar los productos verificados en la plataforma, para facilitar mi trabajo de control.</td>
+    <td align="justify">El sistema muestra una lista de productos verificados con datos de lote y proveedor.</td>
+    <td align="center">EP06</td>
+  </tr>
+  <tr>
+    <td align="center">US14</td>
+    <td align="justify">Reportes estadísticos</td>
+    <td align="justify">Como entidad regulatoria, quiero generar reportes estadísticos de consumo y adulteración, para tomar decisiones de control más efectivas.</td>
+    <td align="justify">El sistema exporta reportes en PDF o Excel con métricas clave.</td>
+    <td align="center">EP07</td>
+  </tr>
+  <tr>
+    <td align="center">US15</td>
+    <td align="justify">Aprobación de distribuidores</td>
+    <td align="justify">Como entidad regulatoria, quiero aprobar o rechazar registros de nuevos distribuidores, para asegurar que solo operen los autorizados.</td>
+    <td align="justify">El sistema muestra solicitudes pendientes y permite aprobar/rechazar con observaciones.</td>
+    <td align="center">EP07</td>
+  </tr>
+  
+  <!-- Distribuidor -->
+  <tr>
+    <td align="center">US16</td>
+    <td align="justify">Seguimiento de lotes</td>
+    <td align="justify">Como distribuidor, quiero dar seguimiento al lote durante el transporte, para asegurar que llega íntegro al destino.</td>
+    <td align="justify">El sistema muestra la ubicación y estado del lote en tiempo real.</td>
+    <td align="center">EP08</td>
+  </tr>
+</table>
+
+## 3.2. Impact Mapping
+<img src="./imagenes/Impact map 1.png" alt="Impact map">
+
+## 3.3. Product Backlog. 
+
+| **ID** | **User Story / Requerimiento** | **Prioridad** | **Criterio de Aceptación** |
+|--------|--------------------------------|---------------|-----------------------------|
+| PB-01 | Como dueño de fábrica, quiero **monitorear en tiempo real temperatura y humedad para garantizar la calidad de ammbiente. | Alta | El sistema muestra en un dashboard los valores en tiempo real obtenidos de los sensores. |
+| PB-02 | Como operario, quiero **recibir alertas automáticas** cuando la temperatura o humedad salgan de rango, para actuar a tiempo. | Alta | El sistema envía notificaciones inmediatas por correo o app. |
+| PB-03 | Como gerente, quiero **un registro histórico digital de mantenimiento y limpieza de equipos**, para cumplir con auditorías sanitarias. | Alta | Se almacenan registros con fecha, responsable y tipo de mantenimiento. |
+| PB-04 | Como dueño, quiero **gestionar inventario de materias primas y producto terminado**, para evitar faltantes o sobrestock. | Media | Se registra stock inicial, movimientos y se muestran niveles actuales. |
+| PB-05 | Como inspector regulador, quiero **ver reportes de trazabilidad digital**, para validar autenticidad y normativas. | Media | Se genera reporte descargable con datos de producción y stock. |
+| PB-06 | Como gerente, quiero **integrar el sistema con ERP existente**, para unificar procesos de producción y ventas. | Baja | API o exportación de datos hacia ERP en uso. |
+| PB-07 | Como usuario administrador, quiero **configurar umbrales personalizados de sensores**, para adaptar el sistema a mis procesos. | Media | El sistema permite editar valores máximos y mínimos. |
+| PB-08 | Como dueño, quiero **ver gráficos de tendencias históricas**, para analizar la evolución de la producción. | Baja | Se visualizan reportes semanales y mensuales en gráficos. |
+| PB-09 | Como operario, quiero **registrar manualmente incidencias o fallos de equipos**, para complementar la información automática. | Media | Existe un formulario en la app con fecha, descripción y evidencia. |
+| PB-10 | Como regulador, quiero **acceder a un módulo seguro de validación**, para confirmar autenticidad de lotes y certificados. | Baja | Sistema con acceso restringido y validación por código/lote. |
+
+<div style="text-align: justify;">
+
+  <h1>Capítulo IV: Product Design</h1>
+
+  <h2>4.1. Style Guidelines.</h2>
+  <h3>4.1.1. General Style Guidelines.</h3>
+
+  <h1>Branding</h1>
+
+  <h2>Branch Overview</h2>
+  <p>
+    <b>WineSoft</b> es una solución tecnológica diseñada para modernizar y optimizar los procesos en destilerías y plantas de producción de licores.
+    La marca representa <b>innovación, seguridad y tradición</b>, combinando la precisión de la <b>industria 4.0</b> con el arte de la producción licorera.
+  </p>
+
+  <p>
+    Nuestro objetivo es brindar a los productores un sistema confiable de <b>monitoreo y control en tiempo real</b> que garantice calidad, trazabilidad y cumplimiento normativo, reduciendo riesgos y mejorando la eficiencia operativa.
+  </p>
+
+  <p>
+    <b>WineSoft</b> busca posicionarse como un aliado estratégico para la industria licorera, transmitiendo <b>confianza, modernidad y compromiso con la excelencia</b>.
+  </p>
+
+  <hr>
+
+  <h2>Brand Name</h2>
+  <p>
+    El nombre <b>WineSoft</b> nace de la combinación de las palabras:
+  </p>
+  <ul>
+    <li><b>Wine</b> (vino, que representa la tradición, calidad y autenticidad de la industria licorera).</li>
+    <li><b>Soft</b> (tecnología, software y soluciones digitales).</li>
+  </ul>
+
+  <p>
+    Este nombre refleja la esencia de la marca: unir el <b>arte ancestral</b> de la producción de licores con la <b>innovación tecnológica</b>, ofreciendo herramientas inteligentes para el control, monitoreo y optimización de procesos.
+  </p>
+
+  <p>
+    <b>WineSoft</b> transmite un tono <b>profesional, moderno y confiable</b>, buscando posicionarse como un aliado estratégico para las plantas de producción de licores que desean evolucionar hacia la transformación digital <b>sin perder su identidad artesanal</b>.
+  </p>
+
+  <img src="./imagenes/Logo.png" alt="Logo WineSoft" width="400">
+
+  <h1>Colores</h1>
+  <p>
+    Los colores son un elemento clave en la identidad de <b>WineSoft</b>, ya que transmiten tanto el <b>carácter tecnológico</b> de la solución como la <b>conexión con la tradición licorera</b>.
+  </p>
+  <p>
+    Para el diseño del logo y la interfaz visual, se utilizó principalmente el <b>azul oscuro</b>, un color asociado a la <b>tecnología, seguridad y confianza</b>, que refuerza la fiabilidad del sistema de monitoreo inteligente.
+  </p>
+  <p>
+    Este se complementa con el <b>morado</b>, que aporta un tono de <b>innovación y modernidad</b>, y con el <b>vino burdeos</b>, que hace referencia directa al mundo del vino y los licores, evocando <b>calidad, tradición y sofisticación</b>.
+  </p>
+  <p>
+    La paleta se equilibra con el <b>blanco</b>, utilizado para garantizar <b>contraste, legibilidad y limpieza visual</b> en diferentes fondos.
+  </p>
+  <img src="./imagenes/paleta.png" alt="Logo WineSoft" width="400">
+  <h1>Tipografía</h1>
+  <p>
+    La tipografía es un elemento esencial en la identidad visual de <b>WineSoft</b>, ya que transmite <b>modernidad, profesionalismo y claridad</b>.
+  </p>
+  <ul>
+    <li><b>Fuente principal:</b> Inter (alternativamente Roboto o Poppins si no está disponible).</li>
+    <li><b>Estilo predominante:</b> Regular para párrafos y textos explicativos.</li>
+    <li><b>Estilo complementario:</b> Bold y SemiBold para títulos, subtítulos y llamadas a la acción.</li>
+    <li><b>Colores aplicados:</b> Se mantiene la paleta institucional (azul oscuro, púrpura y blanco).</li>
+  </ul>
+
+  ## 4.1.2. Web Style Guidelines.</h3>
+
+  <h1>Imágenes</h1>
+  <p>Las imágenes se utilizarán únicamente con un propósito <b>informativo o funcional</b>:</p>
+  <ul>
+    <li>Foto de perfil en la parte superior derecha, como acceso a la cuenta.</li>
+    <li>Imágenes representativas en cada sección principal.</li>
+    <li>Optimización para pantallas de alta resolución.</li>
+    <li>Fondos limitados a un <b>color sólido</b> para limpieza visual.</li>
+  </ul>
+
+  <h1>Botones</h1>
+  <p>Los botones estarán ubicados en:</p>
+  <ul>
+    <li>La barra superior.</li>
+    <li>Secciones clave como inicio de sesión o mapa de calor.</li>
+  </ul>
+  <p>Funciones:</p>
+  <ul>
+    <li>Abrir ventanas.</li>
+    <li>Confirmar datos.</li>
+    <li>Eliminar registros.</li>
+  </ul>
+  <p>
+    Colores:
+    <ul>
+      <li><b>Verde:</b> inicio de proceso.</li>
+      <li><b>Rojo:</b> finalización o eliminación.</li>
+    </ul>
+  </p>
+
+  <h1>Pantallas Emergentes</h1>
+  <ul>
+    <li>Usarán <b>colores intensos</b> para diferenciarse.</li>
+    <li>Oscurecerán el fondo.</li>
+    <li>Captarán la atención antes de continuar con la navegación.</li>
+  </ul>
+
+  <h1>Diseño</h1>
+  <p>El sitio será <b>responsivo</b> y seguirá el patrón en “Z”:</p>
+  <ol>
+    <li>Logotipo (superior izquierdo).</li>
+    <li>Menú de navegación (superior derecho).</li>
+    <li>Acceso al perfil.</li>
+    <li>Recorrido hacia contenidos y opciones inferiores.</li>
+  </ol>
+
+  <img src="./imagenes/design.png" alt="Impact map" width="700" height="500">
+
+
+
+</div>
+
+## 4.2. Information Architecture.
+### 4.2.1. Organization Systems.
+<div style="text-align: justify;">
+
+  <p>
+    La información se organizará siguiendo un esquema jerárquico que prioriza los datos más relevantes para la gestión de la producción de licores. Este enfoque permite que los usuarios naveguen de forma intuitiva y eficiente. En las pantallas clave, como el inicio de sesión y los paneles de control, los elementos principales (como indicadores críticos de temperatura, humedad o procesos activos) se destacarán con mayor peso visual en comparación con el resto de la información.
+  </p>
+
+  <h3>Esquemas de categorización</h3>
+
+  <p><b>Alfabético:</b><br>
+  Las listas desplegables en WineSoft estarán organizadas alfabéticamente para facilitar la búsqueda y selección. Esto aplica, por ejemplo, a características de personalización de procesos, variedades de licores o nombres de clientes y proveedores registrados en el sistema.</p>
+
+  <p><b>Cronológico:</b><br>
+  Los reportes de producción y control de calidad se presentarán en orden cronológico, lo que permitirá un seguimiento claro de las etapas en fermentación, destilación y maduración. Este esquema resulta clave para generar reportes comparativos y establecer tendencias a lo largo del tiempo.</p>
+
+  <p><b>Por tópicos:</b><br>
+  Las principales funciones de la plataforma estarán representadas con tarjetas visuales e hipervínculos para una navegación más intuitiva. Ejemplo: monitoreo en tiempo real, mantenimiento digital, control de calidad, integración con ERP y reportes analíticos.</p>
+
+  <p><b>Según audiencia:</b><br>
+  Se considera el uso diferenciado de la plataforma para distintos perfiles. Los administradores podrán acceder como pantalla principal a un panel de control global con métricas clave, mientras que los operadores tendrán acceso directo a los parámetros específicos que deben supervisar (temperatura, presión, humedad). De esta forma, cada tipo de usuario interactúa con la información más relevante para sus necesidades.</p>
+
+  <h3>Labeling Systems</h3>
+
+  <p>
+    En WineSoft, las etiquetas cumplirán tanto un rol funcional en la experiencia del usuario como un rol técnico en la optimización SEO, garantizando una navegación clara y una visibilidad adecuada en motores de búsqueda.
+  </p>
+
+  <p><b>Nivel de Experiencia de Usuario (UX):</b><br>
+  Las etiquetas estarán diseñadas para guiar al usuario de forma intuitiva en la plataforma, identificando claramente cada función: monitoreo, reportes, mantenimiento, control de calidad, entre otros.</p>
+
+  <p><b>Nivel SEO:</b><br>
+  Se aplicará un etiquetado interno que permitirá enlazar subpáginas relacionadas, como las de analítica, procesos de producción y módulos de integración. Esto mejorará la indexación en motores de búsqueda.</p>
+
+  <p><b>Palabras Clave y Etiquetado Adecuado:</b><br>
+  Cada sección del sistema (ej. “Fermentación”, “Destilación”, “Reportes Analíticos”) integrará palabras clave relevantes al rubro de producción de licores, distribuidas estratégicamente para evitar duplicidad o competencia interna.</p>
+
+  <p><b>Impacto de las Etiquetas en Menús y Bloques Estáticos:</b><br>
+  Se dará especial atención al uso de etiquetas en menús y secciones fijas de la interfaz, ya que estas son puntos clave de interacción para usuarios como administradores y operadores.</p>
+
+  <hr>
+
+  <h3>Tipos de Etiquetas</h3>
+  <ul>
+    <li><b>Etiquetas Contextuales:</b> Conectarán de manera clara las funciones internas de WineSoft, como el acceso directo a “Monitoreo en tiempo real” o “Mantenimiento programado”.</li>
+    <li><b>Etiquetas de Encabezado:</b> Organizarán jerárquicamente la información en títulos y subtítulos (ejemplo: H1: Panel de Control Global, H2: Monitoreo de Temperatura), facilitando la comprensión de los contenidos.</li>
+    <li><b>Etiquetas con Parámetro ALT:</b> Acompañarán todas las imágenes y gráficos (como diagramas de procesos o dashboards), garantizando accesibilidad para usuarios con lectores de pantalla o en casos de fallas de carga de imágenes.</li>
+  </ul>
+
+  ## 4.2.3. SEO Tags and Meta Tags</h3>
+  <p>
+    Estas etiquetas permiten definir información codificada y metadatos que no se muestran directamente en la interfaz del usuario, pero son fundamentales para el análisis de los archivos HTML y para mejorar el posicionamiento web en buscadores.
+  </p>
+
+  <p><b>Title (Título):</b><br>
+  El título de cada página será claro, descriptivo y atractivo, reflejando el propósito de la sección dentro de WineSoft. Esto ayudará a captar la atención en los motores de búsqueda y a diferenciar cada módulo.<br>
+  <i>Ejemplo:</i> “WineSoft | Monitoreo Inteligente para Plantas de Producción de Licores”</p>
+
+  <p><b>Etiqueta Título:</b><br>
+  <code>&lt;title&gt;WineSoft | Smart Monitoring for Liquor Production&lt;/title&gt;</code></p>
+
+  <p><b>Descripción (Meta Description):</b><br>
+  Se utilizarán descripciones breves y precisas que resuman el contenido de la página, incentivando a los usuarios a visitar la plataforma.<br>
+  <i>Ejemplo:</i> “WineSoft permite a destilerías y plantas de producción de licores optimizar sus procesos con monitoreo en tiempo real, trazabilidad y control de calidad.”</p>
+
+  <p><b>Etiqueta Descripción:</b><br>
+  <code>&lt;meta name="description" content="WineSoft permite a destilerías y plantas de producción de licores optimizar sus procesos con monitoreo en tiempo real, trazabilidad y control de calidad."&gt;</code></p>
+
+  <p><b>Codificación de Caracteres:</b><br>
+  Para asegurar la correcta visualización de caracteres especiales en español e inglés (acentos, eñes, símbolos), se utilizará la siguiente etiqueta de codificación:</p>
+
+  <p><b>Etiqueta Codificación:</b><br>
+  <code>&lt;meta charset="UTF-8"&gt;</code></p>
+
+</div>
+<div style="text-align: justify;">
+
+  <h3>4.2.4 Searching Systems</h3>
+  <p>
+    Se planifica incluir un sistema de búsqueda en la aplicación principal que permita:
+  </p>
+  <ul>
+    <li>Buscar insumos por nombre o categoría (ejemplo: levaduras, granos, barricas, botellas).</li>
+    <li>Filtrar por fecha de caducidad, lote o stock disponible en inventario.</li>
+    <li>Sugerencias automáticas mediante función de autocompletado que reduzca el tiempo de búsqueda.</li>
+    <li>Integración con etiquetas rápidas para búsquedas inmediatas, como “fermentación”, “destilación” o “mantenimiento pendiente”.</li>
+  </ul>
+  <p>
+    Este buscador permitirá a los usuarios (administradores y operadores) localizar información crítica en segundos, reduciendo errores de gestión y mejorando la eficiencia operativa en la planta de producción.
+  </p>
+
+  <hr>
+
+  <h3>4.2.5 Navigation Systems</h3>
+  <p>
+    El sistema de navegación de la landing page de <b>WineSoft</b> se compone de:
+  </p>
+
+  <p><b>Menú principal (Header):</b><br>
+  Ubicado en la parte superior, contiene enlaces ancla hacia las secciones <i>Features</i>, <i>About</i> y <i>Contact</i>. Incluye además un botón para cambiar de idioma (<i>language-switcher</i>) que alterna entre inglés y español, facilitando su uso en mercados internacionales.</p>
+
+  <p><b>Menú móvil (Hamburger menu):</b><br>
+  Para dispositivos con pantallas pequeñas, se implementa un botón tipo hamburguesa que despliega los enlaces en columna (<code>.nav-links.active</code>), manteniendo accesibilidad y simplicidad en la navegación.</p>
+
+  <p><b>Footer:</b><br>
+  Contiene enlaces secundarios organizados en tres columnas:</p>
+  <ul>
+    <li><b>Product:</b> Acceso a módulos clave como Monitoreo, Inventario, Reportes y Automatización.</li>
+    <li><b>Support:</b> Incluye Soporte Técnico, Preguntas Frecuentes y Contacto.</li>
+    <li><b>Company:</b> Presenta información institucional, misión, visión y descripción de la marca WineSoft.</li>
+  </ul>
+
+  <p><b>Interactividad:</b><br>
+  El archivo <code>main.js</code> implementa mejoras en la experiencia de navegación:</p>
+  <ul>
+    <li>Scroll suave al hacer clic en los enlaces para una transición más fluida.</li>
+    <li>El header cambia de estilo visual al desplazarse la página (<code>window.scroll</code> event), reforzando la visibilidad de la navegación.</li>
+    <li>Resaltado dinámico de la sección activa para guiar al usuario dentro del sitio.</li>
+  </ul>
+
+</div>
+
+## 4.3. Landing Page UI Design.
+
+### 4.3.1. Landing Page Wireframe.
+
+<div align="justify">
+  La <b>landing page de WineSoft</b>, diseñada para ser intuitiva y accesible, inicia con una sección de bienvenida que resalta las principales funciones y beneficios del sistema de monitoreo inteligente para plantas de producción de licores; continúa con <b>“Nosotros”</b>, donde se presenta la misión y visión, destacando el compromiso con la innovación, calidad y trazabilidad en la industria licorera; en <b>“Plataforma”</b> se muestra una vista previa de las funcionalidades principales como el monitoreo en tiempo real y los reportes automáticos; la sección <b>“Servicios”</b> explica módulos clave como control de inventario, alertas preventivas, mantenimiento y cumplimiento normativo; en <b>“Planes”</b> se detallan las opciones de suscripción según las necesidades de cada destilería, desde el plan básico hasta la versión premium con integración ERP; y finalmente, en <b>“Contacto”</b> se ofrece un formulario para comunicación directa con el equipo de WineSoft, garantizando soporte técnico personalizado.
+</div>
+
+#### Lading Page Wireframe - Inicio
+
+<img src="./imagenes/Inicio.png" alt="WireFrameLandingInicio">
+
+#### Lading Page Wireframe - Product
+
+<img src="./imagenes/Products.png" alt="WireFrameLandingNosotros">
+
+#### Lading Page Wireframe - Servicios
+
+<img src="./imagenes/Servicios.png" alt="WireFrameLandingServicios">
+
+#### Lading Page Wireframe - Planes
+
+<img src="./imagenes/Planes.png" alt="WireFrameLandingPlanes">
+
+#### Lading Page Wireframe - Contáctanos
+
+<img src="./imagenes/Contact.png" alt="WireFrameLandingContactanos">
+
+### 4.3.2. Landing Page Mock-up.
+
+<div align="justify">
+  El <b>wireframe de la landing page</b> para la vista de escritorio ha sido esencial para estructurar de manera clara los elementos clave del sistema de monitoreo inteligente de plantas de producción de licores. Siguiendo este diseño inicial, se desarrolló el <b>mock-up de la landing page</b>, manteniendo coherencia con la propuesta de valor y los módulos previamente descritos, como el <b>monitoreo en tiempo real</b>, las <b>alertas automáticas</b> y la <b>trazabilidad del inventario</b>. En la imagen siguiente, se aprecia la implementación de la paleta de colores primarios y secundarios seleccionada, junto con la tipografía definida, reflejando una identidad visual moderna y profesional. Esto demuestra la atención al detalle y la consistencia del estilo visual a lo largo del diseño, reforzando la percepción de <b>innovación, confiabilidad y tecnología</b> aplicada al sector licorero.
+</div>
+
+#### Lading Page Mock-up - Inicio
+
+<img src="./imagenes/Inicio1.jpg" alt="Mock-upLandingInicio">
+
+#### Lading Page Mock-up - Product
+
+<img src="./imagenes/Product1.jpg" alt="Mock-upLandingNosotros">
+
+#### Lading Page Mock-up - Servicios
+
+<img src="./imagenes/Service1.jpg" alt="Mock-upLandingApp">
+
+#### Lading Page Mock-up - Planes
+
+<img src="./imagenes/Planes1.jpg" alt="Mock-upLandingPlanes">
+
+#### Lading Page Mock-up - Contáctanos
+
+<img src="./imagenes/Contact1.jpg" alt="Mock-upLandingContactanos">
