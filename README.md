@@ -1286,9 +1286,9 @@ Propósito: Documentación técnica del proyecto, instalación y despliegue.
 
 La gestión de todas las actividades que tendrá la startup de Capa6, se llevaran a cabo en dentro de una organización del aplicativo web Github.
 
-- Organization: https://github.com/1asi0730-2520-7469-Capa6
+- Organization: https://github.com/orgs/PlusTechnical/repositories
 
-- Landing Page Repository: https://github.com/1asi0730-2520-7469-Capa6/WineSoft-LandingPage
+- Landing Page Repository: https://github.com/PlusTechnical/Landing-Page
 
 Asimismo, para llevar un mejor control de los avances que cada uno de los miembros del equipo vaya a entregar, se utilizará la convención de Gitflow donde procederemos a tener buenas prácticas para crear ramas y realizas cambios manteniendo el código consistente y alcanzar una buena comunicación del avance de los proyectos.
 
@@ -1398,3 +1398,61 @@ A continuación, se mencionará algunas convenciones:
 - Emplear espaciado después de comas y operadores.
 
 ### 5.1.4.	Software Deployment Configuration.
+
+## 5.2.	Landing Page, Services & Applications Implementation.
+
+### 5.2.1.	Sprint 1
+
+#### 5.2.1.1.	Sprint Planning 1.
+
+| Sprint # | Sprint 1 |
+|----------|-----------|
+| **Sprint Planning Background** | |
+| Date | 2025-13-07 |
+| Time | 5:36 PM |
+| Location | Discord |
+| Prepared By | Yazid Said Conde |
+| Attendees (to planning meeting) | Oscar Diego Checa Burga, Christofer William Costa Morales, July Zelmira Paico Calderon  |
+
+| Sprint 0 Review Summary | Al ser el primer sprint del proyecto, no se cuenta con un sprint previo que permita realizar un review summary. |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Sprint 0 Retrospective Summary | Al ser el primer sprint, no se cuenta con retrospectiva previa. Se definió como meta inicial el desarrollo e implementación de la Landing Page de Winesoft. |
+
+| **Sprint Goal & User Stories** | |
+|--------------------------------|--|
+| Sprint 1 Goal | Desarrollar e implementar la Landing Page de Winesoft utilizando HTML5, CSS3 y JavaScript, siguiendo el diseño en Figma y desplegándola en GitHub Pages. |
+| Sprint 1 Velocity | 17 |
+| Sum of Story Points | 17 |
+
+
+#### 5.2.1.2.   Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page (L/C) | Responsive Design (L/C) | Comparador de Planes (L/C) | Switcher de Idiomas (L/C) | Footer (L/C) |
+|-------------------------------------|-----------------|---------------------|--------------------------|-----------------------------|----------------------------|---------------|
+| Checa Burga, Oscar Diego      | OscarCheca    | C                   | L                        | C                           | C                          | L             |
+| Conde, Yazid Said                   | BL4Z3K4D        | C                   | C                        | L                           | C                          | C             |
+| Paico Calderon, July Zelmira      | July.Paico      | C                   | C                        | C                           | L                          | C             |
+| Costa Morales, Christofer William | miniChorri  | L                   | C                        | C                           | C                          | C             |
+
+
+#### 5.2.1.3.	Sprint Backlog 1.
+
+| Sprint # | Sprint 1 |
+|----------|-----------|
+| **User Story** | | **Work-item/Task** | | | | | |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do/In-Process/To-Review/Done) |
+|----|-------|----|-------|-------------|---------------------|-------------|------------------------------------------|
+| US-01 | Landing Page informativa | UT-01 | Hero Section | Implementar el slogan y el botón de redireccionamiento de la aplicación, junto con la imagen representativa de Winesoft | 2 | Oscar Diego Checa Burga | Done |
+|      |                           | UT-02 | About Section | Agregar la descripción detallada de la aplicación Winesoft | 1 | Oscar Diego Checa Burga | Done |
+| US-02 | Responsive Design | UT-03 | Responsive Web Design | Añadir los media queries necesarios para que la Landing Page sea adaptable a diferentes dispositivos | 2 | Oscar Diego Checa Burga | Done |
+| US-03 | Comparador de Planes | UT-04 | Choose Plan Section | Implementar las cards que definan los diferentes planes que ofrece Winesoft con sus beneficios | 2 | Yazid Said Conde | Done |
+| US-04 | Switcher de Idiomas | UT-05 | Botón de cambio de idiomas | Implementar el botón para realizar el cambio de idioma entre español e inglés | 2 | Christofer William Costa Morales| Done |
+| US-05 | Tema de Colores | UT-06 | Selección de colores | Aplicar colores representativos de Winesoft al Landing Page | 1 | July Zelmira Paico Calderon | Done |
+|      |                           | UT-07 | Footer Colors | Aplicar los colores seleccionados al Footer Section | 1 | Angelo Stephano Moscoso Bejar | Done |
+| US-06 | Vista de Developers | UT-08 | Development Section | Agregar los diferentes roles que cada miembro del equipo Winesoft cumplió dentro de la aplicación | 2 | Christofer William Costa Morales | Done |
+|      |                           | UT-09 | Developers Images Section | Colocar las imágenes de cada miembro del equipo | 1 | July Zelmira Paico Calderon | Done |
+| US-07 | Footer informativo | UT-10 | Footer Section | Implementar Footer Section con links correspondientes | 2 | Yazid Said Conde | Done |
+|      |                           | UT-11 | Responsive Footer | Agregar diseño responsive al Footer Section | 2 | Christofer William Costa Morales | Done |
+
+
+
