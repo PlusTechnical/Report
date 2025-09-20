@@ -30,13 +30,17 @@
 </div>
 
 <div>
-<p>Para este informe se dividio de la siguiente forma para cada integrante del grupo:</p>
+<p>Para este informe se dividio de la siguiente forma para cada integrante del grupo:
+</p>
   
   ## 
   
   |  Integrantes   | Tarea asignada |
   |:--------------:|:--------------:|
-  | Yazid Said Conde |    |
+  | Yazid Said Conde |  Report capitulo 1  |
+  | Oscar Diego Checa Burga |  Report capitulo 2 y 5 |
+  | Christofer William Costa Morales|  Report capitulo 3  |
+  | July Zelmira Paico Calderon |  Report capitulo 4  |
 
   ## Tabla de Contenidos
 
@@ -152,8 +156,8 @@ El proyecto surge como respuesta a la necesidad de modernizar procesos en negoci
 | Said Conde, Yazid                | Ingenieria de Software <br>Universidad Peruana de Ciencias Aplicadas          | ![Yazid Said](./imagenes/foto%20yazid.jpg)  | Conocimientos en lenguajes de Programación como C++, Java, HTML, CSS, JavaScriptm, Python y C#.<br>Me considero que soy una persona muy trabajadora, responsable, puntual y respetuoso.                                                                                                                                                                                                                                                                                                                                                               |
 | Christofer William Costa Morales | Ingeniería de Software<br>2024-1<br>Universidad Peruana de Ciencias Aplicadas | ![Christofer](./imagenes/Christoferjpg.jpg) | Principales conocimientos técnicos y habilidades: Conocimientos en programación C++, edición de videos en canvas, experiencia con los formatos Start up y conocimiento con los programas de Office, como Excel.                                                                                                                                                                                                                                                                                                                                       |
 | Oscar Checa                      | Ingenieria de Software <br>Universidad Peruana de Ciencias Aplicadas          | ![Oscar Checa](./imagenes/Oscarjpg.jpg)     | Me considero una persona responsable y paciente. Tengo conocimientos en C++, Python y un poco de JavaScript.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Joan Fernando Teves Samaniego    | Ingenieria de Software <br>Universidad Peruana de Ciencias Aplicadas          | ![Joan Fernando](./imagenes/foto%20joan.jpg) | Tengo 22 años estoy estudiando actualmente en la Univeridad Peruana de Ciencias Aplicadas. Tengo interes por el mundo de la cibersegurirdad y el primer paso es enteder al derecho y al revez las aplicaciones web , se c++ , javascript , html , css , mongodb ,sql , sqlserver , posgresql,python, soy creativo , responsable , trabajo en equipo , me gusta resolver problemas   me adaptofacilmente y gestiono muy bien mi tiempo.Espero que en este proyecto pueda incrementar mis habilidades y conocimiento sobre las aplicaciones web y demas . |
-| July Zelmira Paico Calderon      | Ingeniería de Software <br>Universidad Peruana de Ciencias Aplicadas          | ![July Paico](./imagenes/July-paico.png)    | Conocimientos en lenguajes de Programación como C++, Java, HTML, CSS, JavaScript, Python y C#.<br> Me gusta mucho la gestión de proyectos y organizar mi tiempo para alcanzar los objetivos planteados. En mis tiempos libres suelo aprender cosas nuevas en plataformas en línea y así fortalecer mi aprendizaje.                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                     |
+| July Zelmira Paico Calderon   | Ingeniería de Software <br>Universidad Peruana de Ciencias Aplicadas     | ![July Paico](./imagenes/July-paico.png) | Conocimientos en lenguajes de Programación como C++, Java, HTML, CSS, JavaScript, Python y C#.<br> Me gusta mucho la gestión de proyectos y organizar mi tiempo para alcanzar los objetivos planteados. En mis tiempos libres suelo aprender cosas nuevas en plataformas en línea y así fortalecer mi aprendizaje.|
+                                                                                                                                      
 
 ## 1.2. Solution Profile
 
