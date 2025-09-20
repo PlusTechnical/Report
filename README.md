@@ -1217,3 +1217,246 @@ El análisis del User Task Matrix evidencia que, para los dueños de licorerías
 #### Lading Page Mock-up - Contáctanos
 
 <img src="./imagenes/Contact1.jpg" alt="Mock-upLandingContactanos">
+
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management.
+
+### 5.1.1.	Software Development Environment Configuration.
+
+En esta sección se especifican los productos de software que el equipo debe utilizar para garantizar la correcta colaboración y el desarrollo del proyecto WineSoft, indicando su propósito de uso, así como las rutas de referencia o descarga correspondientes.
+
+### Project Management
+
+**Producto: Trello**
+
+Propósito: Organización de tareas, planificación de sprints y seguimiento del progreso del proyecto mediante tableros Kanban.
+
+**Ruta de referencia: https://trello.com**
+
+**Producto: GitHub Projects**
+
+Propósito: Seguimiento del flujo de trabajo en el mismo entorno de control de versiones, vinculando issues, pull requests y milestones.
+
+**Ruta de referencia: https://github.com**
+
+### Requirements Management
+
+**Producto: Google Drive (Documentos de Google)**
+
+Propósito: Redacción, gestión colaborativa y versionamiento de especificaciones de requerimientos.
+
+**Ruta de referencia: https://drive.google.com**
+
+### Product UX/UI Design
+
+**Producto: Figma**
+
+Propósito: Diseño de interfaces de usuario y prototipos interactivos para la landing page.
+
+**Ruta de referencia: https://figma.com**
+
+### Software Development
+
+**Producto: Visual Studio Code**
+
+Propósito: Editor de código principal para la implementación de la landing page (HTML, CSS, JavaScript).
+
+**Ruta de descarga: https://code.visualstudio.com**
+
+**Producto: Git**
+
+Propósito: Control de versiones y gestión de ramas del repositorio.
+
+**Ruta de descarga: https://git-scm.com/downloads**
+
+### Software Deployment
+
+**Producto: GitHub Pages**
+
+Propósito: Hospedaje gratuito de la landing page de WineSoft, con integración continua desde el repositorio principal.
+
+**Ruta de referencia: https://pages.github.com**
+
+### Software Documentation
+
+**Producto: Markdown (README en GitHub)**
+
+Propósito: Documentación técnica del proyecto, instalación y despliegue.
+
+**Ruta de referencia: https://github.com**
+
+### 5.1.2.	Source Code Management.
+
+La gestión de todas las actividades que tendrá la startup de Capa6, se llevaran a cabo en dentro de una organización del aplicativo web Github.
+
+- Organization: https://github.com/orgs/PlusTechnical/repositories
+
+- Landing Page Repository: https://github.com/PlusTechnical/Landing-Page
+
+Asimismo, para llevar un mejor control de los avances que cada uno de los miembros del equipo vaya a entregar, se utilizará la convención de Gitflow donde procederemos a tener buenas prácticas para crear ramas y realizas cambios manteniendo el código consistente y alcanzar una buena comunicación del avance de los proyectos.
+
+Con esto mencionado, definiremos nuestras 2 ramas principales, de las cuales vendrían a ser main y develop.
+
+- **main:** es la rama donde definiremos las versiones oficiales de nuestro repositorio que ya deben pasar a producción.
+
+- **develop:** es la rama que se utilizará como rama de integración para cada uno de los "features" branches. Una vez que el head alcance un estado estable y el equipo considere que ya está listo para ser lanzado, se unificará con la rama release.
+
+**Ramas complementarias:**
+
+- **feature:** aquí trabajaremos cada uno de los features que se unirán a la rama develop. Estas mismas segmentarán cada una de las características que piden los usuarios tanto en la landing page como web application.
+
+- **release:** esta rama se utilizará para preparar el lanzamiento de una nueva versión en la rama main. Allí mismo, se corregirán pequeños bugs; liberando así en la rama develop estas preparaciones evitando así el retraso en el desarrollo mientras se prepara un nuevo lanzamiento.
+
+- **hotfix:** se utilizará cuando la última versión de la rama main necesite actualizarse debido a bugs críticos que no puede esperar a un siguiente lanzamiento para resolverse.
+
+**Commit Conventions:**
+
+El formato de nuestros commits sigue la estructura de los "Conventional Commits" en su versión 1.0.0 (https://www.conventionalcommits.org/en/v1.0.0/) con el objetivo de proporcionar una lectura simple de los mismos que vayamos indicando. Este seguirá el siguiente formato:
+
+```
+<type>[optional scope]: <description>
+```
+Donde:
+
+- type: especifica el tipo de cambio realizado (si es docs, feat, fix, entre otros).
+
+- scope: define el alcance que tiene nuestro commit.
+
+- description: se define una breve descripción de los cambios que sufrió o se implementaron en el código.
+
+**Release Versioning Conventions:**
+
+Para el formato de versiones se aplicará "Semantic Versioning 2.0.0", donde cada unas de las versiones siguen el formato (X, Y, Z).
+
+A continuación, se desarrollarán cada uno de estos formatos:
+
+- X: representa una versión mayor. Aquí se ubican todos los cambios relacionados que no son compatibles con las versiones anteriores. Empezando desde 0 para el desarrollo inicial y 1 cuando esté disponible al público para ser usado. Por convención Y y Z, estas se reinician a 0 cuando incrementan.
+
+- Y: representa una versión menor. Aquí se encuentran los cambios que sí son compatibles con versiones anteriores. Adicional a ello, se incluirán los commits desde la rama release cada vez que se integren nuevas funcionalidades. Por convención, Z se reiniciará a 0 cuando este incremente.
+
+- Z: representa los parches y correcciones menores. Aquí se incluyen los commits realizados desde la rama hotfix que se acaban haciendo merge a la rama main.
+
+### 5.1.3.	Source Code Style Guide & Conventions.
+
+Para lo que respecta el desarrollo de la parte de HTML y CSS se utilizará Google HTML/CSS Style Guide, ya que estos contienen convenciones que se deben tomar en cuenta al momento de trabajar con dichas tecnologías. Para informarnos acerca de las buenas prácticas de uso, accederemos mediante el siguiente el enlace: https://google.github.io/styleguide/htmlcssguide.html. Entre algunas de estas convenciones mencionaremos las siguientes:
+
+Siempre declarar el tipo de documento <!DOCTYPE html> al inicio del documento HTML.
+
+Usar siempre letras en minúsculas para los nombres de los elementos (como &lt;h1&gt;, &lt;p&gt;, &lt;footer&gt;, etc).
+
+- Cerrar siempre con los elementos de HTML (por ejemplo: &lt;h1&gt;&lt;/h1&gt;).
+- Siempre colocar entre comillas los atributos dentro de un elemento HTML (&lt;h1 class="name"&gt;&lt;/h1&gt;).
+- Declarar los atributos alt, width and height para imágenes.
+- Estandarizar tanto el espaciado y signo de manera igualitaria.
+- Evitar líneas de código extensas.
+- No olvidar declarar el &lt;title&gt;&lt;title&gt; en apartado del &lt;head&gt;&lt;/head&gt; (ubicado al inicio del documento HTML).
+
+Utilizar meta tags al inicio del documento.
+
+Para el caso del lenguaje JavaScript, se usará la guía de estilos brindada por nuestros amigos de Google mediante el siguiente repositorio de Github: https://google.github.io/styleguide/jsguide.html#file-name. Aquí se presentarán las siguientes convenciones:
+
+- Nombrar las variables y funciones con camelcase.
+- Usar espaciados después de una coma o dos puntos.
+- Utilizar comillas simples para los tipos de datos String.
+- Usar el punto y coma al final de cada sentencia.
+- Evitar declarar variables var; en su lugar, utilizar let o const para mitigar errores en variables y valores la momento de acceder a ellos.
+
+Para el lenguaje Gherkin se usará las conveciones Make Your Gherkin Specifications More Readable con el objetivo de utilizar buenas prácticas que nos permitan entender con exactitud lo desarrollado. Los archivos creados tendrán la extensión .feature. Para conocer más acerca de la forma de escribir en el lenguaje Gherkin, utilizaremos el siguiente enlace: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/. A continuación, se presentarán las siguientes convenciones:
+
+- Escribir especificaciones en lenguaje simple y fácil de comprender para todos los miembros del equipo.
+- Utilizar las palabras reservadas "Given, When, When y And" para redactar los pasos del Scenario.
+- Usar verbos finitos para las acciones del Scenario.
+- Evitar redundancias en el detalle de los pasos en el Scenario.
+- Usar un formato consistente en la especificación para todos los Scenarios.
+
+Para el desarrollo, utilizaremos Vue JS del cual tiene tomaremos como referencia las convenciones definidas por el equipo de desarrollo de Vue. El objetivo principal que este tiene, el generar el mantenimiento del sistema. Del mismo modo, se puede visualizar dichas convenciones en el siguiente enlace: https://vuejs.org. A continuación, presentaremos aglunas convenciones esenciales de Vue JS:
+
+- Los nombres de los componentes siempre deben tener palabras (Vue.component('todo-item', {...})), excepto en los componentes raíz y los componentes integrados de Vue, como &lt;transition&gt; o &lt;component&gt;.
+- El componente data siempre es una función y retorna valores.
+- Definir los detalles de las propiedades como el status con sus subdetalles.
+- Usar siempre ".key" con "v-for".
+- Evitar juntar "v-if" con "v-for" en un mismo scope.
+
+Para el uso de C#, Microsoft provee una guía de estilos bastante completa la cual nos permitirá aplicar estándares que sus propios desarrolladores implementan. Se puede conocer más sobre esto en el siguiente link: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions.
+
+Entre algunas convenciones podemos mencionar:
+- Al declarar una clase, estructura o record, hay que nombrarlo mediante el estilo de nombre Pascal Case.
+- Al declarar parámetros, hay que nombrarlos con Camel Case y utilzar el prefijo con el guión abajo "_".
+- Realizar comentarios en una nueva línea de código, no al final de una linea. Además, evitar el uso excesivo de comentarios.
+- Respetar el espaciado después de una coma y operadores.
+- Las llaves deben ir en una nueva línea nueva al declarar una nueva clase, estructura, etc.
+
+Finalmente, para lo que respecta .NET Framework, también perteneciente a Microsoft, este provee una guía de estilos bastante completa de las cúales abarcan varias nociones involucradas en el uso de este framework. Se puede acceder a la guía desde el siguiente enlace: https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines#coding-guidelines.
+
+A continuación, se mencionará algunas convenciones:
+
+- Todos los archivos source deben tener los comentarios de las licencias de .NET:
+```
+// Copyright (c) .NET Foundation. All Rights reserved.
+// Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.
+```
+- Evitar ".this" a menos que sea un caso excepcional.
+- Siempre especificar la visibilidad de los miembros (private, public).
+- Las llaves van en una nueva línea separada dek código.
+- Emplear espaciado después de comas y operadores.
+
+### 5.1.4.	Software Deployment Configuration.
+
+## 5.2.	Landing Page, Services & Applications Implementation.
+
+### 5.2.1.	Sprint 1
+
+#### 5.2.1.1.	Sprint Planning 1.
+
+| Sprint # | Sprint 1 |
+|----------|-----------|
+| **Sprint Planning Background** | |
+| Date | 2025-13-07 |
+| Time | 5:36 PM |
+| Location | Discord |
+| Prepared By | Yazid Said Conde |
+| Attendees (to planning meeting) | Oscar Diego Checa Burga, Christofer William Costa Morales, July Zelmira Paico Calderon  |
+
+| Sprint 0 Review Summary | Al ser el primer sprint del proyecto, no se cuenta con un sprint previo que permita realizar un review summary. |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| Sprint 0 Retrospective Summary | Al ser el primer sprint, no se cuenta con retrospectiva previa. Se definió como meta inicial el desarrollo e implementación de la Landing Page de Winesoft. |
+
+| **Sprint Goal & User Stories** | |
+|--------------------------------|--|
+| Sprint 1 Goal | Desarrollar e implementar la Landing Page de Winesoft utilizando HTML5, CSS3 y JavaScript, siguiendo el diseño en Figma y desplegándola en GitHub Pages. |
+| Sprint 1 Velocity | 17 |
+| Sum of Story Points | 17 |
+
+
+#### 5.2.1.2.   Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page (L/C) | Responsive Design (L/C) | Comparador de Planes (L/C) | Switcher de Idiomas (L/C) | Footer (L/C) |
+|-------------------------------------|-----------------|---------------------|--------------------------|-----------------------------|----------------------------|---------------|
+| Checa Burga, Oscar Diego      | OscarCheca    | C                   | L                        | C                           | C                          | L             |
+| Conde, Yazid Said                   | BL4Z3K4D        | C                   | C                        | L                           | C                          | C             |
+| Paico Calderon, July Zelmira      | July.Paico      | C                   | C                        | C                           | L                          | C             |
+| Costa Morales, Christofer William | miniChorri  | L                   | C                        | C                           | C                          | C             |
+
+
+#### 5.2.1.3.	Sprint Backlog 1.
+
+| Sprint # | Sprint 1 |
+|----------|-----------|
+| **User Story** | | **Work-item/Task** | | | | | |
+| ID | Title | ID | Title | Description | Estimation (Hours) | Assigned To | Status (To-do/In-Process/To-Review/Done) |
+|----|-------|----|-------|-------------|---------------------|-------------|------------------------------------------|
+| US-01 | Landing Page informativa | UT-01 | Hero Section | Implementar el slogan y el botón de redireccionamiento de la aplicación, junto con la imagen representativa de Winesoft | 2 | Oscar Diego Checa Burga | Done |
+|      |                           | UT-02 | About Section | Agregar la descripción detallada de la aplicación Winesoft | 1 | Oscar Diego Checa Burga | Done |
+| US-02 | Responsive Design | UT-03 | Responsive Web Design | Añadir los media queries necesarios para que la Landing Page sea adaptable a diferentes dispositivos | 2 | Oscar Diego Checa Burga | Done |
+| US-03 | Comparador de Planes | UT-04 | Choose Plan Section | Implementar las cards que definan los diferentes planes que ofrece Winesoft con sus beneficios | 2 | Yazid Said Conde | Done |
+| US-04 | Switcher de Idiomas | UT-05 | Botón de cambio de idiomas | Implementar el botón para realizar el cambio de idioma entre español e inglés | 2 | Christofer William Costa Morales| Done |
+| US-05 | Tema de Colores | UT-06 | Selección de colores | Aplicar colores representativos de Winesoft al Landing Page | 1 | July Zelmira Paico Calderon | Done |
+|      |                           | UT-07 | Footer Colors | Aplicar los colores seleccionados al Footer Section | 1 | Angelo Stephano Moscoso Bejar | Done |
+| US-06 | Vista de Developers | UT-08 | Development Section | Agregar los diferentes roles que cada miembro del equipo Winesoft cumplió dentro de la aplicación | 2 | Christofer William Costa Morales | Done |
+|      |                           | UT-09 | Developers Images Section | Colocar las imágenes de cada miembro del equipo | 1 | July Zelmira Paico Calderon | Done |
+| US-07 | Footer informativo | UT-10 | Footer Section | Implementar Footer Section con links correspondientes | 2 | Yazid Said Conde | Done |
+|      |                           | UT-11 | Responsive Footer | Agregar diseño responsive al Footer Section | 2 | Christofer William Costa Morales | Done |
+
+
+
