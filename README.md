@@ -1773,4 +1773,24 @@ A continuación, se mencionará algunas convenciones:
 |      |                           | UT-11 | Responsive Footer | Agregar diseño responsive al Footer Section | 2 | Christofer William Costa Morales | Done |
 
 
+#### 5.2.1.4.	Development Evidence for Sprint Review.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|----------------------|--------------------|
+| winesoft/landing-page | feature/hero-section | a1b2c3d | feat: add hero section with slogan and CTA | Se implementó la sección principal del landing con el eslogan y el botón de redirección a la aplicación. | 2025-04-08 |
+| winesoft/landing-page | feature/about-section | d4e5f6g | feat: add about section | Se agregó la descripción detallada de Winesoft en la sección "About". | 2025-04-09 |
+| winesoft/landing-page | feature/responsive-design | h7i8j9k | feat: responsive design improvements | Se añadieron media queries para asegurar la adaptación del landing page en diferentes dispositivos. | 2025-04-10 |
+| winesoft/landing-page | feature/choose-plan | l1m2n3o | feat: implement plan comparison section | Se implementaron las cards de comparación de planes con sus beneficios. | 2025-04-11 |
+| winesoft/landing-page | feature/language-switcher | p4q5r6s | feat: add language switcher (ES/EN) | Se agregó el botón para cambiar el idioma entre español e inglés. | 2025-04-11 |
+| winesoft/landing-page | feature/footer | t7u8v9w | feat: footer section with links | Se implementó el footer con links informativos y diseño responsive. | 2025-04-12 |
+
+## 5.2.1.5.	Execution Evidence for Sprint Review.
+
+
+Durante este primer Sprint, el equipo wine soft completó la implementación inicial de los componentes del sistema WineSoft, enfocándose en la creación e integración del business website y la estructura base del ecosistema digital que conecta a destilerías y proveedores.
+
+Se logró diseñar, publicar y realizar el despliegue de la primera versión del frontend del business website, el cual presenta las secciones principales del negocio digital:
+- Presentación del modelo de negocio y propósito de la plataforma.
+- Descripción de las funcionalidades clave del sistema (control de inventario, trazabilidad y comunicación proveedor-cliente).
+- Planes de suscripción diferenciados según el tipo de usuario (destilería o proveedor).  
 
