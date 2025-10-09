@@ -528,74 +528,72 @@ WineSoft apuesta por una identidad sólida vinculada con la formalidad, la innov
 - Posicionarse como un aliado tanto de empresarios como de entidades reguladoras, fomentando comunidad alrededor de la transparencia en el mercado de licores.  
 
 ## 2.2. Entrevistas.
- ## 2.2.1. Diseño de entrevistas
+## 2.2.1. Diseño de entrevistas
 Para el desarrollo de las entrevistas de nuestros segmentos objetivos, se pensaron en las siguientes preguntas:
- ### Preguntas utilizadas para las entrevistas según el segmento objetivo:
+### Preguntas utilizadas para las entrevistas según el segmento objetivo:
  
-- **Dueño de licorerias**
+## Preguntas utilizadas para las entrevistas según el segmento objetivo:
 
-  - 1. ¿Qué tipo de bebidas representan la mayor parte de sus ventas?
+## Dueño de licorerias
 
-  - 2. ¿Cuáles son los productos que más rápido se agotan y cuáles suelen quedarse en stock?
+### Preguntas Demográficas:
 
-  - 3. ¿Ha detectado cambios recientes en las preferencias de sus clientes?
+- ¿Cuál es su nombre?
+- ¿Qué edad tiene?
+- ¿Cuál es su género?
+- ¿Cuál es su distrito/provincia de residencia?
+- ¿Cuál es su ocupación?
+  
+### Preguntas principales:
 
-  - 4. ¿Cómo decide qué nuevos productos incorporar a su catálogo?
+- ¿Qué tipo de bebidas representan la mayor parte de sus ventas?
+- ¿Cuáles son los productos que más rápido se agotan y cuáles suelen quedarse en stock?
+- ¿Cómo decide qué nuevos productos incorporar a su catálogo?
+- ¿Qué dificultades encuentra al momento de controlar inventario o pedidos?
+- ¿Cuánto tiempo le toma normalmente reponer stock y coordinar con proveedores?
+- ¿Cómo maneja el registro de ventas: manual, hojas de cálculo o algún sistema digital?
+- ¿Le interesaría contar con un sistema que le permita tener control en tiempo real del stock?
+- ¿Le ayudaría un sistema que lo conecte directamente con proveedores autorizados para simplificar la reposición?
+- ¿Cree que un software como WineSoft podría ahorrarle tiempo administrativo para dedicarse más a sus clientes?
+  
+### Preguntas complementarias:
 
-  - **Sobre la gestión del negocio**
+- ¿Qué tan valioso sería para usted recibir reportes automáticos de los productos más vendidos y menos rotativos?
+- ¿Qué tanto le impacta la informalidad o competencia desleal en precios y productos adulterados?
+- ¿Ha detectado cambios recientes en las preferencias de sus clientes?
+  
+## Proveedores del sector licorero
 
-  - 5. ¿Qué dificultades encuentra al momento de controlar inventario o pedidos?
+### Preguntas Demográficas:
 
-  - 6. ¿Cuánto tiempo le toma normalmente reponer stock y coordinar con proveedores?
+- ¿Cuál es su nombre?
+- ¿Qué edad tiene?
+- ¿Cuál es su género?
+- ¿Cuál es su distrito/provincia de residencia?
+- ¿Por qué decidió trabajar en el rubro de proveedores para destilerías o licorerías?
+  
+### Preguntas principales:
 
-  - 7. ¿Cómo maneja el registro de ventas: manual, hojas de cálculo o algún sistema digital?
+- ¿Cuáles son los principales productos o servicios que ofrece a las destilerías?
+- ¿Cómo gestionan la trazabilidad de sus productos desde el origen hasta la entrega?
+- ¿Con qué frecuencia reciben pedidos o demandas de sus productos por parte de las licorerías?
+- ¿Cuáles considera que son los mayores retos logísticos que enfrentan actualmente?
+- ¿Qué nivel de digitalización tiene su gestión de inventario y pedidos?
+- ¿Cómo evalúan la importancia de cumplir con las normativas sanitarias en su rubro?
+- ¿Cuál es su percepción sobre la adopción de herramientas digitales dentro del rubro proveedor-destilería?
+- ¿Qué beneficios o barreras identifica en el uso de plataformas tecnológicas para la gestión de pedidos y trazabilidad?
+- ¿Cómo perciben el impacto que puede tener un fallo o retraso en su cadena de suministros?
+- ¿Estaría interesado en utilizar una plataforma digital que centralice los pedidos, gestione la trazabilidad de los productos y optimice la comunicación con las licorerías?
+- ¿Qué tan dispuesto estaría a compartir información sobre la calidad o procedencia de sus insumos con sus clientes (licorerías o destilerías)?
+- ¿Estaría interesado en utilizar una plataforma digital que centralice los pedidos, gestione la trazabilidad de los productos y optimice la comunicación con las licorerías?
+  
+### Preguntas complementarias:
 
-  - 8. ¿Qué tanto le impacta la informalidad o competencia desleal en precios y productos adulterados?
-
-  - **Preguntas sobre el beneficio de usar WineSoft**
-
-  - 9. ¿Le interesaría contar con un sistema que le permita tener control en tiempo real del stock y las ventas?
-
-  - 10. ¿Qué tan valioso sería para usted recibir reportes automáticos de los productos más vendidos y menos rotativos?
-
-  - 11. ¿Le ayudaría un sistema que lo conecte directamente con proveedores autorizados para simplificar la reposición?
-
-  - 12. ¿Cree que un software como WineSoft podría ahorrarle tiempo administrativo para dedicarse más a sus clientes?
-
-- **Entidad regulatoria**
-
-  - 1. ¿Cuáles son las principales normas que regulan el funcionamiento de licorerías en cuanto a horarios, licencias y venta responsable?
-
-  - 2. ¿Qué dificultades enfrentan al supervisar el cumplimiento de estas normas en pequeños negocios?
-
-  - 3. ¿Cómo se asegura actualmente la trazabilidad y autenticidad de las bebidas alcohólicas en el mercado?
-
-  - 4. ¿Cuáles son las sanciones más comunes que aplican a las licorerías que incumplen las normas?
-
-  - **Sobre retos del sector**
-
-  - 5. ¿Qué tan grande es el problema de la informalidad y el contrabando en este rubro?
-
-  - 6. ¿Existen datos sobre cuántas licorerías están formalizadas vs. cuántas operan sin licencia?
-
-  - 7. ¿Qué impacto tiene la venta de alcohol sin control en la seguridad ciudadana y la salud pública?
-
-  - **Sobre relación con dueños de licorerías**
-  - 8. ¿Qué facilidades ofrece la entidad para que los dueños se formalicen de manera rápida y sencilla?
-
-  - 9. ¿Se cuenta con programas de capacitación o campañas para orientar a los negocios sobre las regulaciones vigentes?
-
-  - 10. ¿Cómo manejan las quejas o reclamos de dueños de licorerías respecto a las fiscalizaciones?
-
-  - **Sobre futuro y digitalización con WineSoft**
-
-  - 11. ¿Consideran que la digitalización de la gestión de licorerías podría facilitar la fiscalización y el cumplimiento normativo?
-
-  - 12. ¿Un sistema como WineSoft, que centralice inventarios, ventas y relación con proveedores autorizados, podría servir de apoyo para reducir la informalidad?
-
-  - 13. ¿La entidad estaría dispuesta a integrarse o colaborar con plataformas tecnológicas para mejorar la trazabilidad y control del mercado de alcohol?
-
-  - 14. ¿Qué expectativas tiene la entidad sobre el uso de tecnología en los próximos 5 años para este sector?
+- ¿Qué tipo de valor agregado buscan transmitir en su relación con los socios comerciales o licorerías?
+- ¿Con qué frecuencia reciben solicitudes de personalización de productos por parte de las licorerías o clientes?
+- ¿Qué tipo de información considera más valiosa sobre sus producto?
+- ¿Qué dificultades enfrentan al realizar servicios de transporte o entrega en zonas alejadas?
+- ¿Qué mejoras considera necesarias en la relación entre proveedores y licorerías?
 
  ##  2.2.2. Registro de entrevistas
 A continuación, se presentará un resumen de cada entrevista. Además, por cada entrevista se colocará una captura de pantalla de evidencia y el intervalo de tiempo de duración que tienen en el video.
@@ -668,6 +666,7 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 - Señaló que la informalidad y el contrabando generan pérdidas tributarias y riesgos para la salud pública, reflejados en intoxicaciones y ventas a menores. Sin embargo, también destacó que existen avances como las ventanillas digitales y los registros en línea, que facilitan los trámites a los dueños de negocios. Asimismo, mencionó que se realizan campañas de capacitación y operativos preventivos.
 
 - Respecto al futuro, afirmó que la digitalización es clave para mejorar la fiscalización, ya que facilita cruces de datos y la trazabilidad. Consideró que un software como WineSoft puede ser muy útil, siempre que valide proveedores, registre ventas en tiempo real y garantice la protección de datos. A mediano plazo, proyecta que habrá más interoperabilidad entre entidades públicas, mejor trazabilidad digital y fiscalizaciones más focalizadas.
+  
 ## 2.2.3. Análisis de entrevistas  
 ### Segmento 1: Dueños de licorerías y destilerías (N=3)  
 
@@ -766,6 +765,7 @@ La entidad reguladora reconoce como principales retos la informalidad (40–50% 
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
+
 Con el propósito de garantizar una comprensión profunda y precisa de los segmentos identificados como clave para nuestro proyecto, hemos llevado a cabo un proceso estructurado y cuidadoso de creación de User Personas. Este procedimiento nos permitió definir un perfil específico y representativo para cada segmento objetivo, lo que nos brinda una perspectiva más clara y detallada de nuestros usuarios. De esta manera, podemos diseñar y ofrecer soluciones que respondan de manera efectiva a sus necesidades, expectativas y contextos particulares.
 
 - **UserPersona 1**
@@ -779,12 +779,33 @@ Con el propósito de garantizar una comprensión profunda y precisa de los segme
     <br>
 
 ### 2.3.2. User Task Matrix.
+
 <div style='text-align: justify;'>
 
+El **User Task Matrix** concentra las tareas que los **User Persona**, que representan a los segmentos principales de WineSoft, realizan para cumplir sus objetivos dentro de la cadena de valor de bebidas alcohólicas.
+En este caso, se consideran dos segmentos de usuarios:
 
-El **User Task Matrix** permite identificar y priorizar las tareas que realizan los distintos segmentos de usuarios para alcanzar sus objetivos. En este caso, la matriz se centra en dos segmentos principales: **dueños de licorerías/destilerías** y **entidades regulatorias/inspectores**.  
+- **Dueños de licorerías o destilerías**, encargados de la gestión operativa, el control del inventario y la relación directa con los clientes.
+  
+- **Proveedores**, responsables del abastecimiento, trazabilidad y cumplimiento logístico en los procesos de distribución.
+  
+Es importante destacar que las **tareas (tasks)** reflejan actividades que los usuarios realizan independientemente de la existencia del software, es decir, forman parte natural de su día a día y no representan características o funciones del sistema.
 
-La matriz presenta 15 tareas relevantes para ambos segmentos, clasificadas según su frecuencia (qué tan seguido se realizan) y severidad (qué tan críticas son). Esto permite comprender mejor las necesidades y prioridades de cada grupo, además de identificar similitudes y diferencias en sus actividades.  
+---
+
+### Indicadores de Importancia y Frecuencia
+
+#### Indicadores de Importancia:
+
+- **ALTA** → La tarea es crítica para el cumplimiento de los objetivos del usuario.
+- **MEDIA** → La tarea es importante pero no afecta directamente el resultado global.
+- **BAJA** → La tarea aporta valor complementario o se realiza ocasionalmente.
+
+#### Indicadores de Frecuencia:
+
+- **ALTA** → Se realiza de manera constante o diaria.
+- **MEDIA** → Se realiza semanal o mensualmente.
+- **BAJA** → Se realiza esporádicamente o en circunstancias específicas.
 
 ---
 
@@ -807,9 +828,41 @@ La matriz presenta 15 tareas relevantes para ambos segmentos, clasificadas segú
 | Comparar desempeño con estándares de mercado | Baja - Alta | Media - Alta |
 
 
-<div align="justify">
-El análisis del User Task Matrix evidencia que, para los dueños de licorerías y destilerías, las tareas más frecuentes y críticas giran en torno al control de inventario, la recepción de alertas sobre stock bajo o vencimiento, el registro de ventas con trazabilidad y la conexión con proveedores autorizados, lo que refleja la necesidad de eficiencia operativa y reducción de riesgos de desabastecimiento. En el caso de las entidades regulatorias, sus prioridades se concentran en asegurar el cumplimiento normativo, acceder a datos en tiempo real para auditorías, generar reportes confiables y detectar productos adulterados o sin la documentación adecuada, aspectos que responden a la necesidad de transparencia y control en el sector. Ambos segmentos coinciden en la importancia de contar con herramientas que garanticen la trazabilidad, emitan alertas preventivas y faciliten el cumplimiento de normativas, ya que estos elementos resultan esenciales para asegurar la calidad de los productos, proteger la salud pública y fomentar la formalización de los negocios de licores.
-</div>
+### Análisis de Tareas
+
+#### Tareas con mayor frecuencia e importancia
+
+Tanto **dueños de licorerías/destilerías** como **proveedores** presentan alta frecuencia e importancia en tareas como:
+
+- **Garantizar la trazabilidad de productos,**
+- **Cumplir con acuerdos comerciales y tiempos de entrega,** y
+- **Recibir alertas de stock bajo o vencimiento.**
+Estas tareas reflejan la necesidad de control, coordinación y comunicación constante dentro del flujo logístico y de abastecimiento.
+
+#### Principales diferencias entre segmentos de usuarios
+
+1. **Control de inventario:** Tiene alta frecuencia e importancia para los dueños de licorerías, ya que afecta directamente la operación diaria; para los proveedores, su frecuencia es media al centrarse más en abastecimiento que en almacenamiento.
+2. **Generación de reportes:** Es una tarea de importancia alta en ambos segmentos, pero de mayor frecuencia en los proveedores, que deben rendir cuentas sobre logística y cumplimiento.
+3. **Registro de ventas y movimientos:** Es esencial y frecuente para los dueños de licorerías, mientras que los proveedores la realizan con menor frecuencia, enfocándose más en despachos y entregas.
+   
+#### Principales similitudes
+
+Ambos segmentos coinciden en tareas con alta importancia relacionadas con:
+
+- **Trazabilidad y control de calidad,**
+- **Cumplimiento normativo y logístico,**
+- **Conexión con socios comerciales,** y
+- **Acceso a información en tiempo real.**
+
+Esto demuestra la necesidad compartida de una plataforma que integre la información y mejore la visibilidad de la cadena de suministro.
+
+#### Enfoque de los segmentos
+
+- Los **dueños de licorerías y destilerías** se enfocan en la **gestión interna del inventario**, **la eficiencia operativa** y la **continuidad del negocio**, asegurando disponibilidad constante de productos.
+  
+- Los proveedores, en cambio, priorizan la **trazabilidad**, la **eficiencia logística** y el **cumplimiento de tiempos y normativas**, asegurando que los insumos lleguen en condiciones óptimas y dentro del plazo.
+  
+Aunque cada grupo aborda distintos puntos del proceso, ambos buscan un mismo objetivo: mantener la calidad, trazabilidad y sostenibilidad de la cadena de abastecimiento del sector licorero.
 
 ### 2.3.3. User Journey Mapping.
 
