@@ -886,175 +886,111 @@ Aunque cada grupo aborda distintos puntos del proceso, ambos buscan un mismo obj
 
 ![Big Picture Event Storming](/imagenes/BigPicture-EventStorming.png)
 
-## 2.5. Ubiquitous Language.
-<div align="justify">
-  <ul>
-    <li><b>Destilería:</b> Planta de producción dedicada a la elaboración de bebidas alcohólicas mediante procesos de fermentación y destilación.</li>
-    <li><b>Destilación:</b> Proceso de separación que concentra el alcohol aplicando calor y controlando la condensación.</li>
-    <li><b>Trazabilidad:</b> Capacidad de rastrear cada lote de producción desde el inicio hasta su distribución final.</li>
-    <li><b>Normativa Sanitaria:</b> Conjunto de normas y leyes que garantizan la inocuidad y calidad del producto alcohólico.</li>
-    <li><b>Control de Calidad:</b> Evaluación de parámetros críticos del producto, como pureza, grado alcohólico y seguridad.</li>
-    <li><b>Reporte Automático:</b> Documento digital generado por el sistema que registra datos de producción, control y mantenimiento.</li>
-    <li><b>Certificación:</b> Reconocimiento oficial que valida el cumplimiento de normas nacionales e internacionales.</li>
-    <li><b>Compliance:</b> Es el conjunto de procesos y buenas prácticas que una organización implementa para asegurarse de cumplir con las leyes, regulaciones y normas éticas aplicables.</li>
-    <li><b>Retail:</b> Se refiere a la venta de productos o servicios directamente al consumidor final en pequeñas cantidades. Este sector incluye tiendas físicas como supermercados y franquicias, así como la venta online.</li>
-    <li><b>Verticalizadas:</b> La verticalización es la estrategia que emplea una empresa con el fin de ser especialista en ventas y comercialización por sector o función de la industria.</li>
+## 2.5. Ubiquitous Language
 
-  </ul>
-</div>
+| **Term (English)**           | **Término (Español)**         | **Definition (Definición en español)**                                                                                                |
+| ---------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Distillery**               | Destilería                    | Planta o taller donde se elaboran bebidas alcohólicas mediante procesos de fermentación y destilación.                                |
+| **Liquor Store**             | Licorería                     | Establecimiento dedicado a la venta o distribución de bebidas alcohólicas al por menor o por mayor.                                   |
+| **Inventory Control**        | Control de Inventario         | Proceso de registro, monitoreo y actualización de los insumos y productos almacenados en el negocio.                                  |
+| **Stock Alert**              | Alerta de Stock               | Notificación automática que advierte al usuario sobre bajo inventario o próximos vencimientos de insumos.                             |
+| **Supply Chain**             | Cadena de Suministro          | Conjunto de procesos que conectan al proveedor de insumos con la destilería o licorería, desde la producción hasta la entrega final.  |
+| **Supplier**                 | Proveedor                     | Persona o empresa que abastece insumos esenciales (alcohol, botellas, tapas, equipos) a las destilerías o licorerías.                 |
+| **Order Management**         | Gestión de Pedidos            | Actividad que permite crear, procesar y monitorear pedidos de reposición entre proveedores y destilerías.                             |
+| **Delivery Tracking**        | Seguimiento de Entregas       | Registro del estado de los pedidos durante el transporte (pendiente, en camino, entregado).                                           |
+| **Traceability**             | Trazabilidad                  | Capacidad de rastrear el recorrido y origen de cada insumo o producto dentro de la cadena de suministro.                              |
+| **Quality Control**          | Control de Calidad            | Conjunto de actividades que garantizan que los productos cumplan con los estándares sanitarios y técnicos establecidos.               |
+| **Warehouse**                | Almacén                       | Espacio físico o virtual donde se registran y almacenan los insumos, materias primas o productos terminados.                          |
+| **Virtual Warehouse**        | Almacén Virtual               | Módulo digital dentro de WineSoft que simula el inventario físico y permite su gestión en tiempo real.                                |
+| **Restocking Request**       | Solicitud de Reposición       | Petición enviada por el dueño de una destilería al proveedor para reabastecer insumos faltantes.                                      |
+| **Environmental Monitoring** | Monitoreo Ambiental           | Supervisión digital de las condiciones de almacenamiento (temperatura, humedad) para prevenir deterioro de insumos.                   |
+| **Automatic Report**         | Reporte Automático            | Documento o registro generado por el sistema que muestra datos de ventas, inventario o entregas sin intervención manual.              |
+| **Customer Feedback**        | Retroalimentación del Cliente | Opiniones y sugerencias que los clientes brindan para mejorar los productos o servicios ofrecidos.                                    |
+| **Artisanal Product**        | Producto Artesanal            | Bebida alcohólica elaborada con métodos tradicionales y en pequeños lotes, valorada por su autenticidad y origen local.               |
+| **Supplier Panel**           | Panel del Proveedor           | Interfaz digital en WineSoft que permite a los proveedores visualizar las necesidades de reposición, gestionar pedidos y transportes. |
+| **Client Panel**             | Panel del Cliente             | Sección de la plataforma donde los dueños de destilerías controlan inventarios, pedidos y reportes.                                   |
+| **Digital Integration**      | Integración Digital           | Conexión entre distintos módulos o actores (dueños y proveedores) para compartir información en tiempo real.                          |
+| **Subscription Plan**        | Plan de Suscripción           | Modelo de pago mensual que otorga acceso a WineSoft según el tamaño o necesidades del negocio.                                |
+| **User Dashboard**           | Panel de Usuario              | Vista central que presenta indicadores, alertas y métricas clave para la toma de decisiones.                                          |
+| **Operational Efficiency**   | Eficiencia Operativa          | Capacidad de reducir costos, tiempos y errores mediante procesos automatizados y optimizados.                                         |
+| **Business Insight**         | Análisis del Negocio          | Información procesada que permite identificar patrones de venta, consumo y rendimiento operativo.                                     |
+
+
 
 # Capítulo III: Requirements Specification 
 
 ## 3.1. User Stories. 
-<table>
-  <tr>
-    <td align="center"><b>User Story ID</b></td>
-    <td align="center"><b>Título</b></td>
-    <td align="center"><b>Descripción</b></td>
-    <td align="center"><b>Criterios de Aceptación</b></td>
-    <td align="center"><b>Relacionado con (Epic ID)</b></td>
-  </tr>
-  
-  <!-- Consumidor -->
-  <tr>
-    <td align="center">US01</td>
-    <td align="justify">Búsqueda de licores</td>
-    <td align="justify">Como consumidor, quiero buscar un licor en un catálogo digital, para comparar marcas y precios antes de comprar.</td>
-    <td align="justify">El sistema muestra resultados coincidentes con el nombre o categoría buscada.</td>
-    <td align="center">EP01</td>
-  </tr>
-  <tr>
-    <td align="center">US02</td>
-    <td align="justify">Información básica del producto</td>
-    <td align="justify">Como consumidor, quiero ver información básica de un licor (marca, origen, graduación alcohólica y precio), para tomar una mejor decisión de compra.</td>
-    <td align="justify">La app muestra marca, origen, precio y graduación alcohólica en la ficha del producto.</td>
-    <td align="center">EP01</td>
-  </tr>
-  <tr>
-    <td align="center">US03</td>
-    <td align="justify">Verificación del producto</td>
-    <td align="justify">Como consumidor, quiero ver si el producto está verificado, para sentirme seguro al comprar.</td>
-    <td align="justify">El sistema muestra un sello o etiqueta digital de verificación en los productos aprobados.</td>
-    <td align="center">EP02</td>
-  </tr>
-  <tr>
-    <td align="center">US04</td>
-    <td align="justify">Recomendaciones de productos</td>
-    <td align="justify">Como consumidor, quiero recibir recomendaciones básicas, para descubrir nuevos productos.</td>
-    <td align="justify">El sistema sugiere productos relacionados según mis búsquedas o compras anteriores.</td>
-    <td align="center">EP03</td>
-  </tr>
-  <tr>
-    <td align="center">US05</td>
-    <td align="justify">Guardar productos favoritos</td>
-    <td align="justify">Como consumidor, quiero guardar mis productos favoritos en la app, para encontrarlos rápidamente en futuras compras.</td>
-    <td align="justify">El sistema permite marcar y listar los productos favoritos del usuario.</td>
-    <td align="center">EP03</td>
-  </tr>
-  <tr>
-    <td align="center">US06</td>
-    <td align="justify">Alertas de retiro de lotes</td>
-    <td align="justify">Como consumidor, quiero recibir alertas si un lote de licor ha sido retirado del mercado, para evitar consumir un producto riesgoso.</td>
-    <td align="justify">El sistema notifica al usuario cuando un producto que compró o marcó como favorito está en un lote retirado.</td>
-    <td align="center">EP04</td>
-  </tr>
-  <tr>
-    <td align="center">US07</td>
-    <td align="justify">Reportar productos sospechosos</td>
-    <td align="justify">Como consumidor, quiero reportar un producto sospechoso desde la app, para alertar a otros y a las autoridades.</td>
-    <td align="justify">El sistema permite enviar un reporte con foto, descripción y ubicación.</td>
-    <td align="center">EP04</td>
-  </tr>
-  <tr>
-    <td align="center">US08</td>
-    <td align="justify">Compartir reseñas</td>
-    <td align="justify">Como consumidor, quiero compartir reseñas sobre un producto, para ayudar a otros usuarios a elegir mejor.</td>
-    <td align="justify">Los usuarios pueden dejar comentarios y calificaciones visibles para otros.</td>
-    <td align="center">EP03</td>
-  </tr>
-  
-  <!-- Tienda -->
-  <tr>
-    <td align="center">US09</td>
-    <td align="justify">Registro de inventario</td>
-    <td align="justify">Como tienda, quiero subir productos al catálogo, para que los usuarios los vean.</td>
-    <td align="justify">El sistema permite añadir producto con nombre, precio e imagen.</td>
-    <td align="center">EP05</td>
-  </tr>
-  <tr>
-    <td align="center">US10</td>
-    <td align="justify">Edición de inventario</td>
-    <td align="justify">Como tienda, quiero editar la información de un licor, para mantenerla actualizada.</td>
-    <td align="justify">El sistema permite editar precio, stock o descripción.</td>
-    <td align="center">EP05</td>
-  </tr>
-  <tr>
-    <td align="center">US11</td>
-    <td align="justify">Análisis de productos consultados</td>
-    <td align="justify">Como tienda, quiero ver qué productos se consultan más, para entender qué buscan los usuarios.</td>
-    <td align="justify">El sistema genera un listado con los productos más consultados en un período.</td>
-    <td align="center">EP05</td>
-  </tr>
-  
-  <!-- Entidad regulatoria -->
-  <tr>
-    <td align="center">US12</td>
-    <td align="justify">Recepción de reportes</td>
-    <td align="justify">Como entidad regulatoria, quiero recibir reportes de usuarios, para supervisar posibles problemas.</td>
-    <td align="justify">Los reportes se muestran en un panel de control con detalles enviados por usuarios.</td>
-    <td align="center">EP06</td>
-  </tr>
-  <tr>
-    <td align="center">US13</td>
-    <td align="justify">Consultas de productos verificados</td>
-    <td align="justify">Como entidad regulatoria, quiero consultar los productos verificados en la plataforma, para facilitar mi trabajo de control.</td>
-    <td align="justify">El sistema muestra una lista de productos verificados con datos de lote y proveedor.</td>
-    <td align="center">EP06</td>
-  </tr>
-  <tr>
-    <td align="center">US14</td>
-    <td align="justify">Reportes estadísticos</td>
-    <td align="justify">Como entidad regulatoria, quiero generar reportes estadísticos de consumo y adulteración, para tomar decisiones de control más efectivas.</td>
-    <td align="justify">El sistema exporta reportes en PDF o Excel con métricas clave.</td>
-    <td align="center">EP07</td>
-  </tr>
-  <tr>
-    <td align="center">US15</td>
-    <td align="justify">Aprobación de distribuidores</td>
-    <td align="justify">Como entidad regulatoria, quiero aprobar o rechazar registros de nuevos distribuidores, para asegurar que solo operen los autorizados.</td>
-    <td align="justify">El sistema muestra solicitudes pendientes y permite aprobar/rechazar con observaciones.</td>
-    <td align="center">EP07</td>
-  </tr>
-  
-  <!-- Distribuidor -->
-  <tr>
-    <td align="center">US16</td>
-    <td align="justify">Seguimiento de lotes</td>
-    <td align="justify">Como distribuidor, quiero dar seguimiento al lote durante el transporte, para asegurar que llega íntegro al destino.</td>
-    <td align="justify">El sistema muestra la ubicación y estado del lote en tiempo real.</td>
-    <td align="center">EP08</td>
-  </tr>
-</table>
+
+
+| **Epic / Story ID** | **Título**                                   | **Descripción**                                                                                                                                                                                            | **Criterios de Aceptación (CA)**                                                                                                                                                                                                                                                                                                                                                                                            | **Relacionado con (Epic ID)** |
+| ------------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| **EP01**            | Gestión de Inventario y Almacén Virtual      | Como dueño de destilería o licorería, quiero registrar, visualizar y controlar mis insumos en un almacén digital, para mantener actualizado mi inventario y evitar pérdidas por vencimiento o mal control. | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US01**            | Registrar nuevo insumo                       | Como usuario, quiero añadir nuevos insumos con nombre, cantidad, unidad y fecha de vencimiento para mantener mi inventario actualizado.                                                                    | **CA1:** Dado que el usuario accede al módulo Inventario, cuando completa los datos de un nuevo insumo, entonces el sistema lo guarda correctamente.<br>**CA2:** Dado que el registro es exitoso, cuando se actualiza la lista, entonces el nuevo insumo aparece en la tabla general.<br>**CA3:** Dado que un campo obligatorio está vacío, cuando intenta guardar, entonces el sistema muestra un mensaje de error.        | EP01                          |
+| **US02**            | Editar stock existente                       | Como usuario, quiero actualizar la cantidad o detalles de un insumo para reflejar los cambios en el inventario real.                                                                                       | **CA1:** Dado que existe un insumo registrado, cuando se selecciona “Editar” y se modifican los valores, entonces el sistema guarda los cambios.<br>**CA2:** Dado que el cambio es exitoso, cuando se recarga la vista, entonces la nueva cantidad se refleja.<br>**CA3:** Dado que el usuario intenta editar un insumo inexistente, cuando realiza la acción, entonces el sistema notifica que no se encontró el registro. | EP01                          |
+| **US03**            | Eliminar insumo                              | Como usuario, quiero eliminar un insumo que ya no utilizo, para mantener limpio y actualizado mi inventario.                                                                                               | **CA1:** Dado que un insumo ya no es necesario, cuando selecciona “Eliminar”, entonces el sistema solicita confirmación.<br>**CA2:** Dado que se confirma la eliminación, cuando se ejecuta la acción, entonces el registro desaparece de la lista.<br>**CA3:** Dado que el usuario cancela la acción, entonces el registro no se elimina.                                                                                  | EP01                          |
+| **US04**            | Buscar y filtrar insumos                     | Como usuario, quiero buscar y filtrar mis insumos por nombre, tipo o fecha, para encontrarlos rápidamente.                                                                                                 | **CA1:** Dado que el usuario ingresa un término de búsqueda, cuando presiona “Buscar”, entonces el sistema muestra solo los resultados coincidentes.<br>**CA2:** Dado que aplica un filtro, cuando selecciona una categoría o fecha, entonces la tabla se actualiza con los resultados filtrados.                                                                                                                           | EP01                          |
+| **EP02**            | Gestión de Proveedores y Pedidos             | Como proveedor, quiero visualizar las necesidades de reposición y generar envíos a las destilerías o licorerías, para mantener una cadena de suministro eficiente y trazable.                              | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US05**            | Crear pedido de envío                        | Como proveedor, quiero generar pedidos según las alertas de mis clientes para organizar el abastecimiento de insumos.                                                                                      | **CA1:** Dado una alerta de reposición, cuando el proveedor crea un pedido, entonces se registra en el sistema.<br>**CA2:** Dado un pedido generado, cuando se asocia al cliente correspondiente, entonces ambos usuarios pueden visualizarlo.<br>**CA3:** Dado que faltan datos del pedido, cuando se intenta guardar, entonces el sistema alerta que el formulario está incompleto.                                       | EP02                          |
+| **US06**            | Actualizar estado del transporte             | Como proveedor, quiero actualizar el estado del envío (pendiente, en camino, entregado) para mantener la trazabilidad.                                                                                     | **CA1:** Dado un pedido en curso, cuando se actualiza el estado, entonces el sistema registra el cambio y lo muestra en tiempo real.<br>**CA2:** Dado que el pedido fue entregado, cuando se marca como “Entregado”, entonces el cliente recibe notificación inmediata.<br>**CA3:** Dado un intento de cambio inválido, cuando se ejecuta, entonces el sistema rechaza la acción.                                           | EP02                          |
+| **US07**            | Ver historial de entregas                    | Como proveedor, quiero consultar el historial de pedidos enviados y entregados, para llevar control de mis operaciones.                                                                                    | **CA1:** Dado que existen registros anteriores, cuando accedo al historial, entonces el sistema muestra la lista con fechas y estados.<br>**CA2:** Dado que no hay registros, cuando se accede, entonces el sistema muestra un mensaje “sin entregas registradas”.                                                                                                                                                          | EP02                          |
+| **EP03**            | Alertas Inteligentes y Notificaciones        | Como usuario de WineSoft, quiero recibir alertas automáticas sobre productos próximos a vencer o con bajo stock, para prevenir pérdidas y mantener mi producción continua.                                 | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US08**            | Alertas de vencimiento                       | Como usuario, quiero recibir alertas cuando un producto esté próximo a vencer.                                                                                                                             | **CA1:** Dado que un insumo tiene menos de 15 días de vigencia, cuando se cumple esa condición, entonces el sistema genera una alerta automática.<br>**CA2:** Dado que el usuario abre la alerta, entonces visualiza el insumo afectado.<br>**CA3:** Dado que el insumo fue renovado, cuando se actualiza la fecha, entonces la alerta desaparece.                                                                          | EP03                          |
+| **US09**            | Alertas de stock bajo                        | Como usuario, quiero recibir notificaciones cuando un insumo esté bajo el umbral mínimo.                                                                                                                   | **CA1:** Dado que el stock baja del valor mínimo, cuando se registra una actualización, entonces se genera una alerta visual.<br>**CA2:** Dado la alerta activa, cuando el usuario la revisa, entonces se marca como leída.<br>**CA3:** Dado que el stock se repone, cuando el valor supera el umbral, entonces el sistema elimina la alerta.                                                                               | EP03                          |
+| **US10**            | Configurar umbrales de alerta                | Como usuario, quiero definir los valores mínimos y días de vencimiento para recibir notificaciones personalizadas.                                                                                         | **CA1:** Dado que el usuario accede a configuración, cuando cambia los umbrales, entonces el sistema guarda los nuevos parámetros.<br>**CA2:** Dado que se guardan correctamente, entonces las nuevas alertas se generan según los valores definidos.                                                                                                                                                                       | EP03                          |
+| **EP04**            | Dashboard de Control y Reportes              | Como dueño de destilería o proveedor, quiero visualizar reportes e indicadores gráficos en un panel de control, para analizar mis operaciones y tomar decisiones.                                          | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US11**            | Visualizar gráficos de stock                 | Como usuario, quiero ver gráficos actualizados sobre mi inventario para identificar tendencias.                                                                                                            | **CA1:** Dado que existen registros de inventario, cuando se abre el dashboard, entonces se muestran gráficos actualizados.<br>**CA2:** Dado que el usuario cambia el filtro temporal, cuando selecciona un rango, entonces los datos se actualizan dinámicamente.<br>**CA3:** Dado que no hay registros, cuando se carga el panel, entonces se muestra “sin datos”.                                                        | EP04                          |
+| **US12**            | Exportar reportes                            | Como usuario, quiero exportar mis reportes en PDF o Excel para análisis externo.                                                                                                                           | **CA1:** Dado que el usuario selecciona “Exportar”, cuando elige el formato, entonces el sistema genera el archivo.<br>**CA2:** Dado que no hay datos disponibles, cuando se intenta exportar, entonces el sistema muestra un aviso.                                                                                                                                                                                        | EP04                          |
+| **US13**            | Comparar desempeño histórico                 | Como usuario, quiero comparar mi desempeño mensual o anual para detectar mejoras o caídas.                                                                                                                 | **CA1:** Dado que existen datos históricos, cuando selecciona un rango temporal, entonces el sistema muestra la comparación.<br>**CA2:** Dado que faltan datos, el sistema lo notifica y ajusta la visualización.                                                                                                                                                                                                           | EP04                          |
+| **EP05**            | Landing Page Informativa                     | Como visitante, quiero acceder a una landing page clara y atractiva, para entender de qué trata WineSoft, conocer sus beneficios y comunicarme si estoy interesado.                                        | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US14**            | Explorar información de WineSoft             | Como visitante, quiero conocer los servicios y beneficios de WineSoft para decidir si registrarme.                                                                                                         | **CA1:** Dado que el visitante accede al sitio, cuando navega por “About” o “Services”, entonces visualiza el contenido informativo.<br>**CA2:** Dado que quiere más información, cuando hace clic en “Get Started”, entonces se le redirige al formulario de contacto.                                                                                                                                                     | EP05                          |
+| **US15**            | Enviar formulario de contacto                | Como visitante, quiero enviar mis datos para que el equipo de WineSoft me contacte.                                                                                                                        | **CA1:** Dado que el formulario está completo, cuando el visitante envía los datos, entonces el sistema guarda el mensaje y muestra confirmación.<br>**CA2:** Dado que hay un error de conexión, cuando se intenta enviar, entonces el sistema muestra un mensaje de reintento.                                                                                                                                             | EP05                          |
+| **EP06**            | API RESTful e Integraciones                  | Como desarrollador, quiero acceder a una API RESTful segura para sincronizar datos de inventario, pedidos y usuarios, permitiendo integraciones con sistemas externos o móviles.                           | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US16**            | Obtener lista de inventario (GET /inventory) | Como desarrollador, quiero acceder a la lista de insumos registrados mediante la API para integrarla con otros sistemas.                                                                                   | **CA1:** Dado que tengo credenciales válidas, cuando hago un GET a /inventory, entonces recibo un JSON con los datos.<br>**CA2:** Dado que no tengo autorización, cuando intento la solicitud, entonces el sistema devuelve error 401.                                                                                                                                                                                      | EP06                          |
+| **US17**            | Crear pedido vía API (POST /orders)          | Como desarrollador, quiero registrar nuevos pedidos de envío mediante la API.                                                                                                                              | **CA1:** Dado que tengo permisos válidos, cuando envío un POST con los datos del pedido, entonces el sistema crea el registro y responde con su ID.<br>**CA2:** Dado que envío datos incompletos, cuando realizo el POST, entonces el sistema devuelve un mensaje de error 400.                                                                                                                                             | EP06                          |
+| **US18**            | Consultar trazabilidad (GET /tracking)       | Como desarrollador, quiero consultar el estado y ubicación de un pedido mediante la API.                                                                                                                   | **CA1:** Dado que el pedido tiene seguimiento activo, cuando realizo la solicitud, entonces el sistema devuelve la ubicación actual.<br>**CA2:** Dado que el pedido fue entregado, cuando se consulta, entonces devuelve estado “Entregado”.                                                                                                                                                                                | EP06                          |
+| **TS01**     | Base de datos de inventario y relaciones        | Implementar la estructura de base de datos para el módulo de inventario (tablas: insumos, tipos, vencimientos, movimientos), con sus claves foráneas y restricciones de integridad. | **CA1:** Dado el script de creación ejecutado en SQL Server, cuando se crean las tablas, entonces se generan correctamente sin errores de dependencia.<br>**CA2:** Dado que se insertan registros de prueba, cuando se consulta la tabla “insumos”, entonces los datos se muestran con relaciones válidas.                                                                    | EP01                          |
+| **TS02**     | CRUD de insumos                      | Desarrollar los endpoints y controladores para el registro, edición, eliminación y consulta de insumos en el sistema.                                 | **CA1:** Dado que se ejecuta un POST válido, cuando se envía la solicitud a /api/insumos, entonces se crea el registro.<br>**CA2:** Dado un PUT o DELETE, cuando se envía con ID válido, entonces el cambio se refleja en la base de datos.<br>**CA3:** Dado que se realiza un GET, cuando se consulta /api/insumos, entonces devuelve la lista completa en formato JSON. | EP01                          |
+| **TS03**     | Interfaz de inventario              | Implementar el módulo de Inventario, incluyendo formularios, tabla dinámica y filtros de búsqueda.                                                                         | **CA1:** Dado que el usuario abre el módulo Inventario, cuando se carga la vista, entonces se muestran los insumos registrados.<br>**CA2:** Dado que el usuario añade un insumo, cuando guarda, entonces la tabla se actualiza automáticamente sin recargar la página.                                                                                                        | EP01                          |
+| **TS04**     | Módulo de gestión de pedidos         | Desarrollar los endpoints para crear, actualizar y consultar pedidos de proveedores en Express con control de estados (“pendiente”, “en camino”, “entregado”).                      | **CA1:** Dado que un proveedor crea un pedido, cuando envía la solicitud POST /api/pedidos, entonces se registra correctamente.<br>**CA2:** Dado que el pedido cambia de estado, cuando se realiza un PATCH con valor válido, entonces se actualiza el campo “estado” en la base de datos.                                                                                  | EP02                          |
+| **TS05**     | Historial y visualización de pedidos | Crear la interfaz para que el proveedor vea sus pedidos enviados, entregados o pendientes.                                                                                          | **CA1:** Dado que existen pedidos previos, cuando el proveedor abre la sección Historial, entonces se muestran con sus estados.<br>**CA2:** Dado que no existen registros, entonces se muestra un mensaje “No hay entregas registradas”.                                                                                                                                      | EP02                          |
+| **TS06**     | Motor de alertas automáticas        | Desarrollar un servicio que evalúe fechas de vencimiento y niveles de stock, generando alertas automáticas según parámetros configurados.                                           | **CA1:** Dado que el cronjob se ejecuta, cuando detecta insumos próximos a vencer o con bajo stock, entonces genera alertas en la tabla “alertas”.<br>**CA2:** Dado que el usuario actualiza los umbrales, cuando el sistema ejecuta el proceso siguiente, entonces aplica los nuevos valores.                                                                                | EP03                          |
+| **TS07**     | Sistema de notificaciones           | Implementar componente visual de notificaciones, mostrando alertas en tiempo real sobre stock o vencimiento.                                                               | **CA1:** Dado que se genera una alerta, cuando el usuario abre sesión, entonces ve el ícono de notificación activa.<br>**CA2:** Dado que revisa la alerta, cuando hace clic, entonces se marca como “leída”.                                                                                                                                                                  | EP03                          |                                                                                                                      | EP04                          |
+| **TS08**     | Diseño de Bussiness Web Site              | Diseñar la interfaz pública con estructura responsive, secciones informativas y formulario de contacto.                                                                             | **CA1:** Dado que el visitante ingresa desde cualquier dispositivo, cuando accede al sitio, entonces se adapta correctamente <br>**CA2:** Dado que completa el formulario, cuando envía, entonces el sistema confirma recepción.                                                                                                                               | EP05                          |
+| **TS09**     | API RESTful segura                              | Implementar la API RESTful con endpoints para inventario, pedidos y trazabilidad, con autenticación JWT.                                                                            | **CA1:** Dado que el desarrollador realiza una solicitud GET/POST con token válido, entonces recibe respuesta correcta (200 OK).<br>**CA2:** Dado que no tiene credenciales válidas, cuando realiza la solicitud, entonces recibe error 401 (Unauthorized).                                                                                                                   | EP06                          |
+
 
 ## 3.2. Impact Mapping
 <img src="./imagenes/Impact map 1.png" alt="Impact map">
 
 ## 3.3. Product Backlog. 
 
-| **ID** | **User Story / Requerimiento** | **Prioridad** | **Criterio de Aceptación** |
-|--------|--------------------------------|---------------|-----------------------------|
-| PB-01 | Como dueño de fábrica, quiero **monitorear en tiempo real temperatura y humedad para garantizar la calidad de ammbiente. | Alta | El sistema muestra en un dashboard los valores en tiempo real obtenidos de los sensores. |
-| PB-02 | Como operario, quiero **recibir alertas automáticas** cuando la temperatura o humedad salgan de rango, para actuar a tiempo. | Alta | El sistema envía notificaciones inmediatas por correo o app. |
-| PB-03 | Como gerente, quiero **un registro histórico digital de mantenimiento y limpieza de equipos**, para cumplir con auditorías sanitarias. | Alta | Se almacenan registros con fecha, responsable y tipo de mantenimiento. |
-| PB-04 | Como dueño, quiero **gestionar inventario de materias primas y producto terminado**, para evitar faltantes o sobrestock. | Media | Se registra stock inicial, movimientos y se muestran niveles actuales. |
-| PB-05 | Como inspector regulador, quiero **ver reportes de trazabilidad digital**, para validar autenticidad y normativas. | Media | Se genera reporte descargable con datos de producción y stock. |
-| PB-06 | Como gerente, quiero **integrar el sistema con ERP existente**, para unificar procesos de producción y ventas. | Baja | API o exportación de datos hacia ERP en uso. |
-| PB-07 | Como usuario administrador, quiero **configurar umbrales personalizados de sensores**, para adaptar el sistema a mis procesos. | Media | El sistema permite editar valores máximos y mínimos. |
-| PB-08 | Como dueño, quiero **ver gráficos de tendencias históricas**, para analizar la evolución de la producción. | Baja | Se visualizan reportes semanales y mensuales en gráficos. |
-| PB-09 | Como operario, quiero **registrar manualmente incidencias o fallos de equipos**, para complementar la información automática. | Media | Existe un formulario en la app con fecha, descripción y evidencia. |
-| PB-10 | Como regulador, quiero **acceder a un módulo seguro de validación**, para confirmar autenticidad de lotes y certificados. | Baja | Sistema con acceso restringido y validación por código/lote. |
+En esta sección, evaluaremos las historias de usuario asignándoles una puntuación basada en su complejidad, riesgo y esfuerzo, para así determinar la prioridad de cada una. 
+<b>Enlace a Trello: </b>https://trello.com/
+
+| #Orden | User Story ID | Título                                       | Descripción                                                                                                                             | Story Points |
+| ------ | ------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 1      | **US01**      | Registrar nuevo insumo                       | Como usuario, quiero añadir nuevos insumos con nombre, cantidad, unidad y fecha de vencimiento para mantener mi inventario actualizado. | **8**        |
+| 2      | **US05**      | Crear pedido de envío                        | Como proveedor, quiero generar pedidos según las alertas de mis clientes para organizar el abastecimiento.                              | **8**        |
+| 3      | **US10**      | Configurar umbrales de alerta                | Como usuario, quiero definir los valores mínimos y días de vencimiento para recibir notificaciones personalizadas.                      | **8**        |
+| 4      | **US13**      | Comparar desempeño histórico                 | Como usuario, quiero comparar mi desempeño mensual o anual para detectar mejoras o caídas.                                              | **5**        |
+| 5      | **US14**      | Explorar información de WineSoft             | Como visitante, quiero conocer los servicios y beneficios de WineSoft para decidir si registrarme.                                      | **3**        |
+| 6      | **US15**      | Enviar formulario de contacto                | Como visitante, quiero enviar mis datos para que el equipo de WineSoft me contacte.                                                     | **3**        |
+| 7      | **US02**      | Editar stock existente                       | Como usuario, quiero actualizar la cantidad o detalles de un insumo para reflejar los cambios en el inventario real.                    | **3**        |
+| 8      | **US04**      | Buscar y filtrar insumos                     | Como usuario, quiero buscar y filtrar mis insumos por nombre, tipo o fecha, para encontrarlos rápidamente.                              | **3**        |
+| 9      | **US06**      | Actualizar estado del transporte             | Como proveedor, quiero actualizar el estado del envío para mantener la trazabilidad.                                                    | **3**        |
+| 10     | **US08**      | Alertas de vencimiento                       | Como usuario, quiero recibir alertas cuando un producto esté próximo a vencer.                                                          | **3**        |
+| 11     | **US09**      | Alertas de stock bajo                        | Como usuario, quiero recibir notificaciones cuando un insumo esté bajo el umbral mínimo.                                                | **3**        |
+| 12     | **US11**      | Visualizar gráficos de stock                 | Como usuario, quiero ver gráficos actualizados sobre mi inventario para identificar tendencias.                                         | **3**        |
+| 13     | **US12**      | Exportar reportes                            | Como usuario, quiero exportar mis reportes en PDF o Excel para análisis externo.                                                        | **3**        |
+| 14     | **US16**      | Obtener lista de inventario (GET /inventory) | Como desarrollador, quiero acceder a la lista de insumos registrados mediante la API.                                                   | **3**        |
+| 15     | **US17**      | Crear pedido vía API (POST /orders)          | Como desarrollador, quiero registrar nuevos pedidos de envío mediante la API.                                                           | **3**        |
+| 16     | **US18**      | Consultar trazabilidad (GET /tracking)       | Como desarrollador, quiero consultar el estado y ubicación de un pedido mediante la API.                                                | **3**        |
+| 17     | **US03**      | Eliminar insumo                              | Como usuario, quiero eliminar un insumo que ya no utilizo, para mantener limpio y actualizado mi inventario.                            | **2**        |
+| 18     | **US07**      | Ver historial de entregas                    | Como proveedor, quiero consultar el historial de pedidos enviados y entregados.                                                         | **2**        |
+
 
 <div style="text-align: justify;">
+
 
   <h1>Capítulo IV: Product Design</h1>
 
