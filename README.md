@@ -163,96 +163,174 @@ El proyecto surge como respuesta a la necesidad de modernizar procesos en negoci
 
 ### 1.2.1. Antecedentes y problemática
 
-<div align="justify">
-Para entender la necesidad del proyecto, se aplicó la técnica de las 5W + 2H:
-<br><br>
+### Antecedentes
 
-- **What (Qué):**
-  Falta de un sistema integrado que unifique la gestión interna de las empresas con los procesos de fiscalización externa.
+En el sector de la producción y distribución de bebidas alcohólicas, especialmente en destilerías y licorerías, una mala gestión de insumos puede traer consecuencias económicas y operativas importantes. La falta de control en el inventario de materias primas como azúcar, alcohol base, levaduras o esencias puede generar sobrecostos, pérdidas por caducidad, deterioro por condiciones de almacenamiento inadecuadas o interrupciones en la producción. Según la Food and Agriculture Organization (FAO, 2021), hasta el 14% de las pérdidas en cadenas de suministro de alimentos y bebidas provienen justamente de fallas en la gestión de inventarios y almacenamiento inadecuado, lo que confirma la magnitud del problema en este sector.
 
-- **When (Cuándo):**
-  Actualmente, la digitalización de negocios es cada vez más prioritaria para mejorar competitividad y cumplir normativas.
+Un caso frecuente en pequeñas y medianas licorerías ocurre cuando los insumos perecederos, como frutas o aditivos, no son monitoreados correctamente ni en cantidad ni en condiciones ambientales. Esto provoca que se echen a perder antes de ser utilizados, afectando tanto la calidad del producto final como la continuidad de la producción. La situación se agrava porque la mayoría de negocios todavía gestionan insumos mediante métodos manuales como hojas de Excel o registros físicos, sin alertas ni integración de sensores. De acuerdo con Gartner (2022), más del 60% de las PYMEs en Latinoamérica siguen utilizando hojas de cálculo para manejar inventarios, lo que incrementa la probabilidad de errores, genera ineficiencias logísticas y retrasa la toma de decisiones.
 
-- **Where (Dónde):**
-  Principalmente en el mercado peruano, donde existen miles de negocios de licores, muchos de los cuales operan en condiciones informales o con sistemas obsoletos.
+Además, la informalidad en los procesos logísticos dificulta la coordinación entre proveedores y dueños de licorerías. Los proveedores muchas veces no cuentan con información en tiempo real sobre las necesidades de sus clientes, ni con herramientas para gestionar su propio almacén de forma integrada, lo que retrasa entregas críticas y genera quiebres de stock. Esto abre un espacio para plataformas digitales más accesibles que integren funciones de control de inventario, monitoreo de almacenamiento y gestión logística compartida entre proveedores y dueños.
 
-- **Who (Quiénes):**
-  Dueños de destilerías y licorerías, así como entidades reguladoras del rubro de bebidas alcohólicas.
 
-- **Why (Por qué):**
-  La informalidad en la comercialización de bebidas alcohólicas impacta en la recaudación tributaria, la seguridad del consumidor y la reputación de los negocios.
+### Problemática
 
-- **How (Cómo):**
-  A través de una plataforma que permita registrar lotes de producción, controlar inventario, gestionar ventas, y reportar información directamente a las entidades regulatorias.
+Para entender la necesidad del proyecto, se aplicó la técnica de las 5W's + 2H's:
 
-- **How Much (Cuánto):**
-  El costo de no implementar una solución adecuada se traduce en pérdidas económicas por desorden en inventario, sanciones por incumplimiento legal, y pérdida de clientes por falta de confianza.
-  <br><br>
-  Inversión estimada:<br>
-  - Suscripciones mensuales (básico y premium).
-  - Compra o leasing de sensores y equipos IoT.
-  - Servicios adicionales de soporte y consultoría.
-</div>
+### What (¿Cuál es el problema?):
+
+Los dueños de licorerías y destilerías presentan dificultades en la gestión de sus almacenes de insumos, lo que puede ocasionar desperdicio por caducidad, deterioro por condiciones de almacenamiento inadecuadas, sobrecostos por compras urgentes o interrupciones en la producción.
+
+Por otro lado, los proveedores enfrentan problemas para anticipar la demanda de sus clientes, ya que no tienen visibilidad de sus inventarios ni de las condiciones de almacenamiento en tiempo real, además de carecer de herramientas para administrar de manera eficiente su propio stock, lo cual genera retrasos en la entrega y desorganización logística.
+
+### When (¿Cuándo ocurre el problema?):
+
+Cuando los dueños necesitan producir, a veces descubren que insumos clave como frutas, aditivos o alcohol base están por acabarse, ya vencieron o se deterioraron por falta de control en las condiciones de almacenamiento. Esto les genera retrasos y pérdidas si no tienen un control claro.
+
+En el caso de los proveedores, el problema surge cuando intentan reabastecer los almacenes sin tener información clara sobre el inventario y estado de conservación de sus clientes, además de tener que operar su propio almacén con registros desactualizados. Esto provoca retrasos en los envíos, problemas para coordinar entregas y mayor riesgo de incumplir tiempos de entrega.
+
+### Where (¿Dónde ocurre el problema?):
+
+En los almacenes físicos de los dueños de licorerías, donde actualmente el control suele hacerse de forma manual en papel o Excel, sin capacidad para monitorear condiciones ambientales.
+
+En los almacenes de los proveedores, quienes no tienen visibilidad de los niveles de stock ni de las condiciones de almacenamiento de sus clientes y carecen de integración para coordinar reabastecimientos oportunos, además de gestionar su propio stock con sistemas básicos o manuales.
+
+### Who (¿A quién o quiénes afecta el problema?):
+
+A los dueños de destilerías y licorerías, que enfrentan pérdidas por insumos desperdiciados, paradas en la producción o baja calidad en sus productos.
+
+A los proveedores de insumos, que lidian con problemas logísticos, deterioro de insumos en sus propios almacenes y pérdida de ventas por no contar con información precisa y actualizada.
+
+De forma indirecta, a los clientes finales, que pueden recibir productos tarde o con calidad variable por interrupciones en el proceso de fabricación.
+
+### Why (¿Por qué sucede el problema?):
+
+- Porque muchos negocios del sector todavía manejan sus insumos de forma manual y sin conexión con sus proveedores.
+
+- Al no contar con una plataforma que centralice la información, se generan errores, demoras en la reposición y costos operativos más altos.
+
+### 2H's
+
+### How (¿Cómo aparece el problema?):
+
+Los dueños suelen registrar insumos en hojas de Excel o apuntes físicos, que se desactualizan rápidamente y carecen de alertas inteligentes o control de condiicones de almacenamiento. Esto hace que detecten vencimientos, deterioros o quiebres de stock demasiado tarde.
+
+Por su parte, los proveedores no pueden anticipar las necesidades de reposición ni gestionar de forma eficiente su propio inventario, ya que dependen de pedidos tardíos de los clientes y de registros manuales. Esto genera desorganización en la preparación de envíos y aumenta el riesgo de incumplir tiempos de entrega.
+
+### How Much (¿Cuánto afecta el problema?):
+
+El impacto es significativo tanto en lo económico como en lo operativo:
+
+- Para los dueños, un lote de frutas o aditivos vencidos puede representar pérdidas de cientos de dólares y la detención de la producción por varios días si faltan insumos críticos.
+
+- Para los proveedores, la falta de visibilidad de inventarios provoca sobrecostos en logística, retrasos en entregas y pérdida de confianza de los clientes, lo que limita su competitividad en el mercado.
+
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
-El dominio de este proyecto se centra en la gestión y regulación del mercado de bebidas alcohólicas, donde los principales segmentos de clientes son los dueños de destilerías y licorerías, así como las entidades reguladoras encargadas de supervisar este sector. Actualmente, los negocios enfrentan procesos manuales y desorganizados en la gestión de inventarios y ventas, lo que incrementa el riesgo de sanciones por incumplimiento normativo y limita la transparencia de sus operaciones. Además, existe una notoria ausencia de canales digitales confiables que permitan reportar información de manera ágil y precisa a las instituciones fiscalizadoras. Esta situación genera una brecha, ya que no existen plataformas que integren simultáneamente la gestión empresarial y el cumplimiento regulatorio en un mismo sistema. Frente a ello, la visión de WineSoft es ofrecer un software integral que permita a los negocios crecer de manera formal y competitiva, alineados con las regulaciones, comenzando con un segmento inicial conformado por dueños de destilerías y licorerías medianas que operan en Lima y otras regiones comerciales clave del país.
+
+El estado actual de la gestión de inventarios en destilerías y licorerías pequeñas y medianas se ha centrado principalmente en registros manuales de insumos críticos con procesos aislados entre dueños y proveedores. Esto genera pérdidas económicas por caducidad, deterioro por malas condiciones de almacenamiento, retrasos en la producción y falta de visibilidad en la cadena de suministro.
+
+Lo que los productos y servicios existentes no abordan es la necesidad de una solución accesible que conecte en tiempo real a los dueños de negocios con sus proveedores, permitiendo un control más ágil de insumos perecederos, condiciones de almacenamiento como temperatura y humedad, y una reposición anticipada sin depender de pedidos tardíos.
+
+Nuestro producto, WineSoft, abordará esta brecha mediante una plataforma digital que centraliza la gestión de inventarios, habilita alertas de stock y vencimiento, permite monitorear condiciones de almacenamiento críticas, otorga a los proveedores visibilidad de las necesidades de sus clientes para optimizar sus entregas, y la necesidad de mantener costos viables para las operaciones.
+
+Nuestro enfoque inicial será pequeños y medianos dueños de licorerías en Perú y Latinoamérica, junto con sus proveedores de insumos básicos.
+
+Sabremos que tenemos éxito cuando veamos que al menos el 70% de los usuarios logren reducir pérdidas por caducidad en un 20%, y que los proveedores mejoren sus tiempos de reabastecimiento en un 30% gracias a la integración con la plataforma.
+
 #### 1.2.2.2. Lean UX Assumptions
 
 **Business Assumptions:**
-- Consideramos que los dueños de destilerías y licorerías necesitan procesos más eficientes para gestionar sus inventarios, ventas y reportes regulatorios.
-- Estas necesidades pueden resolverse con una plataforma web integral que brinde herramientas de gestión empresarial y facilite la relación con entidades regulatorias.
-- Nuestros clientes iniciales serán principalmente dueños de destilerías y licorerías medianas que aún gestionan sus operaciones con métodos manuales o sistemas poco integrados.
-- El aspecto más importante que un empresario buscará en nuestra solución es la trazabilidad confiable del producto y la reducción de riesgos de sanciones regulatorias.
-- Como startup, generaremos ingresos mediante un modelo de suscripción, con planes escalonados que ofrezcan más funcionalidades según el tamaño del negocio.
-- El cliente podrá adquirir beneficios adicionales como reportes automatizados, integración con sistemas tributarios y paneles de análisis avanzados.
-- Gran parte de nuestros clientes se captará mediante recomendaciones dentro del sector y marketing digital dirigido a empresarios que buscan formalizarse.
-- La competencia en el mercado serán los sistemas contables genéricos y las aplicaciones de gestión no especializadas.
-- Nos diferenciaremos por un enfoque exclusivo en el rubro de bebidas alcohólicas, ofreciendo herramientas adaptadas a sus necesidades específicas.
-- Nuestro mayor riesgo es que los empresarios perciban la digitalización como costosa o innecesaria.
-- Para mitigar este riesgo, ofreceremos una interfaz sencilla, soporte continuo y un plan de adopción progresiva que genere confianza.
+1. Nuestros clientes necesitan procesos más eficientes para gestionar inventarios y coordinar insumos,
+
+2. Pensamos que estas necesidades pueden resolverse con una aplicación web que centralice el inventario, conecte dueños con proveedores y habilite funciones de monitoreo de temperatura y humedad.
+
+3. Nuestros clientes iniciales serán pequeños y medianos dueños de licorerías y destilerías en Perú y Latinoamérica, junto con sus proveedores que atienden su demanda directa.
+
+4. El valor principal para dueños será evitar pérdidas y mantener stock; para proveedores, obtener visibilidad de la demanda y un control de su propio inventario.
+
+5. Captaremos clientes mediante alianzas, referidos y estrategias digitales.
+
+6. Generaremos ingresos con un modelo de suscripción mensual, escalado según el tamaño del negocio.
+
+7. La competencia serán sistemas genéricos de inventario, pero nos destacaremos por accesibilidad, simplicidad y especialización en bebidas alcohólicas.
+
+8. El mayor riesgo es la resistencia al cambio, que mitigaremos con una interfaz intuitiva, capacitaciones y casos de éxito.
+
+9. Reconocemos que si los dueños no están dispuestos a pagar por un servicio especializado, el proyecto podría fracasar, por lo que validaremos su aceptación desde el inicio.
 
 **User Assumptions:**
-- Nuestros usuarios serán principalmente dueños y administradores de destilerías y licorerías que gestionan de forma manual sus operaciones.
-- Nuestro producto abordará la necesidad de controlar con mayor facilidad el inventario, las ventas y los reportes regulatorios.
-- Los usuarios valorarán especialmente la posibilidad de automatizar procesos repetitivos como registros de lotes, control de stock y generación de reportes.
-- Las características más importantes que los usuarios buscarán en nuestro producto serán la trazabilidad en tiempo real, la reducción de errores administrativos y la confiabilidad en la información compartida con entidades regulatorias.
+
+1. Nuestros usuarios serán dueños y administradores de licorerías y destilerías, además de proveedores.
+
+2. Nuestro producto encajará en la gestión diaria de inventarios, abastecimiento y control de condiciones de almacenamiento.
+
+3. Nuestro producto resolverá pérdidas por caducidad, desabastecimiento, deterioro por malas condiciones y falta de control del stock.
+
+4. Nuestro producto se usará de forma constante al abrir y cerrar el negocio para revisar inventarios, pedidos y el estado de almacenamiento.
+
+5. Las características más importantes serán facilidad de uso, alertas automáticas y reportes claros.
+
+6. Nuestro producto deberá verse simple, intuitivo y confiable para usuarios con poca experiencia tecnológica.
 
 **Business Outcome Assumptions:**
-- Lograr una reducción en el número de sanciones regulatorias gracias al cumplimiento automático de normativas y reportes digitales.
-- Conseguir un incremento en la formalización de negocios, al ofrecer un sistema accesible y adaptado al mercado local.
-- Mejorar la confianza de los consumidores en los productos de destilerías y licorerías mediante certificados digitales de autenticidad emitidos desde la plataforma.
-- Aumentar la eficiencia operativa de los negocios al integrar funciones de inventario, ventas y fiscalización en un solo sistema.
+
+- Incrementar la eficiencia en la gestión de inventarios, reduciendo pérdidas por caducidad y deterioro de insumos críticos en licorerías y destilerías.
+  
+- Mejorar la visibilidad de la demanda para los proveedores, optimizando la planificación y tiempos de entrega de insumos, además de gestionar sus propios almacenes con precisión.
+  
+- Reducir costos operativos asociados a compras urgentes o desperdicio de materiales, aumentando la rentabilidad de los negocios.
+  
+- Incrementar la confianza de los dueños en sus decisiones de reabastecimiento mediante información actualizada en tiempo real.
 
 **User Outcome Assumptions:**
-- Los empresarios podrán gestionar inventarios, ventas y reportes regulatorios desde una plataforma centralizada, reduciendo significativamente el tiempo y esfuerzo de administración.
-- Los dueños de licorerías podrán minimizar pérdidas por descontrol en stock gracias a alertas automáticas de bajo inventario y vencimiento de productos.
-- Las entidades reguladoras podrán acceder a información actualizada en tiempo real, lo que permitirá una fiscalización más ágil y confiable.
-- Los usuarios experimentarán una mayor tranquilidad y seguridad al contar con procesos transparentes y trazables, lo que aumentará la adopción y retención de la plataforma.
 
+- Los dueños de licorerías podrán monitorear sus inventarios y condiciones de almacenamiento de manera rápida y precisa, evitando faltantes, pérdidas por caducidad o deterioro.
+
+- Los proveedores podrán anticipar la demanda de sus clientes y gestionar su propio inventario de forma centralizada, optimizando rutas y cantidades de envío, lo que mejora la eficiencia de sus operaciones.
+
+- La integración de la información en una plataforma centralizada permitirá una comunicación fluida entre dueños y proveedores, evitando retrasos o errores en la reposición de insumos.
+  
 **Features:**
-- Implementar funciones para el registro y control de lotes de producción, con trazabilidad desde origen hasta punto de venta.
-- Incorporar herramientas de gestión de inventarios y ventas, con paneles de análisis y reportes automáticos.
-- Desarrollar un sistema de alertas en tiempo real para vencimientos de stock, riesgos regulatorios.
+
+- Implementar una función de gestión de inventarios con alertas de stock bajo, vencimientos próximos y condiciones de almacenamiento.
+
+- Crear paneles de control para proveedores con visibilidad de necesidades de reposición de cada cliente y gestión de su propio almacén.
+
+- Automatizar reportes de consumo, caducidad, deterioro y movimientos de inventario.v
+
+- Registrar y mostrar historial de movimientos de inventario y entregas para análisis operativo y control
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hipótesis 1:** <br><br>
-**Creemos que**, si ofrecemos un sistema centralizado para la gestión de inventarios en destilerías y licorerías, esto logrará una reducción en los errores administrativos y en las pérdidas por descontrol de stock.<br>
-**Sabremos que esto es cierto cuando** observemos una disminución del 25% en reportes de pérdidas de inventario y un aumento del 20% en la precisión de los registros.
+**Hipótesis 1:** 
 
-**Hipótesis 2:** 
-**Creemos que**, si implementamos reportes regulatorios automáticos integrados en la plataforma, esto logrará una reducción en las sanciones impuestas a los negocios por incumplimiento normativo.<br>
-**Sabremos que esto es cierto cuando** veamos una reducción del 30% en multas y sanciones en negocios que usan WineSoft.
+**Creemos que** la reducción de costos por insumos vencidos o faltantes **se logrará si** los dueños de licorerías y destilerías **obtienen** un mejor control de sus inventarios y evitan caducidades **con** una funcionalidad de gestión de inventarios que genere alertas automáticas de bajo stock y próximos vencimientos.
+
+**Hipótesis 2:**
+
+**Creemos que** la mejora en los tiempos y eficiencia de entrega de los proveedores **se logrará si** los proveedores de insumos **obtienen** visibilidad en tiempo real de la demanda de sus clientes **con** un panel de control que muestre las necesidades de reposición de cada cliente.
 
 **Hipótesis 3:**
-**Creemos que**, si brindamos a los usuarios un sistema de alertas en tiempo real para vencimiento de stock, irregularidades en lotes o notificaciones regulatorias, esto logrará un mayor control preventivo en las operaciones.<br>
-**Sabremos que esto es cierto cuando** los usuarios reporten un 40% menos de incidencias relacionadas con productos vencidos o fuera de norma.
+
+**Creemos que** el aumento de la confianza en la toma de decisiones de negocio **se logrará si** los dueños de licorerías y destilerías **obtienen** información clara y actualizada sobre consumo y tendencias de caducidad **con** una funcionalidad de reportes automáticos de movimientos de inventario.
 
 **Hipótesis 4:**
-Creemos que, si diseñamos una interfaz amigable y accesible para usuarios con poca experiencia tecnológica, esto logrará una mayor adopción del sistema y reducirá la resistencia al cambio.<br>
-Sabremos que esto es cierto cuando el 70% de los nuevos usuarios complete su proceso de registro y gestión inicial sin necesidad de soporte adicional.
+
+**Creemos que** la reducción de ineficiencias operativas y pérdidas se logrará si los dueños y proveedores **obtienen** trazabilidad y control en la cadena de suministro con una funcionalidad que registre y muestre el historial de movimientos de inventario y entregas.
+
+**Hipótesis 5:**
+
+**Creemos que** la mejora en la planificación y disponibilidad de insumos para la venta **se logrará si** los proveedores de insumos **obtienen** un control centralizado de su propio inventario **con** una funcionalidad de gestión de almacén integrada en la plataforma.
+
+**Hipótesis 6:**
+
+**Creemos que** la reducción de pérdidas por deterioro de insumos perecederos **se logrará si** los dueños de licorerías y destilerías **obtienen** alertas en tiempo real sobre temperatura y humedad fuera de rango **con** una funcionalidad de monitoreo ambiental conectada a sensores IoT.
+
+**Hipótesis 7:**
+
+**Creemos que** la mejora en la puntualidad y trazabilidad de las entregas **se logrará si** los proveedores de insumos **obtienen** la capacidad de coordinar y actualizar en tiempo real el estado de sus envíos tras recibir solicitudes de reposición **con** una funcionalidad de gestión logística integrada que permita gestionar rutas y actualizar estados
 
 
 #### 1.2.2.4. Lean UX Canvas
@@ -263,25 +341,28 @@ Enlace al tablero de desarrollo: https://miro.com/app/board/uXjVJMXI8fo=/?share_
 ## 1.3. Segmentos objetivo  
 
 ### Segmento 1: Dueños de destilerías y licorerías  
-- **Descripcion:** Empresarios entre 30 y 55 años, principalmente en zonas urbanas con alta concentración de bares y discotecas.  
-- **Características:**  
-  - Buscan optimizar operaciones y reducir pérdidas por falta de control.  
-  - Pueden manejar varios puntos de venta o producción.  
-  - Preocupación por cumplir regulaciones y evitar sanciones.  
-- **Necesidades principales:**  
-  - Control eficiente de inventarios.  
-  - Gestión de ventas con reportes automáticos.  
-  - Transparencia en la trazabilidad de productos.  
+
+- **Descripcion:** Este segmento está conformado por pequeños y medianos empresarios dedicados a la producción y/o comercialización de bebidas alcohólicas. Gestionan un almacén virtual para controlar insumos de producción, registrar cantidades, fechas de vencimiento y condiciones de almacenamiento. También reciben alertas de insumos próximos a agotarse o caducar y confirman la recepción de pedidos enviados por proveedores.
+  
+- **Sexo:** Masculino y femenino
+  
+- **Edades:** Adultos jóvenes (25-40 años) y adultos de mediana edad (41-60 años).
+  
+- **Nivel socioeconómico:** Principalmente clases B y C (media-alta y media).
+  
+- **Necesidades:** Reducir pérdidas económicas por insumos vencidos, asegurar la trazabilidad de inventarios, optimizar la reposición de stock y mantener condiciones de almacenamiento adecuadas. Esto les permite operar con mayor eficiencia, cumplir estándares de calidad y asegurar la continuidad de la producción. En la industria de bebidas del Perú, el 96,3 % de las empresas son microempresas, el 2,3 % pequeñas y solo el 1,4 % medianas o grandes (Sociedad Nacional de Industrias SNI, 2022).
 
 ### Segmento 2: Entidades regulatorias  
-- **Descripcion:** Instituciones gubernamentales y municipales responsables de la fiscalización del sector.  
-- **Características:**  
-  - Necesitan acceso a información confiable en tiempo real.  
-  - Enfrentan dificultades para supervisar un mercado fragmentado y con informalidad.  
-- **Necesidades principales:**  
-  - Garantizar autenticidad y seguridad en los productos comercializados.  
-  - Reducir riesgos de evasión fiscal y comercio informal.  
-  - Contar con herramientas digitales para monitorear negocios.  
+
+- **Descripcion:** Empresas o distribuidores medianos que abastecen insumos a destilerías y licorerías, contando además con flota propia para el transporte. Administran su propio almacén en la plataforma, visualizan los inventarios de los clientes, generan pedidos de reposición y gestionan envíos actualizando estados de entrega. También acceden a historiales de movimientos para mejorar la planificación logística.
+  
+- **Sexo:** Masculino y femenino
+  
+- **Edades:** Adultos jóvenes (25-40 años) y adultos de mediana edad (41-55 años)
+  
+- **Nivel socioeconómico:** Principalmente clases B y C (media-alta y media).
+  
+- **Necesidades:** Mejorar la eficiencia logística, anticipar la demanda de los clientes, planificar entregas de forma más precisa y garantizar que los envíos lleguen en tiempo y forma. Esto contribuye a fidelizar a las destilerías, optimizar recursos de transporte y aumentar la rentabilidad.
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
@@ -447,74 +528,72 @@ WineSoft apuesta por una identidad sólida vinculada con la formalidad, la innov
 - Posicionarse como un aliado tanto de empresarios como de entidades reguladoras, fomentando comunidad alrededor de la transparencia en el mercado de licores.  
 
 ## 2.2. Entrevistas.
- ## 2.2.1. Diseño de entrevistas
+## 2.2.1. Diseño de entrevistas
 Para el desarrollo de las entrevistas de nuestros segmentos objetivos, se pensaron en las siguientes preguntas:
- ### Preguntas utilizadas para las entrevistas según el segmento objetivo:
+### Preguntas utilizadas para las entrevistas según el segmento objetivo:
  
-- **Dueño de licorerias**
+## Preguntas utilizadas para las entrevistas según el segmento objetivo:
 
-  - 1. ¿Qué tipo de bebidas representan la mayor parte de sus ventas?
+## Dueño de licorerias
 
-  - 2. ¿Cuáles son los productos que más rápido se agotan y cuáles suelen quedarse en stock?
+### Preguntas Demográficas:
 
-  - 3. ¿Ha detectado cambios recientes en las preferencias de sus clientes?
+- ¿Cuál es su nombre?
+- ¿Qué edad tiene?
+- ¿Cuál es su género?
+- ¿Cuál es su distrito/provincia de residencia?
+- ¿Cuál es su ocupación?
+  
+### Preguntas principales:
 
-  - 4. ¿Cómo decide qué nuevos productos incorporar a su catálogo?
+- ¿Qué tipo de bebidas representan la mayor parte de sus ventas?
+- ¿Cuáles son los productos que más rápido se agotan y cuáles suelen quedarse en stock?
+- ¿Cómo decide qué nuevos productos incorporar a su catálogo?
+- ¿Qué dificultades encuentra al momento de controlar inventario o pedidos?
+- ¿Cuánto tiempo le toma normalmente reponer stock y coordinar con proveedores?
+- ¿Cómo maneja el registro de ventas: manual, hojas de cálculo o algún sistema digital?
+- ¿Le interesaría contar con un sistema que le permita tener control en tiempo real del stock?
+- ¿Le ayudaría un sistema que lo conecte directamente con proveedores autorizados para simplificar la reposición?
+- ¿Cree que un software como WineSoft podría ahorrarle tiempo administrativo para dedicarse más a sus clientes?
+  
+### Preguntas complementarias:
 
-  - **Sobre la gestión del negocio**
+- ¿Qué tan valioso sería para usted recibir reportes automáticos de los productos más vendidos y menos rotativos?
+- ¿Qué tanto le impacta la informalidad o competencia desleal en precios y productos adulterados?
+- ¿Ha detectado cambios recientes en las preferencias de sus clientes?
+  
+## Proveedores del sector licorero
 
-  - 5. ¿Qué dificultades encuentra al momento de controlar inventario o pedidos?
+### Preguntas Demográficas:
 
-  - 6. ¿Cuánto tiempo le toma normalmente reponer stock y coordinar con proveedores?
+- ¿Cuál es su nombre?
+- ¿Qué edad tiene?
+- ¿Cuál es su género?
+- ¿Cuál es su distrito/provincia de residencia?
+- ¿Por qué decidió trabajar en el rubro de proveedores para destilerías o licorerías?
+  
+### Preguntas principales:
 
-  - 7. ¿Cómo maneja el registro de ventas: manual, hojas de cálculo o algún sistema digital?
+- ¿Cuáles son los principales productos o servicios que ofrece a las destilerías?
+- ¿Cómo gestionan la trazabilidad de sus productos desde el origen hasta la entrega?
+- ¿Con qué frecuencia reciben pedidos o demandas de sus productos por parte de las licorerías?
+- ¿Cuáles considera que son los mayores retos logísticos que enfrentan actualmente?
+- ¿Qué nivel de digitalización tiene su gestión de inventario y pedidos?
+- ¿Cómo evalúan la importancia de cumplir con las normativas sanitarias en su rubro?
+- ¿Cuál es su percepción sobre la adopción de herramientas digitales dentro del rubro proveedor-destilería?
+- ¿Qué beneficios o barreras identifica en el uso de plataformas tecnológicas para la gestión de pedidos y trazabilidad?
+- ¿Cómo perciben el impacto que puede tener un fallo o retraso en su cadena de suministros?
+- ¿Estaría interesado en utilizar una plataforma digital que centralice los pedidos, gestione la trazabilidad de los productos y optimice la comunicación con las licorerías?
+- ¿Qué tan dispuesto estaría a compartir información sobre la calidad o procedencia de sus insumos con sus clientes (licorerías o destilerías)?
+- ¿Estaría interesado en utilizar una plataforma digital que centralice los pedidos, gestione la trazabilidad de los productos y optimice la comunicación con las licorerías?
+  
+### Preguntas complementarias:
 
-  - 8. ¿Qué tanto le impacta la informalidad o competencia desleal en precios y productos adulterados?
-
-  - **Preguntas sobre el beneficio de usar WineSoft**
-
-  - 9. ¿Le interesaría contar con un sistema que le permita tener control en tiempo real del stock y las ventas?
-
-  - 10. ¿Qué tan valioso sería para usted recibir reportes automáticos de los productos más vendidos y menos rotativos?
-
-  - 11. ¿Le ayudaría un sistema que lo conecte directamente con proveedores autorizados para simplificar la reposición?
-
-  - 12. ¿Cree que un software como WineSoft podría ahorrarle tiempo administrativo para dedicarse más a sus clientes?
-
-- **Entidad regulatoria**
-
-  - 1. ¿Cuáles son las principales normas que regulan el funcionamiento de licorerías en cuanto a horarios, licencias y venta responsable?
-
-  - 2. ¿Qué dificultades enfrentan al supervisar el cumplimiento de estas normas en pequeños negocios?
-
-  - 3. ¿Cómo se asegura actualmente la trazabilidad y autenticidad de las bebidas alcohólicas en el mercado?
-
-  - 4. ¿Cuáles son las sanciones más comunes que aplican a las licorerías que incumplen las normas?
-
-  - **Sobre retos del sector**
-
-  - 5. ¿Qué tan grande es el problema de la informalidad y el contrabando en este rubro?
-
-  - 6. ¿Existen datos sobre cuántas licorerías están formalizadas vs. cuántas operan sin licencia?
-
-  - 7. ¿Qué impacto tiene la venta de alcohol sin control en la seguridad ciudadana y la salud pública?
-
-  - **Sobre relación con dueños de licorerías**
-  - 8. ¿Qué facilidades ofrece la entidad para que los dueños se formalicen de manera rápida y sencilla?
-
-  - 9. ¿Se cuenta con programas de capacitación o campañas para orientar a los negocios sobre las regulaciones vigentes?
-
-  - 10. ¿Cómo manejan las quejas o reclamos de dueños de licorerías respecto a las fiscalizaciones?
-
-  - **Sobre futuro y digitalización con WineSoft**
-
-  - 11. ¿Consideran que la digitalización de la gestión de licorerías podría facilitar la fiscalización y el cumplimiento normativo?
-
-  - 12. ¿Un sistema como WineSoft, que centralice inventarios, ventas y relación con proveedores autorizados, podría servir de apoyo para reducir la informalidad?
-
-  - 13. ¿La entidad estaría dispuesta a integrarse o colaborar con plataformas tecnológicas para mejorar la trazabilidad y control del mercado de alcohol?
-
-  - 14. ¿Qué expectativas tiene la entidad sobre el uso de tecnología en los próximos 5 años para este sector?
+- ¿Qué tipo de valor agregado buscan transmitir en su relación con los socios comerciales o licorerías?
+- ¿Con qué frecuencia reciben solicitudes de personalización de productos por parte de las licorerías o clientes?
+- ¿Qué tipo de información considera más valiosa sobre sus producto?
+- ¿Qué dificultades enfrentan al realizar servicios de transporte o entrega en zonas alejadas?
+- ¿Qué mejoras considera necesarias en la relación entre proveedores y licorerías?
 
  ##  2.2.2. Registro de entrevistas
 A continuación, se presentará un resumen de cada entrevista. Además, por cada entrevista se colocará una captura de pantalla de evidencia y el intervalo de tiempo de duración que tienen en el video.
@@ -587,6 +666,7 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 - Señaló que la informalidad y el contrabando generan pérdidas tributarias y riesgos para la salud pública, reflejados en intoxicaciones y ventas a menores. Sin embargo, también destacó que existen avances como las ventanillas digitales y los registros en línea, que facilitan los trámites a los dueños de negocios. Asimismo, mencionó que se realizan campañas de capacitación y operativos preventivos.
 
 - Respecto al futuro, afirmó que la digitalización es clave para mejorar la fiscalización, ya que facilita cruces de datos y la trazabilidad. Consideró que un software como WineSoft puede ser muy útil, siempre que valide proveedores, registre ventas en tiempo real y garantice la protección de datos. A mediano plazo, proyecta que habrá más interoperabilidad entre entidades públicas, mejor trazabilidad digital y fiscalizaciones más focalizadas.
+  
 ## 2.2.3. Análisis de entrevistas  
 ### Segmento 1: Dueños de licorerías y destilerías (N=3)  
 
@@ -685,6 +765,7 @@ La entidad reguladora reconoce como principales retos la informalidad (40–50% 
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
+
 Con el propósito de garantizar una comprensión profunda y precisa de los segmentos identificados como clave para nuestro proyecto, hemos llevado a cabo un proceso estructurado y cuidadoso de creación de User Personas. Este procedimiento nos permitió definir un perfil específico y representativo para cada segmento objetivo, lo que nos brinda una perspectiva más clara y detallada de nuestros usuarios. De esta manera, podemos diseñar y ofrecer soluciones que respondan de manera efectiva a sus necesidades, expectativas y contextos particulares.
 
 - **UserPersona 1**
@@ -698,12 +779,33 @@ Con el propósito de garantizar una comprensión profunda y precisa de los segme
     <br>
 
 ### 2.3.2. User Task Matrix.
+
 <div style='text-align: justify;'>
 
+El **User Task Matrix** concentra las tareas que los **User Persona**, que representan a los segmentos principales de WineSoft, realizan para cumplir sus objetivos dentro de la cadena de valor de bebidas alcohólicas.
+En este caso, se consideran dos segmentos de usuarios:
 
-El **User Task Matrix** permite identificar y priorizar las tareas que realizan los distintos segmentos de usuarios para alcanzar sus objetivos. En este caso, la matriz se centra en dos segmentos principales: **dueños de licorerías/destilerías** y **entidades regulatorias/inspectores**.  
+- **Dueños de licorerías o destilerías**, encargados de la gestión operativa, el control del inventario y la relación directa con los clientes.
+  
+- **Proveedores**, responsables del abastecimiento, trazabilidad y cumplimiento logístico en los procesos de distribución.
+  
+Es importante destacar que las **tareas (tasks)** reflejan actividades que los usuarios realizan independientemente de la existencia del software, es decir, forman parte natural de su día a día y no representan características o funciones del sistema.
 
-La matriz presenta 15 tareas relevantes para ambos segmentos, clasificadas según su frecuencia (qué tan seguido se realizan) y severidad (qué tan críticas son). Esto permite comprender mejor las necesidades y prioridades de cada grupo, además de identificar similitudes y diferencias en sus actividades.  
+---
+
+### Indicadores de Importancia y Frecuencia
+
+#### Indicadores de Importancia:
+
+- **ALTA** → La tarea es crítica para el cumplimiento de los objetivos del usuario.
+- **MEDIA** → La tarea es importante pero no afecta directamente el resultado global.
+- **BAJA** → La tarea aporta valor complementario o se realiza ocasionalmente.
+
+#### Indicadores de Frecuencia:
+
+- **ALTA** → Se realiza de manera constante o diaria.
+- **MEDIA** → Se realiza semanal o mensualmente.
+- **BAJA** → Se realiza esporádicamente o en circunstancias específicas.
 
 ---
 
@@ -726,9 +828,41 @@ La matriz presenta 15 tareas relevantes para ambos segmentos, clasificadas segú
 | Comparar desempeño con estándares de mercado | Baja - Alta | Media - Alta |
 
 
-<div align="justify">
-El análisis del User Task Matrix evidencia que, para los dueños de licorerías y destilerías, las tareas más frecuentes y críticas giran en torno al control de inventario, la recepción de alertas sobre stock bajo o vencimiento, el registro de ventas con trazabilidad y la conexión con proveedores autorizados, lo que refleja la necesidad de eficiencia operativa y reducción de riesgos de desabastecimiento. En el caso de las entidades regulatorias, sus prioridades se concentran en asegurar el cumplimiento normativo, acceder a datos en tiempo real para auditorías, generar reportes confiables y detectar productos adulterados o sin la documentación adecuada, aspectos que responden a la necesidad de transparencia y control en el sector. Ambos segmentos coinciden en la importancia de contar con herramientas que garanticen la trazabilidad, emitan alertas preventivas y faciliten el cumplimiento de normativas, ya que estos elementos resultan esenciales para asegurar la calidad de los productos, proteger la salud pública y fomentar la formalización de los negocios de licores.
-</div>
+### Análisis de Tareas
+
+#### Tareas con mayor frecuencia e importancia
+
+Tanto **dueños de licorerías/destilerías** como **proveedores** presentan alta frecuencia e importancia en tareas como:
+
+- **Garantizar la trazabilidad de productos,**
+- **Cumplir con acuerdos comerciales y tiempos de entrega,** y
+- **Recibir alertas de stock bajo o vencimiento.**
+Estas tareas reflejan la necesidad de control, coordinación y comunicación constante dentro del flujo logístico y de abastecimiento.
+
+#### Principales diferencias entre segmentos de usuarios
+
+1. **Control de inventario:** Tiene alta frecuencia e importancia para los dueños de licorerías, ya que afecta directamente la operación diaria; para los proveedores, su frecuencia es media al centrarse más en abastecimiento que en almacenamiento.
+2. **Generación de reportes:** Es una tarea de importancia alta en ambos segmentos, pero de mayor frecuencia en los proveedores, que deben rendir cuentas sobre logística y cumplimiento.
+3. **Registro de ventas y movimientos:** Es esencial y frecuente para los dueños de licorerías, mientras que los proveedores la realizan con menor frecuencia, enfocándose más en despachos y entregas.
+   
+#### Principales similitudes
+
+Ambos segmentos coinciden en tareas con alta importancia relacionadas con:
+
+- **Trazabilidad y control de calidad,**
+- **Cumplimiento normativo y logístico,**
+- **Conexión con socios comerciales,** y
+- **Acceso a información en tiempo real.**
+
+Esto demuestra la necesidad compartida de una plataforma que integre la información y mejore la visibilidad de la cadena de suministro.
+
+#### Enfoque de los segmentos
+
+- Los **dueños de licorerías y destilerías** se enfocan en la **gestión interna del inventario**, **la eficiencia operativa** y la **continuidad del negocio**, asegurando disponibilidad constante de productos.
+  
+- Los proveedores, en cambio, priorizan la **trazabilidad**, la **eficiencia logística** y el **cumplimiento de tiempos y normativas**, asegurando que los insumos lleguen en condiciones óptimas y dentro del plazo.
+  
+Aunque cada grupo aborda distintos puntos del proceso, ambos buscan un mismo objetivo: mantener la calidad, trazabilidad y sostenibilidad de la cadena de abastecimiento del sector licorero.
 
 ### 2.3.3. User Journey Mapping.
 
@@ -752,175 +886,111 @@ El análisis del User Task Matrix evidencia que, para los dueños de licorerías
 
 ![Big Picture Event Storming](/imagenes/BigPicture-EventStorming.png)
 
-## 2.5. Ubiquitous Language.
-<div align="justify">
-  <ul>
-    <li><b>Destilería:</b> Planta de producción dedicada a la elaboración de bebidas alcohólicas mediante procesos de fermentación y destilación.</li>
-    <li><b>Destilación:</b> Proceso de separación que concentra el alcohol aplicando calor y controlando la condensación.</li>
-    <li><b>Trazabilidad:</b> Capacidad de rastrear cada lote de producción desde el inicio hasta su distribución final.</li>
-    <li><b>Normativa Sanitaria:</b> Conjunto de normas y leyes que garantizan la inocuidad y calidad del producto alcohólico.</li>
-    <li><b>Control de Calidad:</b> Evaluación de parámetros críticos del producto, como pureza, grado alcohólico y seguridad.</li>
-    <li><b>Reporte Automático:</b> Documento digital generado por el sistema que registra datos de producción, control y mantenimiento.</li>
-    <li><b>Certificación:</b> Reconocimiento oficial que valida el cumplimiento de normas nacionales e internacionales.</li>
-    <li><b>Compliance:</b> Es el conjunto de procesos y buenas prácticas que una organización implementa para asegurarse de cumplir con las leyes, regulaciones y normas éticas aplicables.</li>
-    <li><b>Retail:</b> Se refiere a la venta de productos o servicios directamente al consumidor final en pequeñas cantidades. Este sector incluye tiendas físicas como supermercados y franquicias, así como la venta online.</li>
-    <li><b>Verticalizadas:</b> La verticalización es la estrategia que emplea una empresa con el fin de ser especialista en ventas y comercialización por sector o función de la industria.</li>
+## 2.5. Ubiquitous Language
 
-  </ul>
-</div>
+| **Term (English)**           | **Término (Español)**         | **Definition (Definición en español)**                                                                                                |
+| ---------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Distillery**               | Destilería                    | Planta o taller donde se elaboran bebidas alcohólicas mediante procesos de fermentación y destilación.                                |
+| **Liquor Store**             | Licorería                     | Establecimiento dedicado a la venta o distribución de bebidas alcohólicas al por menor o por mayor.                                   |
+| **Inventory Control**        | Control de Inventario         | Proceso de registro, monitoreo y actualización de los insumos y productos almacenados en el negocio.                                  |
+| **Stock Alert**              | Alerta de Stock               | Notificación automática que advierte al usuario sobre bajo inventario o próximos vencimientos de insumos.                             |
+| **Supply Chain**             | Cadena de Suministro          | Conjunto de procesos que conectan al proveedor de insumos con la destilería o licorería, desde la producción hasta la entrega final.  |
+| **Supplier**                 | Proveedor                     | Persona o empresa que abastece insumos esenciales (alcohol, botellas, tapas, equipos) a las destilerías o licorerías.                 |
+| **Order Management**         | Gestión de Pedidos            | Actividad que permite crear, procesar y monitorear pedidos de reposición entre proveedores y destilerías.                             |
+| **Delivery Tracking**        | Seguimiento de Entregas       | Registro del estado de los pedidos durante el transporte (pendiente, en camino, entregado).                                           |
+| **Traceability**             | Trazabilidad                  | Capacidad de rastrear el recorrido y origen de cada insumo o producto dentro de la cadena de suministro.                              |
+| **Quality Control**          | Control de Calidad            | Conjunto de actividades que garantizan que los productos cumplan con los estándares sanitarios y técnicos establecidos.               |
+| **Warehouse**                | Almacén                       | Espacio físico o virtual donde se registran y almacenan los insumos, materias primas o productos terminados.                          |
+| **Virtual Warehouse**        | Almacén Virtual               | Módulo digital dentro de WineSoft que simula el inventario físico y permite su gestión en tiempo real.                                |
+| **Restocking Request**       | Solicitud de Reposición       | Petición enviada por el dueño de una destilería al proveedor para reabastecer insumos faltantes.                                      |
+| **Environmental Monitoring** | Monitoreo Ambiental           | Supervisión digital de las condiciones de almacenamiento (temperatura, humedad) para prevenir deterioro de insumos.                   |
+| **Automatic Report**         | Reporte Automático            | Documento o registro generado por el sistema que muestra datos de ventas, inventario o entregas sin intervención manual.              |
+| **Customer Feedback**        | Retroalimentación del Cliente | Opiniones y sugerencias que los clientes brindan para mejorar los productos o servicios ofrecidos.                                    |
+| **Artisanal Product**        | Producto Artesanal            | Bebida alcohólica elaborada con métodos tradicionales y en pequeños lotes, valorada por su autenticidad y origen local.               |
+| **Supplier Panel**           | Panel del Proveedor           | Interfaz digital en WineSoft que permite a los proveedores visualizar las necesidades de reposición, gestionar pedidos y transportes. |
+| **Client Panel**             | Panel del Cliente             | Sección de la plataforma donde los dueños de destilerías controlan inventarios, pedidos y reportes.                                   |
+| **Digital Integration**      | Integración Digital           | Conexión entre distintos módulos o actores (dueños y proveedores) para compartir información en tiempo real.                          |
+| **Subscription Plan**        | Plan de Suscripción           | Modelo de pago mensual que otorga acceso a WineSoft según el tamaño o necesidades del negocio.                                |
+| **User Dashboard**           | Panel de Usuario              | Vista central que presenta indicadores, alertas y métricas clave para la toma de decisiones.                                          |
+| **Operational Efficiency**   | Eficiencia Operativa          | Capacidad de reducir costos, tiempos y errores mediante procesos automatizados y optimizados.                                         |
+| **Business Insight**         | Análisis del Negocio          | Información procesada que permite identificar patrones de venta, consumo y rendimiento operativo.                                     |
+
+
 
 # Capítulo III: Requirements Specification 
 
 ## 3.1. User Stories. 
-<table>
-  <tr>
-    <td align="center"><b>User Story ID</b></td>
-    <td align="center"><b>Título</b></td>
-    <td align="center"><b>Descripción</b></td>
-    <td align="center"><b>Criterios de Aceptación</b></td>
-    <td align="center"><b>Relacionado con (Epic ID)</b></td>
-  </tr>
-  
-  <!-- Consumidor -->
-  <tr>
-    <td align="center">US01</td>
-    <td align="justify">Búsqueda de licores</td>
-    <td align="justify">Como consumidor, quiero buscar un licor en un catálogo digital, para comparar marcas y precios antes de comprar.</td>
-    <td align="justify">El sistema muestra resultados coincidentes con el nombre o categoría buscada.</td>
-    <td align="center">EP01</td>
-  </tr>
-  <tr>
-    <td align="center">US02</td>
-    <td align="justify">Información básica del producto</td>
-    <td align="justify">Como consumidor, quiero ver información básica de un licor (marca, origen, graduación alcohólica y precio), para tomar una mejor decisión de compra.</td>
-    <td align="justify">La app muestra marca, origen, precio y graduación alcohólica en la ficha del producto.</td>
-    <td align="center">EP01</td>
-  </tr>
-  <tr>
-    <td align="center">US03</td>
-    <td align="justify">Verificación del producto</td>
-    <td align="justify">Como consumidor, quiero ver si el producto está verificado, para sentirme seguro al comprar.</td>
-    <td align="justify">El sistema muestra un sello o etiqueta digital de verificación en los productos aprobados.</td>
-    <td align="center">EP02</td>
-  </tr>
-  <tr>
-    <td align="center">US04</td>
-    <td align="justify">Recomendaciones de productos</td>
-    <td align="justify">Como consumidor, quiero recibir recomendaciones básicas, para descubrir nuevos productos.</td>
-    <td align="justify">El sistema sugiere productos relacionados según mis búsquedas o compras anteriores.</td>
-    <td align="center">EP03</td>
-  </tr>
-  <tr>
-    <td align="center">US05</td>
-    <td align="justify">Guardar productos favoritos</td>
-    <td align="justify">Como consumidor, quiero guardar mis productos favoritos en la app, para encontrarlos rápidamente en futuras compras.</td>
-    <td align="justify">El sistema permite marcar y listar los productos favoritos del usuario.</td>
-    <td align="center">EP03</td>
-  </tr>
-  <tr>
-    <td align="center">US06</td>
-    <td align="justify">Alertas de retiro de lotes</td>
-    <td align="justify">Como consumidor, quiero recibir alertas si un lote de licor ha sido retirado del mercado, para evitar consumir un producto riesgoso.</td>
-    <td align="justify">El sistema notifica al usuario cuando un producto que compró o marcó como favorito está en un lote retirado.</td>
-    <td align="center">EP04</td>
-  </tr>
-  <tr>
-    <td align="center">US07</td>
-    <td align="justify">Reportar productos sospechosos</td>
-    <td align="justify">Como consumidor, quiero reportar un producto sospechoso desde la app, para alertar a otros y a las autoridades.</td>
-    <td align="justify">El sistema permite enviar un reporte con foto, descripción y ubicación.</td>
-    <td align="center">EP04</td>
-  </tr>
-  <tr>
-    <td align="center">US08</td>
-    <td align="justify">Compartir reseñas</td>
-    <td align="justify">Como consumidor, quiero compartir reseñas sobre un producto, para ayudar a otros usuarios a elegir mejor.</td>
-    <td align="justify">Los usuarios pueden dejar comentarios y calificaciones visibles para otros.</td>
-    <td align="center">EP03</td>
-  </tr>
-  
-  <!-- Tienda -->
-  <tr>
-    <td align="center">US09</td>
-    <td align="justify">Registro de inventario</td>
-    <td align="justify">Como tienda, quiero subir productos al catálogo, para que los usuarios los vean.</td>
-    <td align="justify">El sistema permite añadir producto con nombre, precio e imagen.</td>
-    <td align="center">EP05</td>
-  </tr>
-  <tr>
-    <td align="center">US10</td>
-    <td align="justify">Edición de inventario</td>
-    <td align="justify">Como tienda, quiero editar la información de un licor, para mantenerla actualizada.</td>
-    <td align="justify">El sistema permite editar precio, stock o descripción.</td>
-    <td align="center">EP05</td>
-  </tr>
-  <tr>
-    <td align="center">US11</td>
-    <td align="justify">Análisis de productos consultados</td>
-    <td align="justify">Como tienda, quiero ver qué productos se consultan más, para entender qué buscan los usuarios.</td>
-    <td align="justify">El sistema genera un listado con los productos más consultados en un período.</td>
-    <td align="center">EP05</td>
-  </tr>
-  
-  <!-- Entidad regulatoria -->
-  <tr>
-    <td align="center">US12</td>
-    <td align="justify">Recepción de reportes</td>
-    <td align="justify">Como entidad regulatoria, quiero recibir reportes de usuarios, para supervisar posibles problemas.</td>
-    <td align="justify">Los reportes se muestran en un panel de control con detalles enviados por usuarios.</td>
-    <td align="center">EP06</td>
-  </tr>
-  <tr>
-    <td align="center">US13</td>
-    <td align="justify">Consultas de productos verificados</td>
-    <td align="justify">Como entidad regulatoria, quiero consultar los productos verificados en la plataforma, para facilitar mi trabajo de control.</td>
-    <td align="justify">El sistema muestra una lista de productos verificados con datos de lote y proveedor.</td>
-    <td align="center">EP06</td>
-  </tr>
-  <tr>
-    <td align="center">US14</td>
-    <td align="justify">Reportes estadísticos</td>
-    <td align="justify">Como entidad regulatoria, quiero generar reportes estadísticos de consumo y adulteración, para tomar decisiones de control más efectivas.</td>
-    <td align="justify">El sistema exporta reportes en PDF o Excel con métricas clave.</td>
-    <td align="center">EP07</td>
-  </tr>
-  <tr>
-    <td align="center">US15</td>
-    <td align="justify">Aprobación de distribuidores</td>
-    <td align="justify">Como entidad regulatoria, quiero aprobar o rechazar registros de nuevos distribuidores, para asegurar que solo operen los autorizados.</td>
-    <td align="justify">El sistema muestra solicitudes pendientes y permite aprobar/rechazar con observaciones.</td>
-    <td align="center">EP07</td>
-  </tr>
-  
-  <!-- Distribuidor -->
-  <tr>
-    <td align="center">US16</td>
-    <td align="justify">Seguimiento de lotes</td>
-    <td align="justify">Como distribuidor, quiero dar seguimiento al lote durante el transporte, para asegurar que llega íntegro al destino.</td>
-    <td align="justify">El sistema muestra la ubicación y estado del lote en tiempo real.</td>
-    <td align="center">EP08</td>
-  </tr>
-</table>
+
+
+| **Epic / Story ID** | **Título**                                   | **Descripción**                                                                                                                                                                                            | **Criterios de Aceptación (CA)**                                                                                                                                                                                                                                                                                                                                                                                            | **Relacionado con (Epic ID)** |
+| ------------------- | -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| **EP01**            | Gestión de Inventario y Almacén Virtual      | Como dueño de destilería o licorería, quiero registrar, visualizar y controlar mis insumos en un almacén digital, para mantener actualizado mi inventario y evitar pérdidas por vencimiento o mal control. | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US01**            | Registrar nuevo insumo                       | Como usuario, quiero añadir nuevos insumos con nombre, cantidad, unidad y fecha de vencimiento para mantener mi inventario actualizado.                                                                    | **CA1:** Dado que el usuario accede al módulo Inventario, cuando completa los datos de un nuevo insumo, entonces el sistema lo guarda correctamente.<br>**CA2:** Dado que el registro es exitoso, cuando se actualiza la lista, entonces el nuevo insumo aparece en la tabla general.<br>**CA3:** Dado que un campo obligatorio está vacío, cuando intenta guardar, entonces el sistema muestra un mensaje de error.        | EP01                          |
+| **US02**            | Editar stock existente                       | Como usuario, quiero actualizar la cantidad o detalles de un insumo para reflejar los cambios en el inventario real.                                                                                       | **CA1:** Dado que existe un insumo registrado, cuando se selecciona “Editar” y se modifican los valores, entonces el sistema guarda los cambios.<br>**CA2:** Dado que el cambio es exitoso, cuando se recarga la vista, entonces la nueva cantidad se refleja.<br>**CA3:** Dado que el usuario intenta editar un insumo inexistente, cuando realiza la acción, entonces el sistema notifica que no se encontró el registro. | EP01                          |
+| **US03**            | Eliminar insumo                              | Como usuario, quiero eliminar un insumo que ya no utilizo, para mantener limpio y actualizado mi inventario.                                                                                               | **CA1:** Dado que un insumo ya no es necesario, cuando selecciona “Eliminar”, entonces el sistema solicita confirmación.<br>**CA2:** Dado que se confirma la eliminación, cuando se ejecuta la acción, entonces el registro desaparece de la lista.<br>**CA3:** Dado que el usuario cancela la acción, entonces el registro no se elimina.                                                                                  | EP01                          |
+| **US04**            | Buscar y filtrar insumos                     | Como usuario, quiero buscar y filtrar mis insumos por nombre, tipo o fecha, para encontrarlos rápidamente.                                                                                                 | **CA1:** Dado que el usuario ingresa un término de búsqueda, cuando presiona “Buscar”, entonces el sistema muestra solo los resultados coincidentes.<br>**CA2:** Dado que aplica un filtro, cuando selecciona una categoría o fecha, entonces la tabla se actualiza con los resultados filtrados.                                                                                                                           | EP01                          |
+| **EP02**            | Gestión de Proveedores y Pedidos             | Como proveedor, quiero visualizar las necesidades de reposición y generar envíos a las destilerías o licorerías, para mantener una cadena de suministro eficiente y trazable.                              | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US05**            | Crear pedido de envío                        | Como proveedor, quiero generar pedidos según las alertas de mis clientes para organizar el abastecimiento de insumos.                                                                                      | **CA1:** Dado una alerta de reposición, cuando el proveedor crea un pedido, entonces se registra en el sistema.<br>**CA2:** Dado un pedido generado, cuando se asocia al cliente correspondiente, entonces ambos usuarios pueden visualizarlo.<br>**CA3:** Dado que faltan datos del pedido, cuando se intenta guardar, entonces el sistema alerta que el formulario está incompleto.                                       | EP02                          |
+| **US06**            | Actualizar estado del transporte             | Como proveedor, quiero actualizar el estado del envío (pendiente, en camino, entregado) para mantener la trazabilidad.                                                                                     | **CA1:** Dado un pedido en curso, cuando se actualiza el estado, entonces el sistema registra el cambio y lo muestra en tiempo real.<br>**CA2:** Dado que el pedido fue entregado, cuando se marca como “Entregado”, entonces el cliente recibe notificación inmediata.<br>**CA3:** Dado un intento de cambio inválido, cuando se ejecuta, entonces el sistema rechaza la acción.                                           | EP02                          |
+| **US07**            | Ver historial de entregas                    | Como proveedor, quiero consultar el historial de pedidos enviados y entregados, para llevar control de mis operaciones.                                                                                    | **CA1:** Dado que existen registros anteriores, cuando accedo al historial, entonces el sistema muestra la lista con fechas y estados.<br>**CA2:** Dado que no hay registros, cuando se accede, entonces el sistema muestra un mensaje “sin entregas registradas”.                                                                                                                                                          | EP02                          |
+| **EP03**            | Alertas Inteligentes y Notificaciones        | Como usuario de WineSoft, quiero recibir alertas automáticas sobre productos próximos a vencer o con bajo stock, para prevenir pérdidas y mantener mi producción continua.                                 | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US08**            | Alertas de vencimiento                       | Como usuario, quiero recibir alertas cuando un producto esté próximo a vencer.                                                                                                                             | **CA1:** Dado que un insumo tiene menos de 15 días de vigencia, cuando se cumple esa condición, entonces el sistema genera una alerta automática.<br>**CA2:** Dado que el usuario abre la alerta, entonces visualiza el insumo afectado.<br>**CA3:** Dado que el insumo fue renovado, cuando se actualiza la fecha, entonces la alerta desaparece.                                                                          | EP03                          |
+| **US09**            | Alertas de stock bajo                        | Como usuario, quiero recibir notificaciones cuando un insumo esté bajo el umbral mínimo.                                                                                                                   | **CA1:** Dado que el stock baja del valor mínimo, cuando se registra una actualización, entonces se genera una alerta visual.<br>**CA2:** Dado la alerta activa, cuando el usuario la revisa, entonces se marca como leída.<br>**CA3:** Dado que el stock se repone, cuando el valor supera el umbral, entonces el sistema elimina la alerta.                                                                               | EP03                          |
+| **US10**            | Configurar umbrales de alerta                | Como usuario, quiero definir los valores mínimos y días de vencimiento para recibir notificaciones personalizadas.                                                                                         | **CA1:** Dado que el usuario accede a configuración, cuando cambia los umbrales, entonces el sistema guarda los nuevos parámetros.<br>**CA2:** Dado que se guardan correctamente, entonces las nuevas alertas se generan según los valores definidos.                                                                                                                                                                       | EP03                          |
+| **EP04**            | Dashboard de Control y Reportes              | Como dueño de destilería o proveedor, quiero visualizar reportes e indicadores gráficos en un panel de control, para analizar mis operaciones y tomar decisiones.                                          | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US11**            | Visualizar gráficos de stock                 | Como usuario, quiero ver gráficos actualizados sobre mi inventario para identificar tendencias.                                                                                                            | **CA1:** Dado que existen registros de inventario, cuando se abre el dashboard, entonces se muestran gráficos actualizados.<br>**CA2:** Dado que el usuario cambia el filtro temporal, cuando selecciona un rango, entonces los datos se actualizan dinámicamente.<br>**CA3:** Dado que no hay registros, cuando se carga el panel, entonces se muestra “sin datos”.                                                        | EP04                          |
+| **US12**            | Exportar reportes                            | Como usuario, quiero exportar mis reportes en PDF o Excel para análisis externo.                                                                                                                           | **CA1:** Dado que el usuario selecciona “Exportar”, cuando elige el formato, entonces el sistema genera el archivo.<br>**CA2:** Dado que no hay datos disponibles, cuando se intenta exportar, entonces el sistema muestra un aviso.                                                                                                                                                                                        | EP04                          |
+| **US13**            | Comparar desempeño histórico                 | Como usuario, quiero comparar mi desempeño mensual o anual para detectar mejoras o caídas.                                                                                                                 | **CA1:** Dado que existen datos históricos, cuando selecciona un rango temporal, entonces el sistema muestra la comparación.<br>**CA2:** Dado que faltan datos, el sistema lo notifica y ajusta la visualización.                                                                                                                                                                                                           | EP04                          |
+| **EP05**            | Landing Page Informativa                     | Como visitante, quiero acceder a una landing page clara y atractiva, para entender de qué trata WineSoft, conocer sus beneficios y comunicarme si estoy interesado.                                        | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US14**            | Explorar información de WineSoft             | Como visitante, quiero conocer los servicios y beneficios de WineSoft para decidir si registrarme.                                                                                                         | **CA1:** Dado que el visitante accede al sitio, cuando navega por “About” o “Services”, entonces visualiza el contenido informativo.<br>**CA2:** Dado que quiere más información, cuando hace clic en “Get Started”, entonces se le redirige al formulario de contacto.                                                                                                                                                     | EP05                          |
+| **US15**            | Enviar formulario de contacto                | Como visitante, quiero enviar mis datos para que el equipo de WineSoft me contacte.                                                                                                                        | **CA1:** Dado que el formulario está completo, cuando el visitante envía los datos, entonces el sistema guarda el mensaje y muestra confirmación.<br>**CA2:** Dado que hay un error de conexión, cuando se intenta enviar, entonces el sistema muestra un mensaje de reintento.                                                                                                                                             | EP05                          |
+| **EP06**            | API RESTful e Integraciones                  | Como desarrollador, quiero acceder a una API RESTful segura para sincronizar datos de inventario, pedidos y usuarios, permitiendo integraciones con sistemas externos o móviles.                           | —                                                                                                                                                                                                                                                                                                                                                                                                                           | —                             |
+| **US16**            | Obtener lista de inventario (GET /inventory) | Como desarrollador, quiero acceder a la lista de insumos registrados mediante la API para integrarla con otros sistemas.                                                                                   | **CA1:** Dado que tengo credenciales válidas, cuando hago un GET a /inventory, entonces recibo un JSON con los datos.<br>**CA2:** Dado que no tengo autorización, cuando intento la solicitud, entonces el sistema devuelve error 401.                                                                                                                                                                                      | EP06                          |
+| **US17**            | Crear pedido vía API (POST /orders)          | Como desarrollador, quiero registrar nuevos pedidos de envío mediante la API.                                                                                                                              | **CA1:** Dado que tengo permisos válidos, cuando envío un POST con los datos del pedido, entonces el sistema crea el registro y responde con su ID.<br>**CA2:** Dado que envío datos incompletos, cuando realizo el POST, entonces el sistema devuelve un mensaje de error 400.                                                                                                                                             | EP06                          |
+| **US18**            | Consultar trazabilidad (GET /tracking)       | Como desarrollador, quiero consultar el estado y ubicación de un pedido mediante la API.                                                                                                                   | **CA1:** Dado que el pedido tiene seguimiento activo, cuando realizo la solicitud, entonces el sistema devuelve la ubicación actual.<br>**CA2:** Dado que el pedido fue entregado, cuando se consulta, entonces devuelve estado “Entregado”.                                                                                                                                                                                | EP06                          |
+| **TS01**     | Base de datos de inventario y relaciones        | Implementar la estructura de base de datos para el módulo de inventario (tablas: insumos, tipos, vencimientos, movimientos), con sus claves foráneas y restricciones de integridad. | **CA1:** Dado el script de creación ejecutado en SQL Server, cuando se crean las tablas, entonces se generan correctamente sin errores de dependencia.<br>**CA2:** Dado que se insertan registros de prueba, cuando se consulta la tabla “insumos”, entonces los datos se muestran con relaciones válidas.                                                                    | EP01                          |
+| **TS02**     | CRUD de insumos                      | Desarrollar los endpoints y controladores para el registro, edición, eliminación y consulta de insumos en el sistema.                                 | **CA1:** Dado que se ejecuta un POST válido, cuando se envía la solicitud a /api/insumos, entonces se crea el registro.<br>**CA2:** Dado un PUT o DELETE, cuando se envía con ID válido, entonces el cambio se refleja en la base de datos.<br>**CA3:** Dado que se realiza un GET, cuando se consulta /api/insumos, entonces devuelve la lista completa en formato JSON. | EP01                          |
+| **TS03**     | Interfaz de inventario              | Implementar el módulo de Inventario, incluyendo formularios, tabla dinámica y filtros de búsqueda.                                                                         | **CA1:** Dado que el usuario abre el módulo Inventario, cuando se carga la vista, entonces se muestran los insumos registrados.<br>**CA2:** Dado que el usuario añade un insumo, cuando guarda, entonces la tabla se actualiza automáticamente sin recargar la página.                                                                                                        | EP01                          |
+| **TS04**     | Módulo de gestión de pedidos         | Desarrollar los endpoints para crear, actualizar y consultar pedidos de proveedores en Express con control de estados (“pendiente”, “en camino”, “entregado”).                      | **CA1:** Dado que un proveedor crea un pedido, cuando envía la solicitud POST /api/pedidos, entonces se registra correctamente.<br>**CA2:** Dado que el pedido cambia de estado, cuando se realiza un PATCH con valor válido, entonces se actualiza el campo “estado” en la base de datos.                                                                                  | EP02                          |
+| **TS05**     | Historial y visualización de pedidos | Crear la interfaz para que el proveedor vea sus pedidos enviados, entregados o pendientes.                                                                                          | **CA1:** Dado que existen pedidos previos, cuando el proveedor abre la sección Historial, entonces se muestran con sus estados.<br>**CA2:** Dado que no existen registros, entonces se muestra un mensaje “No hay entregas registradas”.                                                                                                                                      | EP02                          |
+| **TS06**     | Motor de alertas automáticas        | Desarrollar un servicio que evalúe fechas de vencimiento y niveles de stock, generando alertas automáticas según parámetros configurados.                                           | **CA1:** Dado que el cronjob se ejecuta, cuando detecta insumos próximos a vencer o con bajo stock, entonces genera alertas en la tabla “alertas”.<br>**CA2:** Dado que el usuario actualiza los umbrales, cuando el sistema ejecuta el proceso siguiente, entonces aplica los nuevos valores.                                                                                | EP03                          |
+| **TS07**     | Sistema de notificaciones           | Implementar componente visual de notificaciones, mostrando alertas en tiempo real sobre stock o vencimiento.                                                               | **CA1:** Dado que se genera una alerta, cuando el usuario abre sesión, entonces ve el ícono de notificación activa.<br>**CA2:** Dado que revisa la alerta, cuando hace clic, entonces se marca como “leída”.                                                                                                                                                                  | EP03                          |                                                                                                                      | EP04                          |
+| **TS08**     | Diseño de Bussiness Web Site              | Diseñar la interfaz pública con estructura responsive, secciones informativas y formulario de contacto.                                                                             | **CA1:** Dado que el visitante ingresa desde cualquier dispositivo, cuando accede al sitio, entonces se adapta correctamente <br>**CA2:** Dado que completa el formulario, cuando envía, entonces el sistema confirma recepción.                                                                                                                               | EP05                          |
+| **TS09**     | API RESTful segura                              | Implementar la API RESTful con endpoints para inventario, pedidos y trazabilidad, con autenticación JWT.                                                                            | **CA1:** Dado que el desarrollador realiza una solicitud GET/POST con token válido, entonces recibe respuesta correcta (200 OK).<br>**CA2:** Dado que no tiene credenciales válidas, cuando realiza la solicitud, entonces recibe error 401 (Unauthorized).                                                                                                                   | EP06                          |
+
 
 ## 3.2. Impact Mapping
 <img src="./imagenes/Impact map 1.png" alt="Impact map">
 
 ## 3.3. Product Backlog. 
 
-| **ID** | **User Story / Requerimiento** | **Prioridad** | **Criterio de Aceptación** |
-|--------|--------------------------------|---------------|-----------------------------|
-| PB-01 | Como dueño de fábrica, quiero **monitorear en tiempo real temperatura y humedad para garantizar la calidad de ammbiente. | Alta | El sistema muestra en un dashboard los valores en tiempo real obtenidos de los sensores. |
-| PB-02 | Como operario, quiero **recibir alertas automáticas** cuando la temperatura o humedad salgan de rango, para actuar a tiempo. | Alta | El sistema envía notificaciones inmediatas por correo o app. |
-| PB-03 | Como gerente, quiero **un registro histórico digital de mantenimiento y limpieza de equipos**, para cumplir con auditorías sanitarias. | Alta | Se almacenan registros con fecha, responsable y tipo de mantenimiento. |
-| PB-04 | Como dueño, quiero **gestionar inventario de materias primas y producto terminado**, para evitar faltantes o sobrestock. | Media | Se registra stock inicial, movimientos y se muestran niveles actuales. |
-| PB-05 | Como inspector regulador, quiero **ver reportes de trazabilidad digital**, para validar autenticidad y normativas. | Media | Se genera reporte descargable con datos de producción y stock. |
-| PB-06 | Como gerente, quiero **integrar el sistema con ERP existente**, para unificar procesos de producción y ventas. | Baja | API o exportación de datos hacia ERP en uso. |
-| PB-07 | Como usuario administrador, quiero **configurar umbrales personalizados de sensores**, para adaptar el sistema a mis procesos. | Media | El sistema permite editar valores máximos y mínimos. |
-| PB-08 | Como dueño, quiero **ver gráficos de tendencias históricas**, para analizar la evolución de la producción. | Baja | Se visualizan reportes semanales y mensuales en gráficos. |
-| PB-09 | Como operario, quiero **registrar manualmente incidencias o fallos de equipos**, para complementar la información automática. | Media | Existe un formulario en la app con fecha, descripción y evidencia. |
-| PB-10 | Como regulador, quiero **acceder a un módulo seguro de validación**, para confirmar autenticidad de lotes y certificados. | Baja | Sistema con acceso restringido y validación por código/lote. |
+En esta sección, evaluaremos las historias de usuario asignándoles una puntuación basada en su complejidad, riesgo y esfuerzo, para así determinar la prioridad de cada una. 
+<b>Enlace a Trello: </b>https://trello.com/
+
+| #Orden | User Story ID | Título                                       | Descripción                                                                                                                             | Story Points |
+| ------ | ------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| 1      | **US01**      | Registrar nuevo insumo                       | Como usuario, quiero añadir nuevos insumos con nombre, cantidad, unidad y fecha de vencimiento para mantener mi inventario actualizado. | **8**        |
+| 2      | **US05**      | Crear pedido de envío                        | Como proveedor, quiero generar pedidos según las alertas de mis clientes para organizar el abastecimiento.                              | **8**        |
+| 3      | **US10**      | Configurar umbrales de alerta                | Como usuario, quiero definir los valores mínimos y días de vencimiento para recibir notificaciones personalizadas.                      | **8**        |
+| 4      | **US13**      | Comparar desempeño histórico                 | Como usuario, quiero comparar mi desempeño mensual o anual para detectar mejoras o caídas.                                              | **5**        |
+| 5      | **US14**      | Explorar información de WineSoft             | Como visitante, quiero conocer los servicios y beneficios de WineSoft para decidir si registrarme.                                      | **3**        |
+| 6      | **US15**      | Enviar formulario de contacto                | Como visitante, quiero enviar mis datos para que el equipo de WineSoft me contacte.                                                     | **3**        |
+| 7      | **US02**      | Editar stock existente                       | Como usuario, quiero actualizar la cantidad o detalles de un insumo para reflejar los cambios en el inventario real.                    | **3**        |
+| 8      | **US04**      | Buscar y filtrar insumos                     | Como usuario, quiero buscar y filtrar mis insumos por nombre, tipo o fecha, para encontrarlos rápidamente.                              | **3**        |
+| 9      | **US06**      | Actualizar estado del transporte             | Como proveedor, quiero actualizar el estado del envío para mantener la trazabilidad.                                                    | **3**        |
+| 10     | **US08**      | Alertas de vencimiento                       | Como usuario, quiero recibir alertas cuando un producto esté próximo a vencer.                                                          | **3**        |
+| 11     | **US09**      | Alertas de stock bajo                        | Como usuario, quiero recibir notificaciones cuando un insumo esté bajo el umbral mínimo.                                                | **3**        |
+| 12     | **US11**      | Visualizar gráficos de stock                 | Como usuario, quiero ver gráficos actualizados sobre mi inventario para identificar tendencias.                                         | **3**        |
+| 13     | **US12**      | Exportar reportes                            | Como usuario, quiero exportar mis reportes en PDF o Excel para análisis externo.                                                        | **3**        |
+| 14     | **US16**      | Obtener lista de inventario (GET /inventory) | Como desarrollador, quiero acceder a la lista de insumos registrados mediante la API.                                                   | **3**        |
+| 15     | **US17**      | Crear pedido vía API (POST /orders)          | Como desarrollador, quiero registrar nuevos pedidos de envío mediante la API.                                                           | **3**        |
+| 16     | **US18**      | Consultar trazabilidad (GET /tracking)       | Como desarrollador, quiero consultar el estado y ubicación de un pedido mediante la API.                                                | **3**        |
+| 17     | **US03**      | Eliminar insumo                              | Como usuario, quiero eliminar un insumo que ya no utilizo, para mantener limpio y actualizado mi inventario.                            | **2**        |
+| 18     | **US07**      | Ver historial de entregas                    | Como proveedor, quiero consultar el historial de pedidos enviados y entregados.                                                         | **2**        |
+
 
 <div style="text-align: justify;">
+
 
   <h1>Capítulo IV: Product Design</h1>
 
@@ -1217,6 +1287,250 @@ El análisis del User Task Matrix evidencia que, para los dueños de licorerías
 #### Lading Page Mock-up - Contáctanos
 
 <img src="./imagenes/Contact1.jpg" alt="Mock-upLandingContactanos">
+
+## 4.4. Web Applications UX/UI Design.
+
+### 4.4.1. Web Applications Wireframes.
+
+Pagina principal
+<img src="./imagenes/pagina principal.png">
+
+Confirmar correo para cambio de contraseña
+<img src="./imagenes/confirmar correo.png">
+Cambio de la contraseña
+<img src="./imagenes/confirmar contraseña.png">
+
+Crear Cuenta
+<img src="./imagenes/crear cuenta.png">
+
+Seleccionar tipo e Usuario
+<img src="./imagenes/seleccionar tipo usuario.png">
+
+Ingresar datos como Dueño
+<img src="./imagenes/datos dueño.png">
+
+Ingresar datos como Dueño
+<img src="./imagenes/datos proveedor.png">
+
+Home
+
+<img src="./imagenes/Home.png">
+
+Supply
+
+<img src="./imagenes/Suplies.png">
+
+Stock
+
+<img src="./imagenes/Stock.png">
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+User Task: El dueño quiere inresar a su stock a revisar la cantidad, asi mismo poder editar el contenido.
+
+<img src="./imagenes/Flow 1.png">
+
+### 4.4.3. Web Applications Mock-ups.
+
+Pagina principal
+<img src="./imagenes/pagina principal1.png">
+
+Confirmar correo para cambio de contraseña
+<img src="./imagenes/confirmar correo1.png">
+Cambio de la contraseña
+<img src="./imagenes/confirmar contraseña1.png">
+
+Crear Cuenta
+<img src="./imagenes/crear cuenta1.png">
+
+Seleccionar tipo e Usuario
+<img src="./imagenes/seleccionar tipo usuario1.png">
+
+Ingresar datos como Dueño
+<img src="./imagenes/datos dueño1.png">
+
+Ingresar datos como Dueño
+<img src="./imagenes/datos proveedor1.png">
+
+Home
+
+<img src="./imagenes/Home1.png">
+
+Supply
+
+<img src="./imagenes/Suplies1.png">
+
+Stock
+
+<img src="./imagenes/Stock1.png">
+
+
+### 4.4.4. Web Applications User Flow Diagrams.
+
+User Task: El dueño quiere inresar a su stock a revisar la cantidad, asi mismo poder editar el contenido.
+
+<img src="./imagenes/Flow 11.png">
+
+## 4.5. Web Applications Prototyping.
+En esta parte del documento, se incluye el enlace al prototipo de la Aplicación Web, el cual fue creado utilizando la herramienta de prototipado Figma.
+
+https://www.figma.com/design/ozvmKWQm3S7ACtTfu4r8ij/Untitled?node-id=0-1&t=TEUHy4VetClLoNKA-1
+
+
+## 4.6. Domain-Driven Software Architecture. 
+
+### 4.6.1. Design-Level EventStorming.
+
+![Design-Level EventStorming](/imagenes/DesignLevel.jpg)
+
+### 4.6.2. Software Architecture Context Level Diagram.
+
+En esta sección se presenta una vista general del sistema dentro de su contexto, destacando los actores externos, los sistemas con los que se relaciona y las interacciones clave que delimitan su alcance funcional.
+
+![Design-Level EventStorming](/imagenes/context-diagram.png)
+
+### 4.6.3. Software Architecture Container Level Diagrams. 
+
+En esta sección se detalla la estructura del sistema dividiéndolo en sus contenedores principales, mostrando las tecnologías empleadas, las funciones que cumple cada uno y la forma en que interactúan entre sí.
+
+![Design-Level EventStorming](/imagenes/container-diagram.png)
+
+### 4.6.4. Software Architecture Components Level Diagrams
+
+Por último, esta sección describe los componentes internos tanto de la Single Page Application (SPA) como de la API Application, organizados en distintos bounded contexts que encapsulan funcionalidades específicas del dominio. Cada bounded context reúne componentes que trabajan en conjunto para cumplir responsabilidades definidas, favoreciendo la escalabilidad, el mantenimiento y la coherencia con los procesos del negocio.
+
+**Single Page Application (SPA)**
+
+**Indentity and Acces Management Bounded Context**
+
+![bounded-context-identity](/imagenes/identity-component.png)
+
+**Payment and Subscription Management Bounded Context**
+
+![bounded-context-payment-subscription](/imagenes/payment-component.png)
+
+**Inventory Management Bounded Context**
+
+![bounded-context-inventory](/imagenes/identity-component.png)
+
+**Order Management Bounded Context**
+
+![bounded-context-order](/imagenes/order-component.png)
+
+**Supplier Management Bounded Context**
+
+![bounded-context-supplier](/imagenes/supplier-component.png)
+
+**Shipping and Tracking Bounded Context**
+
+![bounded-context-shipping](/imagenes/tracking-component.png)
+
+**Dashboard and Reporting Bounded Context**
+
+![bounded-context-dashboard](/imagenes/dashboard-component.png)
+
+**Notifications and Alerts Bounded Context**
+
+![bounded-context-notifications](/imagenes/notifications-components.png)
+
+## 4.7. Software Object-Oriented Design.
+
+### 4.7.1. Class Diagrams.
+<p>En esta sección se presentan los diagramas de clases que representan la estructura del sistema, incluyendo las entidades principales, sus atributos y métodos, así como las relaciones entre ellas. Estos diagramas son fundamentales para comprender cómo se modelan los datos y las interacciones dentro de la aplicación.</p>
+
+![Class-Diagram](/imagenes/Class-Diagram.png)
+### **4.7.2. Class Dictionary**
+
+En esta sección se presenta un diccionario de clases que describe las entidades principales del sistema, sus atributos y métodos. Este diccionario proporciona una referencia clara para entender la estructura y funcionalidad de la aplicación.
+
+---
+
+#### **Identity and Access Management**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **User** | Representa una cuenta del sistema | - id: UUID — Identificador único<br>- username: String — Nombre de usuario<br>- password: String — Contraseña encriptada<br>- email: String — Correo electrónico<br>- role: UserRole — Rol asignado<br>- createdAt: Date — Fecha de registro<br>- isActive: boolean — Estado de la cuenta | - registerUser(): Registra nuevo usuario<br>- authenticate(): Verifica credenciales<br>- deactivate(): Desactiva cuenta |
+| **UserRole** | Define los roles disponibles en el sistema | - ADMIN<br>- CLIENT<br>- EMPLOYEE | — |
+| **Session** | Sesión de usuario autenticado | - id: UUID<br>- userId: UUID<br>- token: String<br>- expiresAt: Date | - createSession(): Genera sesión<br>- invalidateSession(): Cierra sesión |
+
+---
+
+#### **Payment and Subscription Management**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Payment** | Registra transacciones realizadas | - id: UUID<br>- userId: UUID<br>- amount: Float<br>- methodId: UUID<br>- status: PaymentStatus<br>- createdAt: Date | - processPayment(): Procesa pago<br>- cancelPayment(): Cancela pago |
+| **PaymentMethod** | Método de pago del usuario | - id: UUID<br>- userId: UUID<br>- type: PaymentType<br>- lastDigits: String<br>- expiryDate: Date<br>- isDefault: boolean | - addMethod(): Agrega método<br>- setAsDefault(): Establece predeterminado |
+| **Subscription** | Relación entre usuario y plan de servicio | - id: UUID<br>- userId: UUID<br>- planId: UUID<br>- startDate: Date<br>- endDate: Date<br>- status: SubscriptionStatus | - startSubscription(): Inicia suscripción<br>- cancelSubscription(): Cancela suscripción |
+| **Plan** | Planes de servicio disponibles | - id: UUID<br>- name: String<br>- price: Float<br>- duration: Int<br>- features: List | - activatePlan(): Activa plan<br>- deactivatePlan(): Desactiva plan |
+| **PaymentStatus** | Estados posibles de un pago | - PENDING<br>- COMPLETED<br>- FAILED | — |
+
+---
+
+#### **Inventory Management**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Product** | Producto registrado en inventario | - id: UUID<br>- name: String<br>- description: String<br>- price: Float<br>- stock: Int<br>- categoryId: UUID<br>- supplierId: UUID | - addStock(): Aumenta cantidad<br>- reduceStock(): Disminuye cantidad<br>- updateProduct(): Actualiza datos |
+| **Category** | Agrupa productos por tipo | - id: UUID<br>- name: String<br>- description: String | - addCategory(): Crea categoría<br>- removeCategory(): Elimina categoría |
+| **InventoryLog** | Historial de movimientos del inventario | - id: UUID<br>- productId: UUID<br>- change: Int<br>- date: Date<br>- reason: String | - recordChange(): Registra movimiento |
+
+---
+
+#### **Order Management**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Order** | Pedido de un cliente | - id: UUID<br>- userId: UUID<br>- orderDate: Date<br>- status: OrderStatus<br>- total: Float | - createOrder(): Genera pedido<br>- cancelOrder(): Cancela pedido<br>- updateStatus(): Cambia estado |
+| **OrderItem** | Producto incluido en un pedido | - id: UUID<br>- orderId: UUID<br>- productId: UUID<br>- quantity: Int<br>- unitPrice: Float | - addItem(): Añade producto<br>- updateQuantity(): Modifica cantidad |
+| **OrderStatus** | Estados del pedido | - PENDING<br>- PROCESSING<br>- SHIPPED<br>- DELIVERED<br>- CANCELLED | — |
+
+---
+
+#### **Supplier Management**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Supplier** | Proveedor del sistema | - id: UUID<br>- name: String<br>- contactName: String<br>- email: String<br>- phone: String<br>- address: String<br>- rating: Float | - registerSupplier(): Registra proveedor<br>- updateInfo(): Actualiza datos |
+| **Contract** | Contrato con proveedor | - id: UUID<br>- supplierId: UUID<br>- startDate: Date<br>- endDate: Date<br>- terms: String | - createContract(): Crea contrato<br>- terminateContract(): Finaliza contrato |
+
+---
+
+#### **Shipping and Tracking**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Shipment** | Envío asociado a un pedido | - id: UUID<br>- orderId: UUID<br>- carrier: String<br>- trackingCode: String<br>- status: ShipmentStatus<br>- estimatedDelivery: Date | - createShipment(): Genera envío<br>- updateStatus(): Cambia estado |
+| **ShipmentStatus** | Estado del envío | - PREPARING<br>- IN_TRANSIT<br>- DELIVERED<br>- RETURNED | — |
+| **Tracking** | Registro de seguimiento | - id: UUID<br>- shipmentId: UUID<br>- location: String<br>- timestamp: Date<br>- status: String | - recordTracking(): Añade registro |
+
+---
+
+#### **Dashboard and Reporting**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Report** | Informe generado del sistema | - id: UUID<br>- name: String<br>- type: ReportType<br>- createdBy: UUID<br>- generatedAt: Date | - generateReport(): Genera informe |
+| **Analytics** | Métricas del sistema | - totalUsers: Int<br>- totalOrders: Int<br>- totalRevenue: Float<br>- activeSubscriptions: Int | - updateMetrics(): Recalcula valores |
+| **ReportType** | Tipos de reportes | - SALES<br>- USERS<br>- INVENTORY<br>- FINANCIAL | — |
+
+---
+
+#### **Notifications and Alerts**
+
+| Clase/Enum | Descripción | Atributos | Métodos |
+|-------------|--------------|------------|-----------|
+| **Notification** | Notificación enviada a usuarios | - id: UUID<br>- userId: UUID<br>- type: NotificationType<br>- content: String<br>- isRead: boolean<br>- createdAt: Date | - sendNotification(): Envía notificación<br>- markAsRead(): Marca como leída |
+| **NotificationType** | Tipos de notificación | - ORDER_UPDATE<br>- PAYMENT<br>- SYSTEM_ALERT<br>- SHIPMENT<br>- PROMOTION | — |
+| **Alert** | Alerta generada por eventos críticos | - id: UUID<br>- level: AlertLevel<br>- message: String<br>- createdAt: Date | - triggerAlert(): Activa alerta |
+| **AlertLevel** | Niveles de alerta | - INFO<br>- WARNING<br>- CRITICAL | — |
+
+## 4.8. Database Design
+
+### 4.8.1. Database Diagrams. 
+![DataBase-Diagram](/imagenes/DataBase-Diagram.png)
+
+
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
