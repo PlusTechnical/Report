@@ -1794,3 +1794,16 @@ Se logró diseñar, publicar y realizar el despliegue de la primera versión del
 - Descripción de las funcionalidades clave del sistema (control de inventario, trazabilidad y comunicación proveedor-cliente).
 - Planes de suscripción diferenciados según el tipo de usuario (destilería o proveedor).  
 
+### Funcionalidades implementadas
+- **Business website funcional:** diseño adaptable (*responsive*) con enlaces activos a la aplicación principal.
+- **Estructura inicial del frontend WineSoft:** configuración del entorno base de la aplicación con Angular.
+- **Despliegue del frontend:** publicación de la primera versión del business website en el entorno de producción configurado.
+- **Integración visual con el branding de WineSoft:** paleta de colores y tipografía homogénea en todas las vistas.
+
+---
+
+### Evidencia visual del avance
+A continuación se muestran las vistas implementadas durante el Sprint sobre el business website:
+
+
+
