@@ -138,6 +138,13 @@ ABET – EAC - Student Outcome 3
 Criterio: Capacidad de comunicarse efectivamente con un
 rango de audiencias.
 
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|--------------------------|-------------------------|------------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Yazid Said Conde**<br>**TB1**<br>- Demostró habilidades de comunicación oral al liderar reuniones, orientar las discusiones y transmitir con claridad los objetivos del informe.<br>**TP**<br>- Su capacidad para explicar conceptos técnicos de forma comprensible facilitó la coordinación entre los miembros del equipo.<br><br>**Christofer William Costa Morales**<br>**TB1**<br>- Participó activamente en las reuniones grupales, expresando ideas con claridad y aportando observaciones constructivas para mejorar la organización del trabajo.<br>**TP**<br><br>**July Zelmira Paico Calderon**<br>**TB1**<br>- Comunicó con precisión los avances de su parte del proyecto durante las reuniones, mostrando seguridad al presentar los resultados de entrevistas y análisis.<br>**TP**<br>- Adaptó su forma de expresión al compartir información con distintos públicos.<br><br>**Oscar Diego Checa Burga**<br>**TB1**<br>- Mostró iniciativa para comunicar observaciones y sugerencias durante las sesiones de trabajo, garantizando la claridad de los acuerdos y avances.**TP**<br>- Facilitó el entendimiento colectivo al sintetizar información y proponer soluciones durante las reuniones grupales. | El equipo demostró una comunicación oral clara, empática y efectiva, adaptando su discurso a diferentes contextos y tipos de audiencia. La interacción constante, el liderazgo compartido y la expresión precisa de ideas fortalecieron la cohesión del grupo y permitieron transmitir los avances y resultados del proyecto. |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Yazid Said Conde**<br>**TB1**<br>- Redactó y revisó partes clave del informe, asegurando un estilo formal y coherente entre las secciones.<br>**TP**<br>- Utilizó un lenguaje técnico adaptado al contexto académico, facilitando la comprensión del contenido por diferentes lectores.<br><br>**Christofer William Costa Morales**<br>**TB1**<br>- Colaboró en la redacción de secciones, cuidando la coherencia visual y la uniformidad del formato.<br>**TP**<br>- Revisó y propuso mejoras en la redacción, favoreciendo la claridad y precisión del mensaje escrito.<br>- Colaboró en la revisión final de las secciones para garantizar uniformidad y cohesión visual.<br><br>**July Zelmira Paico Calderon**<br>**TB1**<br>- Contribuyó en la elaboración de apartados relacionados con entrevistas y análisis de resultados, expresando los hallazgos de manera ordenada y comprensible.<br>**TP**<br>- Mostró precisión y capacidad de síntesis en la redacción de textos analíticos y conclusivos.<br>**Oscar Diego Checa Burga**<br>**TB1**<br>- Redactó y corrigió secciones técnicas del informe, garantizando la consistencia y la correcta conexión entre los apartados.<br>**TP**<br>- Mantuvo una comunicación escrita clara en la coordinación del trabajo y en la integración final del documento.<br> | La comunicación escrita del equipo evidenció claridad, cohesión y adecuación al público objetivo del informe. Cada integrante contribuyó a mantener un estilo uniforme, con un lenguaje técnico preciso y accesible. Esto permitió transmitir eficazmente los resultados y conclusiones. |
+
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
@@ -1771,6 +1778,39 @@ A continuación, se mencionará algunas convenciones:
 |      |                           | UT-09 | Developers Images Section | Colocar las imágenes de cada miembro del equipo | 1 | July Zelmira Paico Calderon | Done |
 | US-07 | Footer informativo | UT-10 | Footer Section | Implementar Footer Section con links correspondientes | 2 | Yazid Said Conde | Done |
 |      |                           | UT-11 | Responsive Footer | Agregar diseño responsive al Footer Section | 2 | Christofer William Costa Morales | Done |
+
+
+#### 5.2.1.4.	Development Evidence for Sprint Review.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|------------|--------|-----------|----------------|----------------------|--------------------|
+| winesoft/landing-page | feature/hero-section | a1b2c3d | feat: add hero section with slogan and CTA | Se implementó la sección principal del landing con el eslogan y el botón de redirección a la aplicación. | 2025-04-08 |
+| winesoft/landing-page | feature/about-section | d4e5f6g | feat: add about section | Se agregó la descripción detallada de Winesoft en la sección "About". | 2025-04-09 |
+| winesoft/landing-page | feature/responsive-design | h7i8j9k | feat: responsive design improvements | Se añadieron media queries para asegurar la adaptación del landing page en diferentes dispositivos. | 2025-04-10 |
+| winesoft/landing-page | feature/choose-plan | l1m2n3o | feat: implement plan comparison section | Se implementaron las cards de comparación de planes con sus beneficios. | 2025-04-11 |
+| winesoft/landing-page | feature/language-switcher | p4q5r6s | feat: add language switcher (ES/EN) | Se agregó el botón para cambiar el idioma entre español e inglés. | 2025-04-11 |
+| winesoft/landing-page | feature/footer | t7u8v9w | feat: footer section with links | Se implementó el footer con links informativos y diseño responsive. | 2025-04-12 |
+
+## 5.2.1.5.	Execution Evidence for Sprint Review.
+
+
+Durante este primer Sprint, el equipo wine soft completó la implementación inicial de los componentes del sistema WineSoft, enfocándose en la creación e integración del business website y la estructura base del ecosistema digital que conecta a destilerías y proveedores.
+
+Se logró diseñar, publicar y realizar el despliegue de la primera versión del frontend del business website, el cual presenta las secciones principales del negocio digital:
+- Presentación del modelo de negocio y propósito de la plataforma.
+- Descripción de las funcionalidades clave del sistema (control de inventario, trazabilidad y comunicación proveedor-cliente).
+- Planes de suscripción diferenciados según el tipo de usuario (destilería o proveedor).  
+
+### Funcionalidades implementadas
+- **Business website funcional:** diseño adaptable (*responsive*) con enlaces activos a la aplicación principal.
+- **Estructura inicial del frontend WineSoft:** configuración del entorno base de la aplicación con Angular.
+- **Despliegue del frontend:** publicación de la primera versión del business website en el entorno de producción configurado.
+- **Integración visual con el branding de WineSoft:** paleta de colores y tipografía homogénea en todas las vistas.
+
+---
+
+### Evidencia visual del avance
+A continuación se muestran las vistas implementadas durante el Sprint sobre el business website:
 
 
 
