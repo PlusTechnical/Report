@@ -784,23 +784,26 @@ Es importante destacar que las **tareas (tasks)** reflejan actividades que los u
 
 ---
 
-| **Task** | **Dueños de licorerías (Frecuencia - Severidad)** | **Entidades regulatorias (Frecuencia - Severidad)** |
-|----------|---------------------------------------------------|------------------------------------------------------|
-| Controlar inventario de productos | Alta - Alta | Media - Alta |
-| Recibir alertas de stock bajo o vencimiento | Alta - Alta | Alta - Alta |
-| Registrar ventas y movimientos | Alta - Alta | Media - Alta |
-| Garantizar trazabilidad de productos | Alta - Alta | Alta - Alta |
-| Cumplir con normativas municipales y sanitarias | Alta - Alta | Alta - Alta |
-| Generar reportes de ventas e inventario | Media - Alta | Alta - Alta |
-| Conectarse con proveedores autorizados | Alta - Alta | Media - Alta |
-| Detectar productos adulterados o irregulares | Media - Alta | Alta - Alta |
-| Validar documentación para inspecciones | Media - Alta | Alta - Alta |
-| Revisar historial de compras y rotación de productos | Media - Alta | Media - Alta |
-| Acceder a datos en tiempo real para auditorías | Media - Alta | Alta - Alta |
-| Evaluar riesgos de incumplimiento regulatorio | Media - Alta | Alta - Alta |
-| Implementar mejoras en gestión de stock | Media - Alta | Media - Alta |
-| Facilitar procesos de formalización/licencias | Media - Alta | Alta - Alta |
-| Comparar desempeño con estándares de mercado | Baja - Alta | Media - Alta |
+### Tabla de Matriz de Tareas de Usuario
+
+| **Tareas** | **Dueños de licorerías/destilerías** | | **Proveedores** | |
+|-------------|--------------------------------------|------------------|----------------|----------------|
+| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| Controlar inventario de productos | Alta | Alta | Media | Alta |
+| Recibir alertas de stock bajo o vencimiento | Alta | Alta | Alta | Alta |
+| Registrar ventas y movimientos | Alta | Alta | Media | Alta |
+| Garantizar trazabilidad de productos | Alta | Alta | Alta | Alta |
+| Cumplir con acuerdos comerciales y tiempos de entrega | Alta | Alta | Alta | Alta |
+| Generar reportes de ventas e inventario | Media | Alta | Alta | Alta |
+| Conectarse con distribuidores y socios comerciales | Alta | Alta | Alta | Alta |
+| Detectar productos adulterados o irregulares | Media | Alta | Alta | Alta |
+| Validar documentación de envío y recepción | Media | Alta | Alta | Alta |
+| Revisar historial de compras y rotación de productos | Media | Alta | Media | Alta |
+| Acceder a datos en tiempo real sobre demanda y pedidos | Media | Alta | Alta | Alta |
+| Evaluar desempeño logístico y tiempos de respuesta | Media | Alta | Alta | Alta |
+| Implementar mejoras en gestión de stock | Media | Alta | Media | Alta |
+| Facilitar procesos de facturación y pagos | Media | Alta | Alta | Alta |
+| Comparar desempeño con estándares de mercado | Baja | Alta | Media | Alta |
 
 
 ### Análisis de Tareas
