@@ -852,10 +852,10 @@ Aunque cada grupo aborda distintos puntos del proceso, ambos buscan un mismo obj
 ### 2.3.4. Empathy Mapping.
 
 **Segmento 1: Dueños de licrerías preocupados por la eficiencia y el cumplimiento normativo**
-<img src="./imagenes/Empathy map 1.png" alt="Empathy Map User Persona 1">
+<img src="./imagenes/Empathy mapping 1.png" alt="Empathy Map User Persona 1">
 
 **Segmento 2: Inspectores y entidades regulatorias responsables de garantizar la calidad y seguridad del producto**
-<img src="./imagenes/Empathy map 2.png" alt="Empathy Map User Persona 2">
+<img src="./imagenes/Empathy mapping 2.png" alt="Empathy Map User Persona 2">
 
 ## 2.4. Big Picture EventStorming.
 
