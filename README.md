@@ -745,12 +745,12 @@ Con el propósito de garantizar una comprensión profunda y precisa de los segme
 
 - **UserPersona 1**
 <br>
-  <img src="./imagenes/User Persona 1 Actualizado" alt="UserPersona_1">
+  <img src="./imagenes/User Persona 1 Actualizado.png" alt="UserPersona_1">
 <br>
 
 - **UserPersona 2**
     <br>
-    <img src="./imagenes/User Persona 2.png" alt="UserPersona_2">
+    <img src="./imagenes/User Persona 2 Actualizado.png" alt="UserPersona_2">
     <br>
 
 ### 2.3.2. User Task Matrix.
