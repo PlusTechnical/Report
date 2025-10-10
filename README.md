@@ -935,7 +935,7 @@ Aunque cada grupo aborda distintos puntos del proceso, ambos buscan un mismo obj
 
 
 ## 3.2. Impact Mapping
-<img src="./imagenes/Impact map 1.png" alt="Impact map">
+<img src="./imagenes/Impact map.png" alt="Impact map">
 
 ## 3.3. Product Backlog. 
 
