@@ -347,7 +347,7 @@ Enlace al tablero de desarrollo: https://miro.com/app/board/uXjVJMXI8fo=/?share_
 
 ## 1.3. Segmentos objetivo  
 
-### Segmento 1: Dueños de destilerías y licorerías  
+### Segmento 1: Dueños de destilerías y licorerías
 
 - **Descripcion:** Este segmento está conformado por pequeños y medianos empresarios dedicados a la producción y/o comercialización de bebidas alcohólicas. Gestionan un almacén virtual para controlar insumos de producción, registrar cantidades, fechas de vencimiento y condiciones de almacenamiento. También reciben alertas de insumos próximos a agotarse o caducar y confirman la recepción de pedidos enviados por proveedores.
   
@@ -359,7 +359,7 @@ Enlace al tablero de desarrollo: https://miro.com/app/board/uXjVJMXI8fo=/?share_
   
 - **Necesidades:** Reducir pérdidas económicas por insumos vencidos, asegurar la trazabilidad de inventarios, optimizar la reposición de stock y mantener condiciones de almacenamiento adecuadas. Esto les permite operar con mayor eficiencia, cumplir estándares de calidad y asegurar la continuidad de la producción. En la industria de bebidas del Perú, el 96,3 % de las empresas son microempresas, el 2,3 % pequeñas y solo el 1,4 % medianas o grandes (Sociedad Nacional de Industrias SNI, 2022).
 
-### Segmento 2: Entidades regulatorias  
+### Segmento 2: Proveedores de insumos
 
 - **Descripcion:** Empresas o distribuidores medianos que abastecen insumos a destilerías y licorerías, contando además con flota propia para el transporte. Administran su propio almacén en la plataforma, visualizan los inventarios de los clientes, generan pedidos de reposición y gestionan envíos actualizando estados de entrega. También acceden a historiales de movimientos para mejorar la planificación logística.
   
@@ -630,144 +630,112 @@ A continuación, se presentará un resumen de cada entrevista. Además, por cada
 
 - Finalmente, mostró interés en un sistema como WineSoft, destacando que sería muy valioso contar con un control en tiempo real de ventas e inventario, recibir reportes automáticos de productos más vendidos y, sobre todo, conectarse directamente con proveedores autorizados para agilizar la reposición. Considera que esto le permitiría ahorrar tiempo administrativo y dedicar más esfuerzo a los clientes y a mejorar la calidad de los productos.
 
-**Entrevista 2: Gabriel**
+**Entrevista 2: Alejandro Huamán**
 
 ![Dueño 2](../imagenes/entrevista-dueño-2.png)
 
 **Datos del entrevistado**
-* **Nombre:** Gabriel
-* **Edad:** --
-* **Estado civil:** --
-* **Ocupación:** --
-* **Distrito de Residencia:** --
-
-* **Duración de la entrevista:** [00:00:00 - 00:00:00]
+* **Nombre:** Alejandro Huamán
+* **Edad:** 23
+* **Estado civil:** Soltero
+* **Ocupación:** Ayudante en bodega artesanal
+* **Provincia de Residencia:** Ica, Subtanjalla
+* **Duración de la entrevista:** [00:06:05 - 00:20:45]
 * **Video de las entrevistas:** [Needfinding - Interviews](link de video)
 
 **Resumen de la entrevista:**
 
-- En la entrevista, Gabriel, quien trabaja con su madre en un negocio de insumos para licorerías y destilerías, explicó que ofrecen principalmente alcohol puro, botellas, tapas y equipos de destilación, gestionando la trazabilidad con documentos oficiales y códigos QR. Señaló que la demanda varía según la temporada, enfrentan retos logísticos como transporte inseguro y condiciones de almacenamiento, y actualmente manejan inventarios con Excel. Destacó que los clientes valoran la pureza, el origen certificado y los precios, además de la puntualidad en las entregas, y mencionó la importancia de cumplir con normativas sanitarias. Reconoció el interés en adoptar herramientas digitales, mejorar la comunicación y diversificar pagos, y se mostró dispuesto a integrarse en plataformas que optimicen pedidos, trazabilidad y costos.
+- Alejandro Rodríguez Huamán, de 23 años, trabaja desde hace dos años en la bodega familiar ubicada en Subtanjalla, Ica, donde se producen principalmente vino tinto, pisco y ron artesanal. Alejandro supervisa los tanques de fermentación controlados por un sistema IoT adquirido hace tres años, que monitorea temperatura, presión, humedad y nivel de líquido, aunque depende totalmente del proveedor para su mantenimiento. El control de insumos lo realiza manualmente en Excel, donde registra ácidos, levaduras, enzimas y materiales de envasado, pero enfrenta errores frecuentes, falta de alertas y pérdidas de hasta 3% por vencimiento o deterioro. Además, sufre problemas de coordinación con proveedores, duplicidad de pedidos y demoras que le demandan entre 8 y 10 horas semanales en tareas administrativas. Considera que la tecnología ha sido clave para evitar pérdidas y ve con interés la implementación de una plataforma como WineSoft para el control del inventario, pedidos y reportes automáticos, accesible, con soporte en español y un costo razonable, lo cual facilitaría la gestión, reduciría errores y mejoraría la eficiencia del negocio.
 
-**Segmento Objetivo: Entidad Reguladora**
+**Segmento Objetivo: Proveedor de Insumos para el sector licorero**
 
-**Entrevista 1: Leslie Kasimiro**
+**Entrevista 1: Gabriel**
 
 ![Entidad Reguladora 1](../imagenes/entrevista-entidad-reguladora-1.png)
 
 **Datos del entrevistado**
-* **Nombre:** Leslie Kasimiro
-* **Edad:** --
-* **Estado civil:** --
-* **Ocupación:** --
-* **Distrito de Residencia:** --
+* **Nombre:** Gabriel
+* **Edad:** 25
+* **Estado civil:** Soltero
+* **Ocupación:** Ayudante de proveedor de insumos
+* **Distrito de Residencia:** Lima, Jesús María
 
-* **Duración de la entrevista:** [00:00:00 - 00:00:00]
+* **Duración de la entrevista:** [00:20:48 - 00:29:34]
 * **Video de las entrevistas:** [Needfinding - Interviews](link de video)
 
 **Resumen de la entrevista:**
 
-- Leslie Kasimiro explicó que el sector de licorerías está regulado principalmente por la Ley 28681 (sobre venta y consumo de alcohol), la Ley 29632 (control de bebidas adulteradas) y las ordenanzas municipales que establecen horarios y licencias. Añadió que una de las mayores dificultades es la alta informalidad, la escasez de fiscalizadores y la falta de un padrón único de negocios, ya que la información se encuentra dispersa entre municipalidades y SUNAT.
+- En la entrevista, Gabriel, quien trabaja con su madre en un negocio de insumos para licorerías y destilerías, explicó que ofrecen principalmente alcohol puro, botellas, tapas y equipos de destilación, gestionando la trazabilidad con documentos oficiales y códigos QR. Señaló que la demanda varía según la temporada, enfrentan retos logísticos como transporte inseguro y condiciones de almacenamiento, y actualmente manejan inventarios con Excel. Destacó que los clientes valoran la pureza, el origen certificado y los precios, además de la puntualidad en las entregas, y mencionó la importancia de cumplir con normativas sanitarias. Reconoció el interés en adoptar herramientas digitales, mejorar la comunicación y diversificar pagos, y se mostró dispuesto a integrarse en plataformas que optimicen pedidos, trazabilidad y costos.
 
-- Sobre la trazabilidad, detalló que se apoya en los registros sanitarios (DIGESA) y en los registros de comercializadores (PRODUCE), además de los operativos multisectoriales. Las sanciones más comunes incluyen multas, clausuras, decomisos e incluso denuncias penales en casos graves de adulteración.
+**Entrevista 2: María Vivanco**
 
-- Señaló que la informalidad y el contrabando generan pérdidas tributarias y riesgos para la salud pública, reflejados en intoxicaciones y ventas a menores. Sin embargo, también destacó que existen avances como las ventanillas digitales y los registros en línea, que facilitan los trámites a los dueños de negocios. Asimismo, mencionó que se realizan campañas de capacitación y operativos preventivos.
+![Entidad Reguladora 1](../imagenes/entrevista-entidad-reguladora-1.png)
 
-- Respecto al futuro, afirmó que la digitalización es clave para mejorar la fiscalización, ya que facilita cruces de datos y la trazabilidad. Consideró que un software como WineSoft puede ser muy útil, siempre que valide proveedores, registre ventas en tiempo real y garantice la protección de datos. A mediano plazo, proyecta que habrá más interoperabilidad entre entidades públicas, mejor trazabilidad digital y fiscalizaciones más focalizadas.
+**Datos del entrevistado**
+* **Nombre:** María Vivanco
+* **Edad:** 45
+* **Estado civil:** Soltera
+* **Ocupación:** Dueña y gestora de empresa distribuidora de insumos para sector licorero
+* **Distrito de Residencia:** Ica, Chincha
+
+* **Duración de la entrevista:** [00:29:35 - 00:44:26]
+* **Video de las entrevistas:** [Needfinding - Interviews](link de video)
+
+**Resumen de la entrevista:**
+
+- María Elena Vivanco Paredes, tiene 45 años y es una proveedora de insumos para destilerías en Chincha, Ica, con más de 18 años de experiencia en el sector pisquero. Abastece a bodegas y productores artesanales con levaduras importadas, ácidos, taninos, sulfitos, botellas, tapas, etiquetas y otros materiales. Su gestión de trazabilidad es manual, con registros en carpetas físicas y búsqueda de documentos que puede tardar hasta 40 minutos por lote. Durante la temporada alta octubre a marzo recibe pedidos casi diarios, llegando a un promedio mensual de 26, pero enfrenta retos logísticos por la estacionalidad, el transporte costoso, demoras en importaciones y devoluciones de productos. Su control de inventario se realiza mediante Excel y registros en agenda, con pérdidas ocasionales por vencimientos y errores de stock, mientras que la documentación sanitaria ocupa entre 5 y 6 horas semanales en su organización. Aunque reconoce la importancia de cumplir normativas y ofrecer productos certificados, considera que la falta de digitalización limita la eficiencia del negocio. María ve con optimismo la adopción de herramientas tecnológicas que centralicen inventarios, pedidos y trazabilidad, siempre que sean accesibles entre S/ 150-250 mensuales, intuitivas, seguras. Finalmente, resalta la necesidad de mejorar la relación con las destilerías mediante comunicación anticipada, cumplimiento de acuerdos, pagos puntuales y mayor coordinación logística para fortalecer la confianza mutua.
   
 ## 2.2.3. Análisis de entrevistas  
 ### Segmento 1: Dueños de licorerías y destilerías (N=3)  
 
-#### Características Objetivas (cuantificables)  
+### Análisis Cuantitativo y Cualitativo
+ | Característica                                                              | Tipo      | Porcentaje | Descripción y evidencia                                                                                                                                           |
+| --------------------------------------------------------------------------- | --------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Preferencia por productos tradicionales (anisado y licores artesanales)** | Objetiva  | 100%       | El entrevistado afirmó que el producto más demandado es el anisado, seguido por licores artesanales, indicando una clara orientación hacia bebidas tradicionales. |
+| **Cambio en las preferencias del consumidor hacia lo artesanal y local**    | Subjetiva | 100%       | Mencionó que los clientes muestran un creciente interés por bebidas locales, lo que evidencia una tendencia de consumo más consciente y orientada a lo nacional.  |
+| **Gestión manual del inventario (uso de Excel)**                            | Objetiva  | 100%       | Señaló que actualmente realiza el control de stock mediante hojas de cálculo, lo que refleja un nivel bajo de digitalización.                                     |
+| **Problemas en la coordinación con proveedores**                            | Objetiva  | 100%       | Indicó que la reposición de productos requiere tiempo por la falta de automatización y conexión con proveedores.                                                  |
+| **Interés en sistemas digitales integrados (WineSoft)**                     | Subjetiva | 100%       | Mostró interés en implementar soluciones digitales que permitan control en tiempo real y generación de reportes automáticos.                                      |
+| **Enfoque en la mejora de eficiencia y calidad**                            | Subjetiva | 100%       | Considera que un sistema automatizado le permitiría enfocarse más en la calidad del producto y en la atención al cliente.                                         |
 
-**1. Tipos de bebidas más vendidas**  
-- Licores tradicionales (anisado, ron, whisky): **67%** (2 de 3 entrevistados).  
-- Licores artesanales / vinos locales: **67%** (2 de 3 entrevistados).  
-- Licores importados o de nicho: **67%** (2 de 3 entrevistados, aunque con menor rotación).  
+### Conclusiones del segmento
 
-**2. Productos con mayor rotación**  
-- Bebidas artesanales y tradicionales: **100%** (3 de 3 entrevistados reportan alta rotación).  
-- Licores importados de alto costo: **67%** (2 de 3 entrevistados los identifican como baja rotación).  
+- Digitalización baja: Los procesos operativos se realizan de manera manual o con herramientas básicas.
+- Tendencia a productos locales y artesanales: El mercado se inclina hacia lo artesanal.
+- Alta disposición al cambio tecnológico: Existe apertura hacia la adopción de soluciones digitales.
+- Necesidad clave: Automatización del control de inventario y conexión con proveedores.
+- Motivación principal: Optimizar el tiempo administrativo para centrarse en producción y clientes.
 
-**3. Cambios recientes en preferencias de clientes**  
-- Mayor interés en bebidas artesanales / producción local: **67%** (2 de 3 entrevistados).  
-- Preferencia estable por licores tradicionales: **33%** (1 de 3 entrevistados).  
+### Segmento 2: Proveedor de Insumos para Sector Licorero  
 
-**4. Criterios para incorporar nuevos productos**  
-- Retroalimentación de clientes: **67%** (2 de 3 entrevistados).  
-- Tendencias de mercado y temporadas: **67%** (2 de 3 entrevistados).  
-- Certificación y trazabilidad del producto: **33%** (1 de 3 entrevistados).  
+### Análisis Cuantitativo y Cualitativo
+| Característica                                                             | Tipo      | Porcentaje | Descripción y evidencia                                                                                        |
+| -------------------------------------------------------------------------- | --------- | ---------- | -------------------------------------------------------------------------------------------------------------- |
+| **Venta de insumos clave (alcohol puro, botellas, tapas, equipos)**        | Objetiva  | 100%       | Gabriel explicó que su negocio ofrece estos productos esenciales para licorerías y destilerías.                |
+| **Gestión del inventario con Excel**                                       | Objetiva  | 100%       | Indicó que utilizan hojas de cálculo, lo que refleja la misma limitación digital que los dueños de licorerías. |
+| **Demanda estacional de productos**                                        | Objetiva  | 100%       | Mencionó que la demanda varía según la temporada, evidenciando la necesidad de planeamiento de stock.          |
+| **Problemas logísticos (transporte y almacenamiento)**                     | Objetiva  | 100%       | Destacó dificultades en la distribución y condiciones de conservación de los insumos.                          |
+| **Importancia de trazabilidad y cumplimiento normativo**                   | Objetiva  | 100%       | Subrayó que garantizan la pureza mediante documentos y códigos QR, alineándose con regulaciones sanitarias.    |
+| **Interés en plataformas digitales para optimizar pedidos y trazabilidad** | Subjetiva | 100%       | Manifestó disposición a integrarse en plataformas tecnológicas que mejoren la eficiencia del negocio.          |
+| **Valoración de puntualidad, precio y certificación**                      | Subjetiva | 100%       | Resaltó que los clientes priorizan estos factores al elegir un proveedor.                                      |
 
-**5. Dificultades en la gestión de inventario y pedidos**  
-- Procesos manuales generan errores y pérdida de tiempo: **67%** (2 de 3 entrevistados).  
-- Dependencia de hojas de cálculo no integradas: **67%** (2 de 3 entrevistados).  
-- Problemas logísticos (transporte, almacenamiento inseguro): **33%** (1 de 3 entrevistados).  
+### Conclusiones del segmento
 
-**6. Tiempo de reposición de stock**  
-- Entre 3 y 5 días en promedio: **67%** (2 de 3 entrevistados).  
-- Más de 5 días en temporadas de alta demanda: **33%** (1 de 3 entrevistados).  
+- Nivel tecnológico básico: Uso limitado de herramientas digitales (Excel).
+- Alta conciencia regulatoria: Se enfocan en trazabilidad y certificación de insumos.
+- Dificultades operativas: Problemas de transporte y logística.
+- Motivación principal: Optimizar la trazabilidad y mejorar la gestión de pedidos.
+- Oportunidad de mejora: Integración a plataformas que conecten proveedores con licorerías para pedidos seguros y automáticos.
 
-**7. Método de registro de ventas**  
-- Hojas de cálculo (Excel): **67%** (2 de 3 entrevistados).  
-- Registros manuales en papel: **33%** (1 de 3 entrevistados).  
-- Sistemas digitales integrados: **0%** (ningún entrevistado).  
-
-**8. Impacto de la informalidad**  
-- Alta competencia desleal por precios bajos y alcohol adulterado: **67%** (2 de 3 entrevistados).  
-- Reconocimiento del problema pero sin afectación directa: **33%** (1 de 3 entrevistados).  
-
-**9. Interés en digitalización (WineSoft)**  
-- Interés en control en tiempo real de inventario y ventas: **100%** (3 de 3 entrevistados).  
-- Valoración de reportes automáticos para identificar productos con mayor/menor rotación: **100%** (3 de 3 entrevistados).  
-- Conexión directa con proveedores autorizados: **100%** (3 de 3 entrevistados).  
-- Ahorro de tiempo administrativo para dedicarse al cliente: **100%** (3 de 3 entrevistados).  
-
-#### Síntesis del segmento  
-
-El segmento de dueños de licorerías y destilerías muestra un patrón común de gestión manual y semi-digital (Excel) con dificultades significativas en inventario y reposición. El 100% de los entrevistados manifestó interés en adoptar soluciones digitales, destacando la necesidad de control en tiempo real, reportes automáticos y conexión con proveedores confiables. Asimismo, se identificó que la informalidad y la competencia desleal son amenazas constantes que refuerzan la importancia de un sistema que promueva la trazabilidad y la formalización. WineSoft responde directamente a estas necesidades, posicionándose como una herramienta clave para mejorar la eficiencia y la sostenibilidad de estos negocios.  
-
-### Segmento 2: Entidad Reguladora (N=3)  
-
-#### Características Objetivas (cuantificables)  
-
-**1. Normas principales aplicadas**  
-- Ley 28681 (venta y consumo de alcohol): **67%** (2 de 3 entrevistados).  
-- Ley 29632 (control de bebidas adulteradas): **67%** (2 de 3 entrevistados).  
-- Ordenanzas municipales (horarios, licencias): **67%** (2 de 3 entrevistados).  
-- Reglamentos sanitarios / DIGESA: **33%** (1 de 3 entrevistados).  
-
-**2. Dificultades en la supervisión**  
-- Falta de fiscalizadores / personal: **67%** (2 de 3 entrevistados).  
-- Informalidad generalizada de pequeños negocios: **100%** (3 de 3 entrevistados).  
-- Dispersión geográfica y limitación de alcance: **33%** (1 de 3 entrevistados).  
-
-**3. Métodos actuales de trazabilidad**  
-- Registros sanitarios y comercializadores (DIGESA/PRODUCE): **67%** (2 de 3 entrevistados).  
-- Control documental/manual (facturas, guías): **67%** (2 de 3 entrevistados).  
-- Etiquetas y códigos QR: **33%** (1 de 3 entrevistados).  
-
-**4. Sanciones más comunes**  
-- Multas: **100%** (3 de 3 entrevistados).  
-- Clausuras / incautaciones: **67%** (2 de 3 entrevistados).  
-- Cancelación de permisos / denuncias penales: **33%** (1 de 3 entrevistados).  
-
-**5. Nivel de informalidad estimado**  
-- 40–50% de negocios informales: **67%** (2 de 3 entrevistados).  
-- 30% de alcohol proveniente de contrabando: **33%** (1 de 3 entrevistados).  
-
-**6. Programas de formalización y capacitación**  
-- Ventanillas digitales/licencias express: **67%** (2 de 3 entrevistados).  
-- Talleres o campañas de capacitación: **67%** (2 de 3 entrevistados).  
-- Atención limitada en provincias: **33%** (1 de 3 entrevistados).  
-
-**7. Digitalización y futuro**  
-- Digitalización clave para fiscalización: **100%** (3 de 3 entrevistados).  
-- Interoperabilidad con sistemas públicos: **67%** (2 de 3 entrevistados).  
-- Expectativas de usar blockchain/IoT: **33%** (1 de 3 entrevistados).  
-
----
-### Síntesis del segmento  
-
-La entidad reguladora reconoce como principales retos la informalidad (40–50% del mercado) y la falta de fiscalización efectiva. Actualmente, dependen de registros sanitarios y controles manuales, lo cual limita la trazabilidad. El 100% de los entrevistados considera que la digitalización es clave para el futuro del sector y coincide en que un software como WineSoft puede ser un aliado estratégico para mejorar la trazabilidad, reducir la informalidad y fortalecer el cumplimiento normativo.  
+### Comparación entre segmentos
+| Aspecto                                          | Dueño de licorería y destilería            | Proveedor de insumos                         |
+| ------------------------------------------------ | ------------------------------------------ | -------------------------------------------- |
+| **Nivel de digitalización**                      | Bajo (gestión manual)                      | Bajo (uso de Excel)                          |
+| **Interés en soluciones digitales**              | Muy alto (WineSoft)                        | Alto (plataformas integradas)                |
+| **Problemas principales**                        | Inventario, coordinación con proveedores   | Logística, trazabilidad                      |
+| **Motivaciones**                                 | Eficiencia operativa y mejora del servicio | Optimización y cumplimiento normativo        |
+| **Tendencias percibidas**                        | Mayor demanda de productos artesanales     | Mayor exigencia en calidad y certificación   |
+| **Relación con el sistema propuesto (WineSoft)** | Usuario final – consumidor del software    | Usuario complementario – proveedor conectado |
 
 ## 2.3. Needfinding.
 
@@ -777,7 +745,7 @@ Con el propósito de garantizar una comprensión profunda y precisa de los segme
 
 - **UserPersona 1**
 <br>
-  <img src="./imagenes/User Persona 1.png" alt="UserPersona_1">
+  <img src="./imagenes/User Persona 1 Actualizado" alt="UserPersona_1">
 <br>
 
 - **UserPersona 2**
