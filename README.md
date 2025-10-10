@@ -859,7 +859,7 @@ Aunque cada grupo aborda distintos puntos del proceso, ambos buscan un mismo obj
 
 ## 2.4. Big Picture EventStorming.
 
-![Big Picture Event Storming](/imagenes/BigPicture.png)
+![Big Picture Event Storming](/imagenes/BigPicture.jpg)
 
 ## 2.5. Ubiquitous Language
 
